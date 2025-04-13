@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Agong's Blog</title><link>https://agong88.github.io/en/</link><description>Recent content on Agong's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Chun-Hao Chung</copyright><lastBuildDate>Sun, 23 Mar 2025 21:52:19 +0800</lastBuildDate><atom:link href="https://agong88.github.io/en/index.xml" rel="self" type="application/rss+xml"/><item><title>HelloWorld</title><link>https://agong88.github.io/en/p/helloworld/</link><pubDate>Sun, 23 Mar 2025 21:52:19 +0800</pubDate><guid>https://agong88.github.io/en/p/helloworld/</guid><description>&lt;p>HelloWorld!&lt;/p></description></item><item><title>About</title><link>https://agong88.github.io/en/about/</link><pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate><guid>https://agong88.github.io/en/about/</guid><description>&lt;h2 id="introduce">INTRODUCE
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Agong's Blog</title><link>https://agong88.github.io/en/</link><description>Recent content on Agong's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Chun-Hao Chung</copyright><lastBuildDate>Sat, 12 Apr 2025 21:52:19 +0800</lastBuildDate><atom:link href="https://agong88.github.io/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://agong88.github.io/en/p/hello-world/</link><pubDate>Sat, 12 Apr 2025 21:52:19 +0800</pubDate><guid>https://agong88.github.io/en/p/hello-world/</guid><description>&lt;p>This article is to talk about my recent situation. I will be busy preparing for my certificates and licenses before June and will have no time to update my blog. After I am done with that, I will slowly update articles about SITCON 2025 and DEVCORE CONFERENCE 2025 when I have time.
+Also, when I was working on this blog, I somehow made it dual-language. Although it takes some time to update, it looks pretty good (right?&lt;/p></description></item><item><title>About</title><link>https://agong88.github.io/en/about/</link><pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate><guid>https://agong88.github.io/en/about/</guid><description>&lt;h2 id="introduce">INTRODUCE
 &lt;/h2>&lt;p>Hello I&amp;rsquo;m Chun-Hao Chung！You can call me Agong. I am currently studying Data Processing at Taipei Shilin High School of Commerce. I am a student interested in information security and information. My current research area is Web&amp;amp;Pwn. If you are interested, welcome to discuss with me😄 （~~ Although I may not know how to do it~~&lt;/p>
 &lt;h2 id="contests-and-awards">CONTESTS AND AWARDS
 &lt;/h2>&lt;h3 id="ctf">CTF
@@ -24,11 +25,11 @@
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align: center">THJCC CTF&lt;/td>
-&lt;td style="text-align: center">rk.?&lt;/td>
+&lt;td style="text-align: center">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align: center">THJCC CTF Winter&lt;/td>
-&lt;td style="text-align: center">rk.?&lt;/td>
+&lt;td style="text-align: center">&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -205,6 +206,11 @@
 &lt;tr>
 &lt;td style="text-align: center">TQC&lt;/td>
 &lt;td style="text-align: center">PowerPoint&lt;/td>
+&lt;td style="text-align: center">Professional&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">TQC&lt;/td>
+&lt;td style="text-align: center">Word&lt;/td>
 &lt;td style="text-align: center">Professional&lt;/td>
 &lt;/tr>
 &lt;tr>

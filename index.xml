@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>阿公のBlog</title><link>https://agong88.github.io/</link><description>Recent content on 阿公のBlog</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>Chun-Hao Chung</copyright><lastBuildDate>Sun, 23 Mar 2025 21:52:19 +0800</lastBuildDate><atom:link href="https://agong88.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>HelloWorld</title><link>https://agong88.github.io/p/helloworld/</link><pubDate>Sun, 23 Mar 2025 21:52:19 +0800</pubDate><guid>https://agong88.github.io/p/helloworld/</guid><description>&lt;p>HelloWorld!&lt;/p></description></item><item><title>關於</title><link>https://agong88.github.io/%E9%97%9C%E6%96%BC/</link><pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate><guid>https://agong88.github.io/%E9%97%9C%E6%96%BC/</guid><description>&lt;h2 id="介紹">介紹
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>阿公のBlog</title><link>https://agong88.github.io/</link><description>Recent content on 阿公のBlog</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>Chun-Hao Chung</copyright><lastBuildDate>Sat, 12 Apr 2025 21:52:19 +0800</lastBuildDate><atom:link href="https://agong88.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://agong88.github.io/p/hello-world/</link><pubDate>Sat, 12 Apr 2025 21:52:19 +0800</pubDate><guid>https://agong88.github.io/p/hello-world/</guid><description>&lt;p>這篇文是想講近況，到6月前應該忙著準備證照沒時間更新Blog，忙完後有空再慢慢補SITCON 2025和DEVCORE CONFERENCE 2025等文章。
+另外我在做這Blog的時候不知道哪根腦筋不對做了雙語言，雖然更新起來要花些時間，但看起來蠻不錯的（對吧？&lt;/p></description></item><item><title>關於</title><link>https://agong88.github.io/%E9%97%9C%E6%96%BC/</link><pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate><guid>https://agong88.github.io/%E9%97%9C%E6%96%BC/</guid><description>&lt;h2 id="介紹">介紹
 &lt;/h2>&lt;p>哈嘍我是鍾竣皓！可以叫我阿公，目前就讀台北市士林高商資料處理科，是位對資訊安全和資訊有興趣的學生，目前研究的領域是 Web&amp;amp;Pwn，如果有興趣歡迎一起討論~~ （&lt;del>雖然我不一定會&lt;/del>&lt;/p>
 &lt;h2 id="競賽和得獎">競賽和得獎
 &lt;/h2>&lt;h3 id="ctf">CTF
@@ -24,11 +25,11 @@
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align: center">THJCC CTF&lt;/td>
-&lt;td style="text-align: center">rk.?&lt;/td>
+&lt;td style="text-align: center">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align: center">THJCC CTF Winter&lt;/td>
-&lt;td style="text-align: center">rk.?&lt;/td>
+&lt;td style="text-align: center">&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -205,6 +206,11 @@
 &lt;tr>
 &lt;td style="text-align: center">TQC&lt;/td>
 &lt;td style="text-align: center">PowerPoint&lt;/td>
+&lt;td style="text-align: center">專業級&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">TQC&lt;/td>
+&lt;td style="text-align: center">Word&lt;/td>
 &lt;td style="text-align: center">專業級&lt;/td>
 &lt;/tr>
 &lt;tr>
