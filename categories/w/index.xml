@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>W on 阿公のBlog</title>
+        <link>http://localhost:1313/categories/w/</link>
+        <description>Recent content in W on 阿公のBlog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-tw</language>
+        <copyright>Chun-Hao Chung</copyright>
+        <lastBuildDate>Tue, 09 Jul 2024 17:16:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/w/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2024 AIS3 Junior LLMㄉWriteup</title>
+        <link>http://localhost:1313/post/2024-ais3-junior-llm%E3%84%89writeup/</link>
+        <pubDate>Tue, 09 Jul 2024 17:16:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/post/2024-ais3-junior-llm%E3%84%89writeup/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,1 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Agong's Blog</title><link>https://agong88.github.io/en/categories/</link><description>Recent content in Categories on Agong's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Chun-Hao Chung</copyright><lastBuildDate>Sat, 12 Apr 2025 21:52:19 +0800</lastBuildDate><atom:link href="https://agong88.github.io/en/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>2025</title><link>https://agong88.github.io/en/categories/2025/</link><pubDate>Sat, 12 Apr 2025 21:52:19 +0800</pubDate><guid>https://agong88.github.io/en/categories/2025/</guid><description/></item><item><title>Life</title><link>https://agong88.github.io/en/categories/life/</link><pubDate>Sat, 12 Apr 2025 21:52:19 +0800</pubDate><guid>https://agong88.github.io/en/categories/life/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on Agong&#39;s Blog</title>
+        <link>https://agong88.github.io/en/categories/</link>
+        <description>Recent content in Categories on Agong&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Chun-Hao Chung</copyright>
+        <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Security</title>
+        <link>https://agong88.github.io/en/categories/security/</link>
+        <pubDate>Tue, 19 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/categories/security/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>心得</title>
+        <link>https://agong88.github.io/en/categories/%E5%BF%83%E5%BE%97/</link>
+        <pubDate>Tue, 19 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/categories/%E5%BF%83%E5%BE%97/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>資安攻防演練</title>
+        <link>https://agong88.github.io/en/categories/%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4/</link>
+        <pubDate>Tue, 19 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/categories/%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Conference</title>
+        <link>https://agong88.github.io/en/categories/conference/</link>
+        <pubDate>Sat, 16 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/categories/conference/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>AIS3</title>
+        <link>https://agong88.github.io/en/categories/ais3/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/categories/ais3/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Writeup</title>
+        <link>https://agong88.github.io/en/categories/writeup/</link>
+        <pubDate>Mon, 26 May 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/categories/writeup/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Hello World</title>
+        <link>https://agong88.github.io/en/categories/hello-world/</link>
+        <pubDate>Sat, 12 Apr 2025 21:52:19 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/categories/hello-world/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>工人</title>
+        <link>https://agong88.github.io/en/categories/%E5%B7%A5%E4%BA%BA/</link>
+        <pubDate>Sat, 08 Mar 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/categories/%E5%B7%A5%E4%BA%BA/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

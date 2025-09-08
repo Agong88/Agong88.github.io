@@ -1,257 +1,377 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Agong's Blog</title><link>https://agong88.github.io/en/page/</link><description>Recent content in Pages on Agong's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Chun-Hao Chung</copyright><lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://agong88.github.io/en/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://agong88.github.io/en/about/</link><pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate><guid>https://agong88.github.io/en/about/</guid><description>&lt;h2 id="introduce">INTRODUCE
-&lt;/h2>&lt;p>Hello I&amp;rsquo;m Chun-Hao Chung！You can call me Agong. I am currently studying Data Processing at Taipei Shilin High School of Commerce. I am a student interested in information security and information. My current research area is Web&amp;amp;Pwn. If you are interested, welcome to discuss with me😄 （~~ Although I may not know how to do it~~&lt;/p>
-&lt;h2 id="contests-and-awards">CONTESTS AND AWARDS
-&lt;/h2>&lt;h3 id="ctf">CTF
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">Name&lt;/th>
-&lt;th style="text-align: center">Award/Ranking&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">資安技能金盾獎&lt;/td>
-&lt;td style="text-align: center">Preliminary&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">CGGC Qual&lt;/td>
-&lt;td style="text-align: center">Preliminary&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">NHNC CTF&lt;/td>
-&lt;td style="text-align: center">rk.14/61&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">THJCC CTF&lt;/td>
-&lt;td style="text-align: center">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">THJCC CTF Winter&lt;/td>
-&lt;td style="text-align: center">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="others">OTHERS
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">Name&lt;/th>
-&lt;th style="text-align: center">Award&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">AIS3 Junior&lt;/td>
-&lt;td style="text-align: center">Best Project Award&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">CyberSecurity Summer Camp-Entity&lt;/td>
-&lt;td style="text-align: center">Excellent Attendance&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">CyberSecurity Summer Camp-Online&lt;/td>
-&lt;td style="text-align: center">Excellent Attendance&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">Youth Programming Competition-National Self-Driving Car Competition&lt;/td>
-&lt;td style="text-align: center">Preliminary&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">Bebras Challenge&lt;/td>
-&lt;td style="text-align: center">PR 76&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4 id="another-weird-award">ANOTHER WEIRD AWARD
-&lt;/h4>&lt;ul>
-&lt;li>ROTARY CLUB OF TAIPEI METRO EAST Excellent Youth Leadership Role Model&lt;/li>
-&lt;/ul>
-&lt;h2 id="experience">EXPERIENCE
-&lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="https://nckuctf.org" target="_blank" rel="noopener"
->B33F 50UP&lt;/a> Member&lt;/li>
-&lt;/ul>
-&lt;h3 id="campcourse">CAMP/COURSE
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">Year&lt;/th>
-&lt;th style="text-align: center">Name&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">TAIWANHolyHigh 9th-Advanced Training Ttudents&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">AIS3 Junior&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">CyberSecurity Summer Camp-Online&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">CyberSecurity Summer Camp-Entity&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">SITCON Camp&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">FinTech Summer CAMP&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">Bebras Camp&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">One-day Information Experience Camp&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="conference">CONFERENCE
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">Year&lt;/th>
-&lt;th style="text-align: center">Name&lt;/th>
-&lt;th style="text-align: center">Identity&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">CYBERSEC&lt;/td>
-&lt;td style="text-align: center">ATTENDEE&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">DEVCORE CONFERENCE&lt;/td>
-&lt;td style="text-align: center">ATTENDEE&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">SITCON&lt;/td>
-&lt;td style="text-align: center">Marketing Member&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">SITCON&lt;/td>
-&lt;td style="text-align: center">ATTENDEE&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">HITCON-CMT&lt;/td>
-&lt;td style="text-align: center">Field Service Team Member&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">HITCON-CMT&lt;/td>
-&lt;td style="text-align: center">ATTENDEE&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">COSCUP&lt;/td>
-&lt;td style="text-align: center">ATTENDEE&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">CYBERSEC&lt;/td>
-&lt;td style="text-align: center">ATTENDEE&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="certification">CERTIFICATION
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">Organization&lt;/th>
-&lt;th style="text-align: center">Name&lt;/th>
-&lt;th style="text-align: center">Grade&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">ISC²&lt;/td>
-&lt;td style="text-align: center">Certified in Cybersecurity&lt;/td>
-&lt;td style="text-align: center">Pass✅&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">Google&lt;/td>
-&lt;td style="text-align: center">Google Cybersecurity&lt;/td>
-&lt;td style="text-align: center">Pass✅&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">Workforce Development Agency&lt;/td>
-&lt;td style="text-align: center">Computer Software Applications&lt;/td>
-&lt;td style="text-align: center">Grade C&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">Workforce Development Agency&lt;/td>
-&lt;td style="text-align: center">Accounting Services - Manual Bookkeeping&lt;/td>
-&lt;td style="text-align: center">Grade C&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">TQC+&lt;/td>
-&lt;td style="text-align: center">Basic Creative App Programming&lt;/td>
-&lt;td style="text-align: center">Pass✅&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">TQC&lt;/td>
-&lt;td style="text-align: center">PowerPoint&lt;/td>
-&lt;td style="text-align: center">Professional&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">TQC&lt;/td>
-&lt;td style="text-align: center">Word&lt;/td>
-&lt;td style="text-align: center">Professional&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">TQC&lt;/td>
-&lt;td style="text-align: center">English Key-in&lt;/td>
-&lt;td style="text-align: center">Primary&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="research-and-project">RESEARCH AND PROJECT
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">Year&lt;/th>
-&lt;th style="text-align: center">Publish&lt;/th>
-&lt;th style="text-align: center">Name&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">Senior School Student Website&lt;/td>
-&lt;td style="text-align: center">&lt;a class="link" href="https://drive.google.com/file/d/1a3irBo2SxaTFWvT9F9ox3w29EEq9mc9X/view?usp=sharing" target="_blank" rel="noopener"
->ADAS Automotive Technology Research（Paper）&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">School&lt;/td>
-&lt;td style="text-align: center">&lt;a class="link" href="https://docs.google.com/presentation/d/1Jl_5osqjc3fHAH-ya0nKITaV-uCXO5TEz5jx36sglkE/edit?usp=sharing" target="_blank" rel="noopener"
->ADAS Automotive Technology Research（PPT）&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">AIS3 Junior&lt;/td>
-&lt;td style="text-align: center">&lt;a class="link" href="https://docs.google.com/presentation/d/1F7Gg1MkYjUUCCwjYU8ubZJ64PWZIuA36/edit?usp=sharing&amp;amp;ouid=103568941511848802333&amp;amp;rtpof=true&amp;amp;sd=true" target="_blank" rel="noopener"
->CVE-2024-23692 Recurrence&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">SITCON Camp&lt;/td>
-&lt;td style="text-align: center">&lt;a class="link" href="https://github.com/arnoldsky-yu/team-two-project" target="_blank" rel="noopener"
->AI不釋手 你的貼身秘書&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Archives</title><link>https://agong88.github.io/en/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://agong88.github.io/en/archives/</guid><description/></item><item><title>links</title><link>https://agong88.github.io/en/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://agong88.github.io/en/links/</guid><description/></item><item><title>Search</title><link>https://agong88.github.io/en/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://agong88.github.io/en/search/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Agong&#39;s Blog</title>
+        <link>https://agong88.github.io/en/page/</link>
+        <description>Recent content in Pages on Agong&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Chun-Hao Chung</copyright>
+        <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://agong88.github.io/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>https://agong88.github.io/en/page/about/</link>
+        <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://agong88.github.io/en/page/about/</guid>
+        <description>&lt;h2 id=&#34;introduce&#34;&gt;INTRODUCE
+&lt;/h2&gt;&lt;p&gt;Hello I&amp;rsquo;m Chun-Hao Chung！You can call me Agong. I am currently studying Data Processing at Taipei Shilin High School of Commerce. I am a student interested in information security and information. My current research area is Web&amp;amp;Pwn. If you are interested, welcome to discuss with me😄 （~~ Although I may not know how to do it~~&lt;/p&gt;
+&lt;h2 id=&#34;contests-and-awards&#34;&gt;CONTESTS AND AWARDS
+&lt;/h2&gt;&lt;h3 id=&#34;ctf&#34;&gt;CTF
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Name&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Award/Ranking&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025 AIS3 Pre-exam&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;rk.77&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;資安技能金盾獎&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Preliminary&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;HITCON CTF&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Preliminary&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;CGGC Qual&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Preliminary&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;NHNC CTF&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;rk.14/61&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;others&#34;&gt;OTHERS
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Name&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Award&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025 Education System Cybersecurity Attack and Defense&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Inspector&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025 AIS3 Junior&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Best Project Award&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025 AIS3&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Best Project Award&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024 AIS3 Junior&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Best Project Award&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;CyberSecurity Summer Camp-Entity&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Excellent Attendance&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;CyberSecurity Summer Camp-Online&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Excellent Attendance&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;School special topic achievement presentation competition&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Third&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;School Programming Skills Competition&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Excellent Works&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Youth Programming Competition-National Self-Driving Car Competition&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Preliminary&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Bebras Challenge&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;PR 76&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;another-weird-award&#34;&gt;ANOTHER WEIRD AWARD
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;ROTARY CLUB OF TAIPEI METRO EAST Excellent Youth Leadership Role Model&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;experience&#34;&gt;EXPERIENCE
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://nckuctf.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;B33F 50UP&lt;/a&gt; Member&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;campcourse&#34;&gt;CAMP/COURSE
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Year&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Name&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TAIWANHolyHigh 10th-Advanced Training Ttudents&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;AIS3 Junior&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;AIS3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TAIWANHolyHigh 9th-Advanced Training Ttudents&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;AIS3 Junior&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;CyberSecurity Summer Camp-Online&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;CyberSecurity Summer Camp-Entity&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;SITCON Camp&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;FinTech Summer CAMP&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Bebras Camp&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;One-day Information Experience Camp&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;conference&#34;&gt;CONFERENCE
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Year&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Name&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Identity&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;HITCON&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ATTENDEE&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;COSCUP&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ATTENDEE&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;CYBERSEC&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ATTENDEE&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;DEVCORE CONFERENCE&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ATTENDEE&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;SITCON&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Marketing Member&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;SITCON&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ATTENDEE&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;HITCON-CMT&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Field Service Team Member&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;HITCON-CMT&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ATTENDEE&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;COSCUP&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ATTENDEE&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;CYBERSEC&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ATTENDEE&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;certification&#34;&gt;CERTIFICATION
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Organization&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Name&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Grade&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ISC²&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Certified in Cybersecurity&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Pass✅&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;iPAS&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Information Security Engineer&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Primary&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Google&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Google Cybersecurity&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Pass✅&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Workforce Development Agency&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Computer Software Applications&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Grade C&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Workforce Development Agency&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Accounting Services - Manual Bookkeeping&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Grade C&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TQC+&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Basic Creative App Programming&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Pass✅&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TQC+&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Python&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Advanced&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TQC&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;PowerPoint&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Professional&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TQC&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Word&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Professional&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TQC&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;English Key-in&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Primary&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;research-and-project&#34;&gt;RESEARCH AND PROJECT
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Year&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Publish&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Name&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;AIS3 Junior&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1G0XpDgzcZfUe5vMALSBDFOJ3Bp4YwV__/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;解放吧 - 讓你玩 NEKOPARA 不受 STEAM 限制&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;AIS3&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1xlztO7MaDAHdUmDrSL4mTH_6TC2MzSpV/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Side-Channel Attack 偷取 ATM 鍵盤輸入：利用 MLP 分析鍵盤敲擊聲&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;旺宏科學獎&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1UlYEZY6FvDCEB3iYcYC3r0dGBFtP9-t7/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;指鹿為馬:對抗樣本於自駕車辨識誤導風險之探討&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;School&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.google.com/presentation/d/1hzz2PI7Z_kCxLFnlXfIOgrr5kiiE_g31Ed4bkebVoAg/edit?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;金融詐騙檢測交易為例-如何以演算法提升 AI 預測準確度&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Senior School Student Website&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1a3irBo2SxaTFWvT9F9ox3w29EEq9mc9X/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ADAS Automotive Technology Research（Paper）&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;School&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.google.com/presentation/d/1Jl_5osqjc3fHAH-ya0nKITaV-uCXO5TEz5jx36sglkE/edit?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ADAS Automotive Technology Research（PPT）&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;AIS3 Junior&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.google.com/presentation/d/1F7Gg1MkYjUUCCwjYU8ubZJ64PWZIuA36/edit?usp=sharing&amp;amp;ouid=103568941511848802333&amp;amp;rtpof=true&amp;amp;sd=true&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CVE-2024-23692 Recurrence&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;SITCON Camp&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/arnoldsky-yu/team-two-project&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AI不釋手 你的貼身秘書&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://agong88.github.io/en/page/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://agong88.github.io/en/page/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>links</title>
+        <link>https://agong88.github.io/en/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://agong88.github.io/en/page/links/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://agong88.github.io/en/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://agong88.github.io/en/page/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

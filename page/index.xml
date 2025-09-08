@@ -1,257 +1,377 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on 阿公のBlog</title><link>https://agong88.github.io/page/</link><description>Recent content in Pages on 阿公のBlog</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>Chun-Hao Chung</copyright><lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://agong88.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>關於</title><link>https://agong88.github.io/%E9%97%9C%E6%96%BC/</link><pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate><guid>https://agong88.github.io/%E9%97%9C%E6%96%BC/</guid><description>&lt;h2 id="介紹">介紹
-&lt;/h2>&lt;p>哈嘍我是鍾竣皓！可以叫我阿公，目前就讀台北市士林高商資料處理科，是位對資訊安全和資訊有興趣的學生，目前研究的領域是 Web&amp;amp;Pwn，如果有興趣歡迎一起討論~~ （&lt;del>雖然我不一定會&lt;/del>&lt;/p>
-&lt;h2 id="競賽和得獎">競賽和得獎
-&lt;/h2>&lt;h3 id="ctf">CTF
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">名稱&lt;/th>
-&lt;th style="text-align: center">獎項&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">資安技能金盾獎&lt;/td>
-&lt;td style="text-align: center">初賽&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">CGGC Qual&lt;/td>
-&lt;td style="text-align: center">初賽&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">NHNC CTF&lt;/td>
-&lt;td style="text-align: center">rk.14/61&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">THJCC CTF&lt;/td>
-&lt;td style="text-align: center">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">THJCC CTF Winter&lt;/td>
-&lt;td style="text-align: center">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="其他">其他
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">名稱&lt;/th>
-&lt;th style="text-align: center">獎項&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">新型態高中職資安課程&lt;/td>
-&lt;td style="text-align: center">最佳專題獎&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">資安暑訓營-實體&lt;/td>
-&lt;td style="text-align: center">績優全勤&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">資安暑訓營-線上&lt;/td>
-&lt;td style="text-align: center">績優全勤&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">青年程式設計競賽-全國自走車競賽&lt;/td>
-&lt;td style="text-align: center">初賽&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">國際運算思維挑戰賽&lt;/td>
-&lt;td style="text-align: center">PR 76&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4 id="另一個奇奇怪怪的獎">另一個奇奇怪怪的獎
-&lt;/h4>&lt;ul>
-&lt;li>台北城東扶輪社優秀青少年領袖楷模&lt;/li>
-&lt;/ul>
-&lt;h2 id="經驗">經驗
-&lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="https://nckuctf.org" target="_blank" rel="noopener"
->B33F 50UP&lt;/a> 成員&lt;/li>
-&lt;/ul>
-&lt;h3 id="營隊課程">營隊/課程
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">年度&lt;/th>
-&lt;th style="text-align: center">名稱&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">第九屆台灣好厲駭-高階培訓學員&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">新型態高中職資安課程&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">資安暑訓營-線上&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">資安暑訓營-實體&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">SITCON Camp&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">FinTech Summer CAMP&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">海貍一日營&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">一日資訊體驗營&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="研討會">研討會
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">年度&lt;/th>
-&lt;th style="text-align: center">名稱&lt;/th>
-&lt;th style="text-align: center">身分&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">台灣資安大會&lt;/td>
-&lt;td style="text-align: center">會眾&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">DEVCORE CONFERENCE&lt;/td>
-&lt;td style="text-align: center">會眾&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">學生計算機年會&lt;/td>
-&lt;td style="text-align: center">行銷組組員&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">學生計算機年會&lt;/td>
-&lt;td style="text-align: center">會眾&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">台灣駭客年會-社群場&lt;/td>
-&lt;td style="text-align: center">場務組組員&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">台灣駭客年會-社群場&lt;/td>
-&lt;td style="text-align: center">會眾&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">開源人年會&lt;/td>
-&lt;td style="text-align: center">會眾&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">臺灣資安大會&lt;/td>
-&lt;td style="text-align: center">會眾&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="證照">證照
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">機構&lt;/th>
-&lt;th style="text-align: center">名稱&lt;/th>
-&lt;th style="text-align: center">成績&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">ISC²&lt;/td>
-&lt;td style="text-align: center">Certified in Cybersecurity&lt;/td>
-&lt;td style="text-align: center">通過✅&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">Google&lt;/td>
-&lt;td style="text-align: center">Google Cybersecurity&lt;/td>
-&lt;td style="text-align: center">通過✅&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">勞動部勞動力發展署&lt;/td>
-&lt;td style="text-align: center">電腦軟體應用&lt;/td>
-&lt;td style="text-align: center">丙級&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">勞動部勞動力發展署&lt;/td>
-&lt;td style="text-align: center">會計事務－人工記帳&lt;/td>
-&lt;td style="text-align: center">丙級&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">TQC+&lt;/td>
-&lt;td style="text-align: center">基礎創意App程式設計&lt;/td>
-&lt;td style="text-align: center">通過✅&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">TQC&lt;/td>
-&lt;td style="text-align: center">PowerPoint&lt;/td>
-&lt;td style="text-align: center">專業級&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">TQC&lt;/td>
-&lt;td style="text-align: center">Word&lt;/td>
-&lt;td style="text-align: center">專業級&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">TQC&lt;/td>
-&lt;td style="text-align: center">英文輸入&lt;/td>
-&lt;td style="text-align: center">實用級&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="研究和作品">研究和作品
-&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">年度&lt;/th>
-&lt;th style="text-align: center">發表&lt;/th>
-&lt;th style="text-align: center">名稱&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">中學生網站&lt;/td>
-&lt;td style="text-align: center">&lt;a class="link" href="https://drive.google.com/file/d/1a3irBo2SxaTFWvT9F9ox3w29EEq9mc9X/view?usp=sharing" target="_blank" rel="noopener"
->ADAS 自動車科技研究（小論文版）&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2025&lt;/td>
-&lt;td style="text-align: center">學校&lt;/td>
-&lt;td style="text-align: center">&lt;a class="link" href="https://docs.google.com/presentation/d/1Jl_5osqjc3fHAH-ya0nKITaV-uCXO5TEz5jx36sglkE/edit?usp=sharing" target="_blank" rel="noopener"
->ADAS 自動車科技研究（簡報版）&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">新型態高中職資安課程&lt;/td>
-&lt;td style="text-align: center">&lt;a class="link" href="https://docs.google.com/presentation/d/1F7Gg1MkYjUUCCwjYU8ubZJ64PWZIuA36/edit?usp=sharing&amp;amp;ouid=103568941511848802333&amp;amp;rtpof=true&amp;amp;sd=true" target="_blank" rel="noopener"
->CVE-2024-23692 復現&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">2024&lt;/td>
-&lt;td style="text-align: center">SITCON Camp&lt;/td>
-&lt;td style="text-align: center">&lt;a class="link" href="https://github.com/arnoldsky-yu/team-two-project" target="_blank" rel="noopener"
->AI不釋手 你的貼身秘書&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>封存</title><link>https://agong88.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://agong88.github.io/archives/</guid><description/></item><item><title>連結</title><link>https://agong88.github.io/%E9%80%A3%E7%B5%90/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://agong88.github.io/%E9%80%A3%E7%B5%90/</guid><description/></item><item><title>搜尋</title><link>https://agong88.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://agong88.github.io/search/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on 阿公のBlog</title>
+        <link>https://agong88.github.io/page/</link>
+        <description>Recent content in Pages on 阿公のBlog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-tw</language>
+        <copyright>Chun-Hao Chung</copyright>
+        <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://agong88.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>關於</title>
+        <link>https://agong88.github.io/%E9%97%9C%E6%96%BC/</link>
+        <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://agong88.github.io/%E9%97%9C%E6%96%BC/</guid>
+        <description>&lt;h2 id=&#34;介紹&#34;&gt;介紹
+&lt;/h2&gt;&lt;p&gt;哈嘍我是鍾竣皓！可以叫我阿公，目前就讀台北市士林高商資料處理科，是位對資訊安全和資訊有興趣的學生，目前研究的領域是 Web&amp;amp;Pwn，如果有興趣歡迎一起討論~~ （&lt;del&gt;雖然我不一定會&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;競賽和得獎&#34;&gt;競賽和得獎
+&lt;/h2&gt;&lt;h3 id=&#34;ctf&#34;&gt;CTF
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;名稱&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;獎項&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025 AIS3 Pre-exam&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;rk.77&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;資安技能金盾獎&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;初賽&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;HITCON CTF&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;初賽&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;CGGC Qual&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;初賽&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;NHNC CTF&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;rk.14/61&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;其他&#34;&gt;其他
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;名稱&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;獎項&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;114年度教育體系資安攻防&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;檢測員&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025 新型態高中職資安課程&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;最佳專題獎&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025 新型態資安實務暑期課程&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;最佳專題獎&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024 新型態高中職資安課程&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;最佳專題獎&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;資安暑訓營-實體&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;績優全勤&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;資安暑訓營-線上&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;績優全勤&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;校內專題成果發表競賽&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;第三名&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;校內程式技藝競賽&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;佳作&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;青年程式設計競賽-全國自走車競賽&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;初賽&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;國際運算思維挑戰賽&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;PR 76&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;另一個奇奇怪怪的獎&#34;&gt;另一個奇奇怪怪的獎
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;台北城東扶輪社優秀青少年領袖楷模&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;經驗&#34;&gt;經驗
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://nckuctf.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;B33F 50UP&lt;/a&gt; 隊員&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;營隊課程&#34;&gt;營隊/課程
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;年度&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;名稱&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;第十屆台灣好厲駭-高階培訓學員&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;新型態高中職資安課程&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;新型態資安實務暑期課程&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;第九屆台灣好厲駭-高階培訓學員&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;新型態高中職資安課程&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;資安暑訓營-線上&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;資安暑訓營-實體&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;SITCON Camp&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;FinTech Summer CAMP&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;海貍一日營&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;一日資訊體驗營&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;研討會&#34;&gt;研討會
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;年度&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;名稱&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;身分&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;台灣駭客年會&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;會眾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;開源人年會&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;會眾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;台灣資安大會&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;會眾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;DEVCORE CONFERENCE&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;會眾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;學生計算機年會&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;行銷組組員&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;學生計算機年會&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;會眾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;台灣駭客年會-社群場&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;場務組組員&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;台灣駭客年會-社群場&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;會眾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;開源人年會&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;會眾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;臺灣資安大會&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;會眾&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;證照&#34;&gt;證照
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;機構&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;名稱&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;成績&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ISC²&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Certified in Cybersecurity&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;通過✅&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;iPAS&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;資訊安全工程師&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;初級&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Google&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Google Cybersecurity&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;通過✅&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;勞動部勞動力發展署&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;電腦軟體應用&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;丙級&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;勞動部勞動力發展署&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;會計事務－人工記帳&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;丙級&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TQC+&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;基礎創意App程式設計&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;通過✅&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TQC+&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Python&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;進階級&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TQC&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;PowerPoint&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;專業級&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TQC&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Word&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;專業級&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;TQC&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;英文輸入&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;實用級&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;研究和作品&#34;&gt;研究和作品
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;年度&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;發表&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;名稱&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;新型態高中職資安課程&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1G0XpDgzcZfUe5vMALSBDFOJ3Bp4YwV__/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;解放吧 - 讓你玩 NEKOPARA 不受 STEAM 限制&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;新型態資安實務暑期課程&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1xlztO7MaDAHdUmDrSL4mTH_6TC2MzSpV/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Side-Channel Attack 偷取 ATM 鍵盤輸入：利用 MLP 分析鍵盤敲擊聲&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;旺宏科學獎&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1UlYEZY6FvDCEB3iYcYC3r0dGBFtP9-t7/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;指鹿為馬:對抗樣本於自駕車辨識誤導風險之探討&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;學校&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.google.com/presentation/d/1hzz2PI7Z_kCxLFnlXfIOgrr5kiiE_g31Ed4bkebVoAg/edit?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;金融詐騙檢測交易為例-如何以演算法提升 AI 預測準確度&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;中學生網站&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://drive.google.com/file/d/1a3irBo2SxaTFWvT9F9ox3w29EEq9mc9X/view?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ADAS 自動車科技研究（小論文版）&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;學校&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.google.com/presentation/d/1Jl_5osqjc3fHAH-ya0nKITaV-uCXO5TEz5jx36sglkE/edit?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ADAS 自動車科技研究（簡報版）&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;新型態高中職資安課程&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.google.com/presentation/d/1F7Gg1MkYjUUCCwjYU8ubZJ64PWZIuA36/edit?usp=sharing&amp;amp;ouid=103568941511848802333&amp;amp;rtpof=true&amp;amp;sd=true&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CVE-2024-23692 復現&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;SITCON Camp&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/arnoldsky-yu/team-two-project&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AI不釋手 你的貼身秘書&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>封存</title>
+        <link>https://agong88.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://agong88.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>連結</title>
+        <link>https://agong88.github.io/%E9%80%A3%E7%B5%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://agong88.github.io/%E9%80%A3%E7%B5%90/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>搜尋</title>
+        <link>https://agong88.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://agong88.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
