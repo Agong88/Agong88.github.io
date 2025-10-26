@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://agong88.github.io/</loc>
-    <lastmod>2025-08-19T00:00:00+08:00</lastmod>
+    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,22 +17,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/"
                 />
-  </url><url>
-    <loc>https://agong88.github.io/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2025-08-19T00:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://agong88.github.io/en/post/2025-education-system-cybersecurity-attack-and-defense-inspector/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://agong88.github.io/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/"
-                />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/tags/2025/</loc>
-    <lastmod>2025-08-19T00:00:00+08:00</lastmod>
+    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,9 +34,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/tags/2025/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/categories/</loc>
-    <lastmod>2025-08-19T00:00:00+08:00</lastmod>
+    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -53,9 +51,30 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/categories/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/categories/nfc-hacking/</loc>
+    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/categories/nfc-hacking/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/categories/nfc-hacking/"
+                />
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/post/</loc>
-    <lastmod>2025-08-19T00:00:00+08:00</lastmod>
+    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -66,9 +85,47 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/post/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/categories/proxmark3/</loc>
+    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/categories/proxmark3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/categories/proxmark3/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/</loc>
+    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/post/proxmark3-chinese-tutorial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/"
+                />
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/categories/security/</loc>
-    <lastmod>2025-08-19T00:00:00+08:00</lastmod>
+    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -79,9 +136,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/categories/security/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/tags/</loc>
-    <lastmod>2025-08-19T00:00:00+08:00</lastmod>
+    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -92,9 +153,30 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/tags/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2025-08-19T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/post/2025-education-system-cybersecurity-attack-and-defense-inspector/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/"
+                />
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/categories/%E5%BF%83%E5%BE%97/</loc>
     <lastmod>2025-08-19T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -105,9 +187,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/categories/%E5%BF%83%E5%BE%97/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/categories/%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4/</loc>
     <lastmod>2025-08-19T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -118,61 +204,47 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/categories/%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4/"
                 />
-  </url><url>
-    <loc>https://agong88.github.io/categories/conference/</loc>
-    <lastmod>2025-08-16T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/</loc>
+    <lastmod>2025-08-18T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://agong88.github.io/en/categories/conference/"
+                href="https://agong88.github.io/en/post/2025-ais3-junior-web-front-end-writeup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://agong88.github.io/categories/conference/"
+                href="https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/"
                 />
-  </url><url>
-    <loc>https://agong88.github.io/post/hitcon-2025/</loc>
-    <lastmod>2025-08-16T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/</loc>
+    <lastmod>2025-08-18T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://agong88.github.io/en/post/hitcon-2025/"
+                href="https://agong88.github.io/en/post/2025-ais3-junior-web-back-end-writeup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://agong88.github.io/post/hitcon-2025/"
+                href="https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/"
                 />
-  </url><url>
-    <loc>https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2025-08-13T00:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://agong88.github.io/en/post/2025-ais3-juniors-experience/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/"
-                />
-  </url><url>
-    <loc>https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2025-08-13T00:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://agong88.github.io/en/post/2025-ais3s-experience/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/"
-                />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/categories/ais3/</loc>
-    <lastmod>2025-08-13T00:00:00+08:00</lastmod>
+    <lastmod>2025-08-18T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -183,35 +255,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/categories/ais3/"
                 />
-  </url><url>
-    <loc>https://agong88.github.io/post/devcore-conference-2025/</loc>
-    <lastmod>2025-07-09T17:16:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://agong88.github.io/en/post/devcore-conference-2025/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://agong88.github.io/post/devcore-conference-2025/"
-                />
-  </url><url>
-    <loc>https://agong88.github.io/post/2025-ais3-pre-exam-writeup/</loc>
-    <lastmod>2025-05-26T00:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://agong88.github.io/en/post/2025-ais3-pre-exams-writeup/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://agong88.github.io/post/2025-ais3-pre-exam-writeup/"
-                />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/categories/writeup/</loc>
-    <lastmod>2025-05-26T00:00:00+08:00</lastmod>
+    <lastmod>2025-08-18T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -222,9 +272,115 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/categories/writeup/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/categories/conference/</loc>
+    <lastmod>2025-08-16T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/categories/conference/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/categories/conference/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/hitcon-2025/</loc>
+    <lastmod>2025-08-16T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/post/hitcon-2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/post/hitcon-2025/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2025-08-13T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/post/2025-ais3-juniors-experience/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2025-08-13T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/post/2025-ais3s-experience/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/devcore-conference-2025/</loc>
+    <lastmod>2025-07-09T17:16:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/post/devcore-conference-2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/post/devcore-conference-2025/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/2025-ais3-pre-exam-writeup/</loc>
+    <lastmod>2025-05-26T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/post/2025-ais3-pre-exams-writeup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/post/2025-ais3-pre-exam-writeup/"
+                />
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/categories/hello-world/</loc>
     <lastmod>2025-04-12T21:52:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -235,9 +391,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/categories/hello-world/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/post/hello-world/</loc>
     <lastmod>2025-04-12T21:52:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -248,9 +408,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/post/hello-world/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/page/</loc>
     <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -261,9 +425,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/page/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/%E9%97%9C%E6%96%BC/</loc>
     <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -274,9 +442,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/%E9%97%9C%E6%96%BC/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/post/sitcon-2025-%E5%B7%A5%E4%BA%BA%E5%BF%83%E5%BE%97/</loc>
     <lastmod>2025-03-08T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -287,9 +459,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/post/sitcon-2025-%E5%B7%A5%E4%BA%BA%E5%BF%83%E5%BE%97/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/categories/%E5%B7%A5%E4%BA%BA/</loc>
     <lastmod>2025-03-08T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -300,9 +476,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/categories/%E5%B7%A5%E4%BA%BA/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/tags/2024/</loc>
     <lastmod>2024-08-18T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -313,9 +493,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/tags/2024/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/post/2024-ais3-junior-llm%E3%84%89writeup/</loc>
     <lastmod>2024-08-18T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -326,9 +510,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/post/2024-ais3-junior-llm%E3%84%89writeup/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/post/2024-ais3-junior-web%E3%84%89writeup/</loc>
     <lastmod>2024-08-18T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -339,9 +527,13 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/post/2024-ais3-junior-web%E3%84%89writeup/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -352,8 +544,12 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/archives/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/%E9%80%A3%E7%B5%90/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -364,8 +560,12 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/%E9%80%A3%E7%B5%90/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/search/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -377,4 +577,5 @@
                 href="https://agong88.github.io/search/"
                 />
   </url>
+  
 </urlset>

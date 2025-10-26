@@ -7,10 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>NFC Hacking</title>
+        <link>https://agong88.github.io/en/categories/nfc-hacking/</link>
+        <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/categories/nfc-hacking/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Proxmark3</title>
+        <link>https://agong88.github.io/en/categories/proxmark3/</link>
+        <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/categories/proxmark3/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Security</title>
         <link>https://agong88.github.io/en/categories/security/</link>
-        <pubDate>Tue, 19 Aug 2025 00:00:00 +0800</pubDate>
+        <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
         
         <guid>https://agong88.github.io/en/categories/security/</guid>
         <description></description>
@@ -32,17 +48,9 @@
         <description></description>
         </item>
         <item>
-        <title>Conference</title>
-        <link>https://agong88.github.io/en/categories/conference/</link>
-        <pubDate>Sat, 16 Aug 2025 00:00:00 +0800</pubDate>
-        
-        <guid>https://agong88.github.io/en/categories/conference/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>AIS3</title>
         <link>https://agong88.github.io/en/categories/ais3/</link>
-        <pubDate>Wed, 13 Aug 2025 00:00:00 +0800</pubDate>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
         
         <guid>https://agong88.github.io/en/categories/ais3/</guid>
         <description></description>
@@ -50,9 +58,17 @@
         <item>
         <title>Writeup</title>
         <link>https://agong88.github.io/en/categories/writeup/</link>
-        <pubDate>Mon, 26 May 2025 00:00:00 +0800</pubDate>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
         
         <guid>https://agong88.github.io/en/categories/writeup/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Conference</title>
+        <link>https://agong88.github.io/en/categories/conference/</link>
+        <pubDate>Sat, 16 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/categories/conference/</guid>
         <description></description>
         </item>
         <item>

