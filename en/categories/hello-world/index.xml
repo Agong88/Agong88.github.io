@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Hello World on Agong&#39;s Blog</title>
-        <link>https://agong88.github.io/en/categories/hello-world/</link>
+        <link>http://localhost:50608/en/categories/hello-world/</link>
         <description>Recent content in Hello World on Agong&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Sat, 12 Apr 2025 21:52:19 +0800</lastBuildDate><atom:link href="https://agong88.github.io/en/categories/hello-world/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Apr 2025 21:52:19 +0800</lastBuildDate><atom:link href="http://localhost:50608/en/categories/hello-world/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hello World</title>
-        <link>https://agong88.github.io/en/post/hello-world/</link>
+        <link>http://localhost:50608/en/post/hello-world/</link>
         <pubDate>Sat, 12 Apr 2025 21:52:19 +0800</pubDate>
         
-        <guid>https://agong88.github.io/en/post/hello-world/</guid>
+        <guid>http://localhost:50608/en/post/hello-world/</guid>
         <description>&lt;p&gt;This article is to talk about my recent situation. I will be busy preparing for my certificates and licenses before June and will have no time to update my blog. After I am done with that, I will slowly update articles about SITCON 2025 and DEVCORE CONFERENCE 2025 when I have time.&lt;br&gt;
 Also, when I was working on this blog, I somehow made it dual-language. Although it takes some time to update, it looks pretty good (right?&lt;/p&gt;
 </description>

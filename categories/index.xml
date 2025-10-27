@@ -2,89 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 阿公のBlog</title>
-        <link>https://agong88.github.io/categories/</link>
+        <link>http://localhost:50608/categories/</link>
         <description>Recent content in Categories on 阿公のBlog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:50608/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>NFC Hacking</title>
-        <link>https://agong88.github.io/categories/nfc-hacking/</link>
+        <link>http://localhost:50608/categories/nfc-hacking/</link>
         <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/categories/nfc-hacking/</guid>
+        <guid>http://localhost:50608/categories/nfc-hacking/</guid>
         <description></description>
         </item>
         <item>
         <title>Proxmark3</title>
-        <link>https://agong88.github.io/categories/proxmark3/</link>
+        <link>http://localhost:50608/categories/proxmark3/</link>
         <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/categories/proxmark3/</guid>
+        <guid>http://localhost:50608/categories/proxmark3/</guid>
         <description></description>
         </item>
         <item>
         <title>Security</title>
-        <link>https://agong88.github.io/categories/security/</link>
+        <link>http://localhost:50608/categories/security/</link>
         <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/categories/security/</guid>
+        <guid>http://localhost:50608/categories/security/</guid>
         <description></description>
         </item>
         <item>
         <title>心得</title>
-        <link>https://agong88.github.io/categories/%E5%BF%83%E5%BE%97/</link>
+        <link>http://localhost:50608/categories/%E5%BF%83%E5%BE%97/</link>
         <pubDate>Tue, 19 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/categories/%E5%BF%83%E5%BE%97/</guid>
+        <guid>http://localhost:50608/categories/%E5%BF%83%E5%BE%97/</guid>
         <description></description>
         </item>
         <item>
         <title>資安攻防演練</title>
-        <link>https://agong88.github.io/categories/%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4/</link>
+        <link>http://localhost:50608/categories/%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4/</link>
         <pubDate>Tue, 19 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/categories/%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4/</guid>
+        <guid>http://localhost:50608/categories/%E8%B3%87%E5%AE%89%E6%94%BB%E9%98%B2%E6%BC%94%E7%B7%B4/</guid>
         <description></description>
         </item>
         <item>
         <title>AIS3</title>
-        <link>https://agong88.github.io/categories/ais3/</link>
+        <link>http://localhost:50608/categories/ais3/</link>
         <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/categories/ais3/</guid>
+        <guid>http://localhost:50608/categories/ais3/</guid>
         <description></description>
         </item>
         <item>
         <title>Writeup</title>
-        <link>https://agong88.github.io/categories/writeup/</link>
+        <link>http://localhost:50608/categories/writeup/</link>
         <pubDate>Mon, 18 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/categories/writeup/</guid>
+        <guid>http://localhost:50608/categories/writeup/</guid>
         <description></description>
         </item>
         <item>
         <title>Conference</title>
-        <link>https://agong88.github.io/categories/conference/</link>
+        <link>http://localhost:50608/categories/conference/</link>
         <pubDate>Sat, 16 Aug 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/categories/conference/</guid>
+        <guid>http://localhost:50608/categories/conference/</guid>
         <description></description>
         </item>
         <item>
         <title>Hello World</title>
-        <link>https://agong88.github.io/categories/hello-world/</link>
+        <link>http://localhost:50608/categories/hello-world/</link>
         <pubDate>Sat, 12 Apr 2025 21:52:19 +0800</pubDate>
         
-        <guid>https://agong88.github.io/categories/hello-world/</guid>
+        <guid>http://localhost:50608/categories/hello-world/</guid>
         <description></description>
         </item>
         <item>
         <title>工人</title>
-        <link>https://agong88.github.io/categories/%E5%B7%A5%E4%BA%BA/</link>
+        <link>http://localhost:50608/categories/%E5%B7%A5%E4%BA%BA/</link>
         <pubDate>Sat, 08 Mar 2025 00:00:00 +0800</pubDate>
         
-        <guid>https://agong88.github.io/categories/%E5%B7%A5%E4%BA%BA/</guid>
+        <guid>http://localhost:50608/categories/%E5%B7%A5%E4%BA%BA/</guid>
         <description></description>
         </item>
         
