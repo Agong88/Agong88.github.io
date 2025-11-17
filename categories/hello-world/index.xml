@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Hello World on 阿公のBlog</title>
-        <link>http://localhost:1313/categories/hello-world/</link>
+        <link>https://agong88.github.io/categories/hello-world/</link>
         <description>Recent content in Hello World on 阿公のBlog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Sat, 12 Apr 2025 21:52:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/hello-world/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Apr 2025 21:52:19 +0800</lastBuildDate><atom:link href="https://agong88.github.io/categories/hello-world/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hello World</title>
-        <link>http://localhost:1313/post/hello-world/</link>
+        <link>https://agong88.github.io/post/hello-world/</link>
         <pubDate>Sat, 12 Apr 2025 21:52:19 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/hello-world/</guid>
+        <guid>https://agong88.github.io/post/hello-world/</guid>
         <description>&lt;p&gt;10/24 更：我會減少拖延症，多產出文章&lt;br&gt;
 買了 PM3，有空多更新反體中文技術文章上來&lt;/p&gt;
 &lt;p&gt;另外我在做這Blog的時候不知道哪根腦筋不對做了雙語言，雖然更新起來要花些時間，但看起來蠻不錯的（對吧？&lt;/p&gt;

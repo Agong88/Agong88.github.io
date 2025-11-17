@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on Agong&#39;s Blog</title>
-        <link>http://localhost:1313/en/page/</link>
+        <link>https://agong88.github.io/en/page/</link>
         <description>Recent content in Pages on Agong&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://agong88.github.io/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>About</title>
-        <link>http://localhost:1313/en/page/about/</link>
+        <link>https://agong88.github.io/en/page/about/</link>
         <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/page/about/</guid>
+        <guid>https://agong88.github.io/en/page/about/</guid>
         <description>&lt;h2 id=&#34;introduce&#34;&gt;INTRODUCE
 &lt;/h2&gt;&lt;p&gt;Hello I&amp;rsquo;m Chun-Hao Chung！You can call me Agong. I am currently studying Data Processing at Taipei Shilin High School of Commerce. I am a student interested in information security and information. My current research area is Web&amp;amp;Pwn. If you are interested, welcome to discuss with me😄 （~~ Although I may not know how to do it~~&lt;/p&gt;
 &lt;h2 id=&#34;contests-and-awards&#34;&gt;CONTESTS AND AWARDS
@@ -355,26 +355,26 @@
         </item>
         <item>
         <title>Archives</title>
-        <link>http://localhost:1313/en/page/archives/</link>
+        <link>https://agong88.github.io/en/page/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/page/archives/</guid>
+        <guid>https://agong88.github.io/en/page/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>links</title>
-        <link>http://localhost:1313/en/page/links/</link>
+        <link>https://agong88.github.io/en/page/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/page/links/</guid>
+        <guid>https://agong88.github.io/en/page/links/</guid>
         <description></description>
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:1313/en/page/search/</link>
+        <link>https://agong88.github.io/en/page/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/page/search/</guid>
+        <guid>https://agong88.github.io/en/page/search/</guid>
         <description></description>
         </item>
         

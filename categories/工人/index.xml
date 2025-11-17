@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>工人 on 阿公のBlog</title>
-        <link>http://localhost:1313/categories/%E5%B7%A5%E4%BA%BA/</link>
+        <link>https://agong88.github.io/categories/%E5%B7%A5%E4%BA%BA/</link>
         <description>Recent content in 工人 on 阿公のBlog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate></lastBuildDate><atom:link href="http://localhost:1313/categories/%E5%B7%A5%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate></lastBuildDate><atom:link href="https://agong88.github.io/categories/%E5%B7%A5%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>NFC Hacking on Agong&#39;s Blog</title>
-        <link>http://localhost:1313/en/categories/nfc-hacking/</link>
+        <link>https://agong88.github.io/en/categories/nfc-hacking/</link>
         <description>Recent content in NFC Hacking on Agong&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/nfc-hacking/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/en/categories/nfc-hacking/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Proxmark3 Chinese Tutorial</title>
-        <link>http://localhost:1313/en/post/proxmark3-chinese-tutorial/</link>
+        <link>https://agong88.github.io/en/post/proxmark3-chinese-tutorial/</link>
         <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/post/proxmark3-chinese-tutorial/</guid>
-        <description>&lt;img src="http://localhost:1313/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/1.jpg" alt="Featured image of post Proxmark3 Chinese Tutorial" /&gt;&lt;p&gt;This is my birthday present for myself (?)&lt;br&gt;
+        <guid>https://agong88.github.io/en/post/proxmark3-chinese-tutorial/</guid>
+        <description>&lt;img src="https://agong88.github.io/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/1.jpg" alt="Featured image of post Proxmark3 Chinese Tutorial" /&gt;&lt;p&gt;This is my birthday present for myself (?)&lt;br&gt;
 I&amp;rsquo;ll post it later when I have time after selecting the articles.&lt;br&gt;
 Mainly because I saw there were no tutorials in Chinese, I wanted to write a detailed Chinese user manual.&lt;br&gt;
 I&amp;rsquo;ll see if I can write about next year&amp;rsquo;s Ironman race.&lt;/p&gt;

