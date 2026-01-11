@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>乙檢題組計算器</title>
+    <style>
+      :root {
+        font-family: "Noto Sans TC", "Segoe UI", sans-serif;
+        background: #f5f5fa;
+        color: #111;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+        box-sizing: border-box;
+      }
+      .calculator {
+        width: min(480px, 100%);
+        background: #fff;
+        border-radius: 14px;
+        padding: 24px;
+        box-shadow: 0 10px 40px rgba(15, 23, 42, 0.16);
+      }
+      h1 {
+        margin: 0 0 6px;
+        font-size: 22px;
+      }
+      label {
+        display: block;
+        margin-top: 14px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      input {
+        width: 100%;
+        margin-top: 6px;
+        padding: 10px 12px;
+        border-radius: 8px;
+        border: 1px solid #d1d5db;
+        font-size: 14px;
+        box-sizing: border-box;
+      }
+      input[readonly] {
+        background: #f9fafb;
+      }
+      .actions {
+        display: flex;
+        gap: 12px;
+        margin-top: 18px;
+      }
+      button {
+        flex: 1;
+        padding: 12px 0;
+        border-radius: 10px;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      button.primary {
+        background: #2563eb;
+        color: #fff;
+      }
+      button.secondary {
+        background: #e5e7eb;
+        color: #1f2937;
+      }
+      .result {
+        margin-top: 18px;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 16px;
+        min-height: 72px;
+        font-size: 15px;
+        line-height: 1.4;
+        color: #374151;
+      }
+      .result strong {
+        font-size: 20px;
+        color: #1f2937;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>乙檢題組計算器</h1>
+
+      <label for="your">你的座號</label>
+      <input id="your" type="number" min="1" placeholder="例如 12" />
+
+      <label for="drawn">抽籤同學座號</label>
+      <input id="drawn" type="number" min="1" placeholder="例如 3" />
+
+      <label for="group">抽到題組</label>
+      <input id="group" type="number" min="1" max="6" placeholder="例如 2" />
+
+      <label for="total">最末座號</label>
+      <input id="total" type="number" min="1" placeholder="例如 40" />
+
+      <div class="actions">
+        <button class="primary" onclick="calculate()">計算</button>
+        <button class="secondary" onclick="clearInputs()">清除</button>
+      </div>
+
+      <div class="result" id="result"></div>
+    </div>
+
+    <script>
+      function calculate() {
+        const yourSeat = parseInt(document.getElementById("your").value);
+        const drawnSeat = parseInt(document.getElementById("drawn").value);
+        const drawnGroup = parseInt(document.getElementById("group").value);
+        const lastSeat = parseInt(document.getElementById("total").value);
+        const resultDiv = document.getElementById("result");
+
+        if (
+          isNaN(yourSeat) ||
+          isNaN(drawnSeat) ||
+          isNaN(drawnGroup) ||
+          isNaN(lastSeat)
+        ) {
+          resultDiv.innerHTML = "請輸入所有欄位。";
+          return;
+        }
+
+        if (yourSeat <= 0 || drawnSeat <= 0 || drawnGroup <= 0 || lastSeat <= 0) {
+          resultDiv.innerHTML = "所有座號和題組必須是正數。";
+          return;
+        }
+        
+        if (drawnGroup > 6) {
+          resultDiv.innerHTML = "抽到的題組不能超過 6。";
+          return;
+        }
+
+        if (yourSeat > lastSeat || drawnSeat > lastSeat) {
+          resultDiv.innerHTML = "座號不能超過最末座號。";
+          return;
+        }
+
+        let computerNumber = (yourSeat + drawnSeat + drawnGroup - 1) % lastSeat;
+        if (computerNumber === 0) {
+          computerNumber = lastSeat;
+        }
+
+        const finalGroup = ((computerNumber - 2) % 6 + 6) % 6 + 1;
+
+        resultDiv.innerHTML = `
+          <p>你應做的題組為：<strong>第 ${finalGroup} 題</strong></p>
+        `;
+      }
+
+      function clearInputs() {
+        document.getElementById("your").value = "";
+        document.getElementById("drawn").value = "";
+        document.getElementById("group").value = "";
+        document.getElementById("total").value = "";
+        document.getElementById("result").innerHTML = "";
+      }
+    </script>
+  </body>
+</html>
