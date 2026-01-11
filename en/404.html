@@ -283,6 +283,25 @@
 </aside>
 
             <main class="main full-width">
+
+<script>
+(function() {
+    
+    const shortlinks = {
+        "gay": "https:\/\/www.instagram.com\/wangshaojia99\/",
+        "rickroll": "https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ",
+    };
+    
+    
+    const path = window.location.pathname.replace(/^\/+|\/+$/g, '');
+    
+    
+    if (shortlinks[path]) {
+        window.location.replace(shortlinks[path]);
+    }
+})();
+</script>
+
 <article style="width: 100%; max-width: 1200px; margin: 0 auto; padding: 4rem 2rem;">
     <header style="text-align: center; margin-bottom: 4rem;">
         <div style="font-size: 15rem; font-weight: 900; color: var(--accent-color); line-height: 1; margin-bottom: 2rem;">
