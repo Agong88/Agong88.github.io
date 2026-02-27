@@ -308,40 +308,61 @@
 })();
 </script>
 
-<article style="width: 100%; max-width: 1200px; margin: 0 auto; padding: 4rem 2rem;">
-    <header style="text-align: center; margin-bottom: 4rem;">
-        <div style="font-size: 15rem; font-weight: 900; color: var(--accent-color); line-height: 1; margin-bottom: 2rem;">
-            404
+<article class="error-page">
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+    
+    <header class="error-header">
+        <div class="error-code">
+            <span class="number-4 animate-bounce-1">4</span>
+            <span class="number-0 animate-float">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-width="8"/>
+                    <circle cx="70" cy="80" r="8" fill="currentColor"/>
+                    <circle cx="130" cy="80" r="8" fill="currentColor"/>
+                    <path d="M 70 130 Q 100 150 130 130" stroke="currentColor" stroke-width="6" fill="none" stroke-linecap="round"/>
+                </svg>
+            </span>
+            <span class="number-4 animate-bounce-2">4</span>
         </div>
-        <h1 style="font-size: 4rem; margin-bottom: 1.5rem;">找不到頁面</h1>
-        <h2 style="font-size: 2.5rem; color: var(--body-text-color); font-weight: normal;">Page Not Found</h2>
+        <h1 class="error-title fade-in">找不到頁面</h1>
+        <h2 class="error-subtitle fade-in-delay">Page Not Found</h2>
+        <p class="error-message fade-in-delay-2">哎呀！你似乎迷路了...</p>
     </header>
     
-    <section style="font-size: 1.4rem; line-height: 2;">
-        <div style="background: var(--card-background); padding: 3rem; border-radius: 15px; margin-bottom: 2.5rem; box-shadow: var(--shadow-l2);">
-            <h3 style="margin-top: 0; font-size: 2.2rem;">😢 抱歉,您訪問的頁面不存在</h3>
-            <p style="font-size: 1.3rem;">可能的原因:</p>
-            <ul style="margin-left: 2rem; font-size: 1.3rem;">
-                <li style="margin-bottom: 0.8rem;">網址輸入錯誤</li>
-                <li style="margin-bottom: 0.8rem;">頁面已被移除或重新命名</li>
-                <li style="margin-bottom: 0.8rem;">連結已過期</li>
+    <section class="error-content">
+        <div class="info-card slide-up">
+            <h3>抱歉，您訪問的頁面不存在</h3>
+            <p class="possible-reasons-title">可能的原因：</p>
+            <ul class="reasons-list">
+                <li>網址輸入錯誤</li>
+                <li>頁面已被移除或重新命名</li>
+                <li>連結已過期</li>
             </ul>
         </div>
         
-        <div style="background: var(--card-background); padding: 3rem; border-radius: 15px; box-shadow: var(--shadow-l2);">
-            <h3 style="margin-top: 0; font-size: 2.2rem; margin-bottom: 2rem;">🔍 您可以嘗試:</h3>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
-                <a href="https://agong88.github.io/" style="display: flex; align-items: center; justify-content: center; padding: 2rem 2.5rem; background: var(--accent-color); color: white; text-decoration: none; border-radius: 12px; font-size: 1.4rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-                    <span style="margin-right: 0.8rem; font-size: 1.6rem;">🏠</span> 返回首頁
+        <div class="actions-card slide-up-delay">
+            <h3><span class="gradient-text">您可以嘗試</span></h3>
+            <div class="action-grid">
+                <a href="https://agong88.github.io/" class="action-button home-button">
+                    <span class="button-text">返回首頁</span>
+                    <span class="button-shine"></span>
                 </a>
-                <a href="https://agong88.github.io/post/" style="display: flex; align-items: center; justify-content: center; padding: 2rem 2.5rem; background: var(--accent-color); color: white; text-decoration: none; border-radius: 12px; font-size: 1.4rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-                    <span style="margin-right: 0.8rem; font-size: 1.6rem;">📚</span> 瀏覽所有文章
+                <a href="https://agong88.github.io/post/" class="action-button posts-button">
+                    <span class="button-text">瀏覽文章</span>
+                    <span class="button-shine"></span>
                 </a>
-                <a href="https://agong88.github.io/search/" style="display: flex; align-items: center; justify-content: center; padding: 2rem 2.5rem; background: var(--accent-color); color: white; text-decoration: none; border-radius: 12px; font-size: 1.4rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-                    <span style="margin-right: 0.8rem; font-size: 1.6rem;">🔍</span> 使用搜尋功能
+                <a href="https://agong88.github.io/search/" class="action-button search-button">
+                    <span class="button-text">搜尋內容</span>
+                    <span class="button-shine"></span>
                 </a>
-                <a href="https://agong88.github.io/categories/" style="display: flex; align-items: center; justify-content: center; padding: 2rem 2.5rem; background: var(--accent-color); color: white; text-decoration: none; border-radius: 12px; font-size: 1.4rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-                    <span style="margin-right: 0.8rem; font-size: 1.6rem;">📂</span> 瀏覽分類
+                <a href="https://agong88.github.io/categories/" class="action-button categories-button">
+                    <span class="button-text">瀏覽分類</span>
+                    <span class="button-shine"></span>
                 </a>
             </div>
         </div>
@@ -349,25 +370,414 @@
 </article>
 
 <style>
-article a:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2) !important;
+.error-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    position: relative;
+    overflow: hidden;
 }
+
+ 
+.floating-shapes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent-color), #6366f1);
+    animation: float 20s infinite ease-in-out;
+}
+
+.shape-1 {
+    width: 300px;
+    height: 300px;
+    top: -150px;
+    left: -150px;
+    animation-delay: 0s;
+}
+
+.shape-2 {
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    right: -100px;
+    animation-delay: 5s;
+}
+
+.shape-3 {
+    width: 150px;
+    height: 150px;
+    bottom: -75px;
+    left: 20%;
+    animation-delay: 10s;
+}
+
+.shape-4 {
+    width: 250px;
+    height: 250px;
+    top: 20%;
+    right: 10%;
+    animation-delay: 15s;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    33% {
+        transform: translate(30px, -30px) rotate(120deg);
+    }
+    66% {
+        transform: translate(-20px, 20px) rotate(240deg);
+    }
+}
+
+ 
+.error-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.error-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    font-size: 16rem;
+    color: var(--accent-color);
+    line-height: 1;
+}
+
+.number-0 svg {
+    width: 16rem;
+    height: 16rem;
+    color: var(--accent-color);
+}
+
+.animate-bounce-1 {
+    display: inline-block;
+    animation: bounce 2s infinite;
+}
+
+.animate-bounce-2 {
+    display: inline-block;
+    animation: bounce 2s infinite 0.2s;
+}
+
+.animate-float {
+    display: inline-block;
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes floatUpDown {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-15px) rotate(5deg);
+    }
+}
+
+.error-title {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--accent-color), #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.error-subtitle {
+    font-size: 2.5rem;
+    color: var(--body-text-color);
+    font-weight: 500;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}
+
+.error-message {
+    font-size: 1.8rem;
+    color: var(--body-text-color);
+    opacity: 0.7;
+}
+
+ 
+.fade-in {
+    animation: fadeIn 0.8s ease-out;
+}
+
+.fade-in-delay {
+    animation: fadeIn 0.8s ease-out 0.2s backwards;
+}
+
+.fade-in-delay-2 {
+    animation: fadeIn 0.8s ease-out 0.4s backwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-up {
+    animation: slideUp 0.6s ease-out 0.3s backwards;
+}
+
+.slide-up-delay {
+    animation: slideUp 0.6s ease-out 0.5s backwards;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+ 
+.error-content {
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+
+.info-card, .actions-card {
+    background: var(--card-background);
+    padding: 3rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover, .actions-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.info-card h3 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 1.5rem;
+}
+
+.possible-reasons-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--body-text-color);
+}
+
+.reasons-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.reasons-list li {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.reasons-list li:last-child {
+    border-bottom: none;
+}
+
+
+
+.actions-card h3 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, var(--accent-color), #6366f1, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+
+.action-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.action-button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+    background: linear-gradient(135deg, var(--accent-color), #6366f1);
+    color: white;
+    text-decoration: none;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    min-height: 120px;
+}
+
+
+
+.button-text {
+    position: relative;
+    z-index: 1;
+}
+
+.button-shine {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        rgba(255, 255, 255, 0.1),
+        transparent
+    );
+    transform: translateX(-100%);
+    transition: transform 0.6s;
+}
+
+.action-button:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.action-button:hover .button-shine {
+    transform: translateX(100%);
+}
+
+.action-button:active {
+    transform: translateY(-4px) scale(0.98);
+}
+
+ 
+.home-button {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.posts-button {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+}
+
+.search-button {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.categories-button {
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+
+ 
 @media (max-width: 768px) {
-    article {
-        padding: 2rem 1rem !important;
+    .error-page {
+        padding: 2rem 1rem;
     }
-    header div {
-        font-size: 10rem !important;
+    
+    .error-code {
+        font-size: 10rem;
+        gap: 0.5rem;
     }
-    header h1 {
-        font-size: 2.5rem !important;
+    
+    .number-0 svg {
+        width: 10rem;
+        height: 10rem;
     }
-    header h2 {
-        font-size: 1.8rem !important;
+    
+    .error-title {
+        font-size: 3rem;
     }
-    section {
-        font-size: 1.2rem !important;
+    
+    .error-subtitle {
+        font-size: 2rem;
+    }
+    
+    .error-message {
+        font-size: 1.5rem;
+    }
+    
+    .info-card, .actions-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .action-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .action-button {
+        min-height: 100px;
+        padding: 1.5rem 1rem;
+    }
+    
+    .shape {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 480px) {
+    .error-code {
+        font-size: 7rem;
+    }
+    
+    .number-0 svg {
+        width: 7rem;
+        height: 7rem;
+    }
+    
+    .error-title {
+        font-size: 2.2rem;
+    }
+    
+    .error-subtitle {
+        font-size: 1.5rem;
     }
 }
 </style>
