@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://agong88.github.io/</loc>
-    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
+    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -17,6 +17,78 @@
                 hreflang="zh-tw"
                 href="https://agong88.github.io/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/tags/2026/</loc>
+    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/categories/</loc>
+    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/</loc>
+    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/tags/</loc>
+    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/categories/update/</loc>
+    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/%E5%85%AD%E6%9C%88%E8%BF%91%E6%B3%81%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -37,23 +109,6 @@
   </url>
   
   <url>
-    <loc>https://agong88.github.io/categories/</loc>
-    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://agong88.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://agong88.github.io/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>https://agong88.github.io/categories/nfc-hacking/</loc>
     <lastmod>2025-10-25T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -67,23 +122,6 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://agong88.github.io/categories/nfc-hacking/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://agong88.github.io/post/</loc>
-    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://agong88.github.io/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://agong88.github.io/post/"
                 />
   </url>
   
@@ -135,23 +173,6 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://agong88.github.io/categories/security/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://agong88.github.io/tags/</loc>
-    <lastmod>2025-10-25T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://agong88.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://agong88.github.io/tags/"
                 />
   </url>
   
