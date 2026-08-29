@@ -14,7 +14,7 @@
         
         <guid>https://agong88.github.io/en/page/about/</guid>
         <description>&lt;h2 id=&#34;introduce&#34;&gt;INTRODUCE
-&lt;/h2&gt;&lt;p&gt;Hello I&amp;rsquo;m Chun-Hao Chung！You can call me Agong. I am currently studying Data Processing at Taipei Shilin High School of Commerce. I am a student interested in information security and information. My current research area is Web&amp;amp;Pwn. If you are interested, welcome to discuss with me😄~&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;Hello I&amp;rsquo;m Chun-Hao Chung！You can call me Agong. I am currently studying Information Management at National Formosa University. I am a student interested in information security and information. My current research area is Web&amp;amp;Pwn. If you are interested, welcome to discuss with me😄~&lt;/p&gt;
 &lt;h2 id=&#34;contests-and-awards&#34;&gt;CONTESTS AND AWARDS
 &lt;/h2&gt;&lt;h3 id=&#34;ctf&#34;&gt;CTF
 &lt;/h3&gt;&lt;table&gt;
@@ -34,8 +34,8 @@
           &lt;td style=&#34;text-align: center&#34;&gt;rk.77&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;資安技能金盾獎&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Preliminary&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2026 AIS3 Pre-exam&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;rk.78&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;HITCON CTF&lt;/td&gt;
@@ -65,15 +65,11 @@
           &lt;td style=&#34;text-align: center&#34;&gt;Inspector&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2025 New Type of Senior High School and Vocational School Cybersecurity Course&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024、2025 New Type of Senior High School and Vocational School Cybersecurity Course&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;Best Project Award&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;2025 New Type of Cybersecurity Practice Summer Course&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Best Project Award&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2024 New Type of Senior High School and Vocational School Cybersecurity Course&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;Best Project Award&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -142,18 +138,10 @@
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;CyberSecurity Summer Camp-Online&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;ISIP CyberSecurity Summer&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;CyberSecurity Summer Camp-Entity&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2025&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;SITCON Camp&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024-2026&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;SITCON Camp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -196,7 +184,7 @@
           &lt;td style=&#34;text-align: center&#34;&gt;Attendees&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;2024-2025&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024-2026&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;COSCUP&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;Attendees&lt;/td&gt;
       &lt;/tr&gt;
@@ -245,7 +233,7 @@
       &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;ISC²&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;Certified in Cybersecurity&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Pass✅&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Pass&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;iPAS&lt;/td&gt;
@@ -255,22 +243,12 @@
       &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;Google&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;Google Cybersecurity&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Pass✅&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Pass&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;Workforce Development Agency&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;Computer Software Applications&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;Grade B&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Workforce Development Agency&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Computer Software Applications&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Grade C&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Workforce Development Agency&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Accounting Services - Manual Bookkeeping&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Grade C&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -332,7 +310,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;div align=&#34;center&#34;&gt;
-  &lt;img src=&#34;https://spotify-recently-played-readme.vercel.app/api?user=31vhh2ecz7ffd443hqftstammxwa&amp;count=6&#34; alt=&#34;Spotify recently played&#34; width=&#34;450&#34;/&gt;
+  &lt;img src=&#34;https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31vhh2ecz7ffd443hqftstammxwa&#34; alt=&#34;Spotify recently played&#34; width=&#34;450&#34;/&gt;
 &lt;/div&gt;</description>
         </item>
         <item>
