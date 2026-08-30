@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Okay, I think this is a bit clickbait, but if you&rsquo;re like me and can&rsquo;t remotely access your PVE VM after booting up, you might want to check out this article.\nBackground The gist of the story is that I recently got my hands on a PVE machine. It has pretty good performance, and with memory prices skyrocketing, it still has 4TB + 128GB of storage available, so of course I want to make the most of it!\n">
+
+<title>Agong&#39;s Blog</title><title>How to resolve the issue of remote servers not being able to access the PVE VM after startup?</title>
+
+<link rel='canonical' href='https://agong88.github.io/en/post/how-to-resolve-the-issue-of-remote-servers-not-being-able-to-access-the-pve-vm-after-startup/'>
+
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="How to resolve the issue of remote servers not being able to access the PVE VM after startup?">
+<meta property='og:description' content="Okay, I think this is a bit clickbait, but if you&rsquo;re like me and can&rsquo;t remotely access your PVE VM after booting up, you might want to check out this article.\nBackground The gist of the story is that I recently got my hands on a PVE machine. It has pretty good performance, and with memory prices skyrocketing, it still has 4TB + 128GB of storage available, so of course I want to make the most of it!\n">
+<meta property='og:url' content='https://agong88.github.io/en/post/how-to-resolve-the-issue-of-remote-servers-not-being-able-to-access-the-pve-vm-after-startup/'>
+<meta property='og:site_name' content='Agong&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='2026' /><meta property='article:published_time' content='2026-08-29T00:00:00&#43;08:00'/><meta property='article:modified_time' content='2026-08-29T00:00:00&#43;08:00'/>
+<meta name="twitter:title" content="How to resolve the issue of remote servers not being able to access the PVE VM after startup?">
+<meta name="twitter:description" content="Okay, I think this is a bit clickbait, but if you&rsquo;re like me and can&rsquo;t remotely access your PVE VM after booting up, you might want to check out this article.\nBackground The gist of the story is that I recently got my hands on a PVE machine. It has pretty good performance, and with memory prices skyrocketing, it still has 4TB + 128GB of storage available, so of course I want to make the most of it!\n">
+    <link rel="shortcut icon" href="/img/new-avatar_hu_a21375ee9691e2f1.PNG" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ELVEGJD750"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ELVEGJD750');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to resolve the issue of remote servers not being able to access the PVE VM after startup?",
+  "url": "https:\/\/agong88.github.io\/en\/post\/how-to-resolve-the-issue-of-remote-servers-not-being-able-to-access-the-pve-vm-after-startup\/",
+  "datePublished": "2026-08-29T00:00:00\u002b08:00",
+  "dateModified": "2026-08-29T00:00:00\u002b08:00",
+  
+  
+  "keywords": "[2026]",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Person",
+    "name": "",
+    "url": "https:\/\/agong88.github.io\/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": ""
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/agong88.github.io\/en\/post\/how-to-resolve-the-issue-of-remote-servers-not-being-able-to-access-the-pve-vm-after-startup\/"
+  }
+}
+</script>
+
+
+
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta name="keywords" content="2026">
+
+
+
+<link rel="canonical" href="https://agong88.github.io/en/post/how-to-resolve-the-issue-of-remote-servers-not-being-able-to-access-the-pve-vm-after-startup/">
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/en/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/new-avatar_hu_a21375ee9691e2f1.PNG" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🧑‍🦳</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/en">Agong&#39;s Blog</a></h1>
+            <h2 class="site-description">Hi, I&#39;m Chun-Hao Chung Welcome to my Blog</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/en/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://agong88.github.io/en/" selected>English</option>
+                                
+                                    <option value="https://agong88.github.io/" >中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#background">Background</a></li>
+    <li><a href="#problem">Problem</a></li>
+    <li><a href="#solution">Solution</a>
+      <ol>
+        <li><a href="#solution-to-cause-1">Solution to Cause 1</a></li>
+      </ol>
+    </li>
+    <li><a href="#the-real-problem-at-the-end">The Real Problem at the End</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/en/categories/proxmox/" >
+                Proxmox
+            </a>
+        
+            <a href="/en/categories/udm-pro-max/" >
+                UDM Pro Max
+            </a>
+        
+            <a href="/en/categories/unifi-os/" >
+                UniFi OS
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/en/post/how-to-resolve-the-issue-of-remote-servers-not-being-able-to-access-the-pve-vm-after-startup/">How to resolve the issue of remote servers not being able to access the PVE VM after startup?</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 29, 2026</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    2 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+        <footer class="article-translations">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+            <div>
+                
+                    <a href="https://agong88.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/" class="link">中文</a>
+                
+            </div>
+        </footer>
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>Okay, I think this is a bit clickbait, but if you&rsquo;re like me and can&rsquo;t remotely access your PVE VM after booting up, you might want to check out this article.</p>
+<h2 id="background">Background
+</h2><p>The gist of the story is that I recently got my hands on a PVE machine. It has pretty good performance, and with memory prices skyrocketing, it still has 4TB + 128GB of storage available, so of course I want to make the most of it!</p>
+<p>However, the owner of the computer is using a high-end UDM Pro Max to set up a VLAN, running on a certain network segment.</p>
+<p>The desired network architecture is as follows:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">     Gateway
+</span></span><span class="line"><span class="cl">    10.0.30.1
+</span></span><span class="line"><span class="cl">        │
+</span></span><span class="line"><span class="cl">        ▼
+</span></span><span class="line"><span class="cl">      Switch
+</span></span><span class="line"><span class="cl">        │
+</span></span><span class="line"><span class="cl">        ▼
+</span></span><span class="line"><span class="cl">     PVE nic0
+</span></span><span class="line"><span class="cl">        │
+</span></span><span class="line"><span class="cl">        ▼
+</span></span><span class="line"><span class="cl">       vmbr0
+</span></span><span class="line"><span class="cl">        │
+</span></span><span class="line"><span class="cl">   ┌────┴────┐
+</span></span><span class="line"><span class="cl">   │         │
+</span></span><span class="line"><span class="cl">  PVE       VM
+</span></span><span class="line"><span class="cl">10.0.30.99  DHCP
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="problem">Problem
+</h2><p>Whenever my VM is connected to the internet, I can&rsquo;t access the remote server. It&rsquo;s not just the VM, but the entire PVE instance.</p>
+<p><img src="/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image.png"
+	width="892"
+	height="376"
+	srcset="/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image_hu_1d18445378d03c58.png 480w, /post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image_hu_f1b5d3e10299973b.png 1024w"
+	loading="lazy"
+	
+		alt="VM Configuration Example"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="237"
+		data-flex-basis="569px"
+	
+></p>
+<h2 id="solution">Solution
+</h2><p>After discovering the problem, I considered the following possible causes:</p>
+<ol>
+<li>
+<p>The VM&rsquo;s DHCP server is hogging the PVE&rsquo;s IP address, preventing remote access.</p>
+</li>
+<li>
+<p>I made a mistake in one of my settings, but after checking for a long time, I found it was correct.</p>
+</li>
+</ol>
+<h3 id="solution-to-cause-1">Solution to Cause 1
+</h3><p>I enabled NAT so that all VM traffic is forwarded through the PVE&rsquo;s IP address, as follows:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">auto vmbr1
+</span></span><span class="line"><span class="cl">iface vmbr1 inet static
+</span></span><span class="line"><span class="cl">        address 192.168.100.1/24
+</span></span><span class="line"><span class="cl">        bridge-ports none
+</span></span><span class="line"><span class="cl">        bridge-stp off
+</span></span><span class="line"><span class="cl">        bridge-fd <span class="m">0</span>
+</span></span><span class="line"><span class="cl">        post-up <span class="nb">echo</span> <span class="m">1</span> &gt; /proc/sys/net/ipv4/ip_forward
+</span></span><span class="line"><span class="cl">        post-up iptables -t nat -A POSTROUTING -s <span class="s1">&#39;192.168.100.0/24&#39;</span> -o vmbr0 -j MASQUERADE
+</span></span><span class="line"><span class="cl">        post-down iptables -t nat -D POSTROUTING -s <span class="s1">&#39;192.168.100.0/24&#39;</span> -o vmbr0 -j MASQUERADE
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>I initially thought this was good enough, but for some reason, the VM network speed only reached a maximum of 20Mbps. Considering I&rsquo;d have to manually configure the IP address for each machine and still only get 20Mbps, I figured there must be a better solution. So I continued researching.</p>
+<h2 id="the-real-problem-at-the-end">The Real Problem at the End
+</h2><p>After spending over half a month searching for information and similar problems on PVE and Google without success, I started to wonder if there was a problem with the higher-level UDM Pro Max settings. So I asked for a UniFi OS account to check.</p>
+<p>What I found was shocking!</p>
+<p><img src="/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image-2.png"
+	width="558"
+	height="394"
+	srcset="/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image-2_hu_a6b54c2c5a0445a8.png 480w, /post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image-2_hu_5d6bba291bd30358.png 1024w"
+	loading="lazy"
+	
+		alt="Vlan Setting"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="141"
+		data-flex-basis="339px"
+	
+></p>
+<p>Why didn&rsquo;t they mention setting the VLAN tag to Allow? I simply turned that setting off, and that solved the problem perfectly.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/en/tags/2026/">2026</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2025 - 
+        
+        2026 Chun-Hao Chung
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

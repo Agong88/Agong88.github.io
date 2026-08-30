@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://agong88.github.io/</loc>
-    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
+    <lastmod>2026-08-29T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -21,14 +21,24 @@
   
   <url>
     <loc>https://agong88.github.io/tags/2026/</loc>
-    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
+    <lastmod>2026-08-29T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/tags/2026/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/tags/2026/"
+                />
   </url>
   
   <url>
     <loc>https://agong88.github.io/categories/</loc>
-    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
+    <lastmod>2026-08-29T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -45,7 +55,7 @@
   
   <url>
     <loc>https://agong88.github.io/post/</loc>
-    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
+    <lastmod>2026-08-29T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -61,8 +71,25 @@
   </url>
   
   <url>
+    <loc>https://agong88.github.io/categories/proxmox/</loc>
+    <lastmod>2026-08-29T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/categories/proxmox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/categories/proxmox/"
+                />
+  </url>
+  
+  <url>
     <loc>https://agong88.github.io/tags/</loc>
-    <lastmod>2026-06-13T09:18:00+08:00</lastmod>
+    <lastmod>2026-08-29T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -74,6 +101,57 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://agong88.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/categories/udm-pro-max/</loc>
+    <lastmod>2026-08-29T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/categories/udm-pro-max/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/categories/udm-pro-max/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/categories/unifi-os/</loc>
+    <lastmod>2026-08-29T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/categories/unifi-os/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/categories/unifi-os/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://agong88.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/</loc>
+    <lastmod>2026-08-29T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://agong88.github.io/en/post/how-to-resolve-the-issue-of-remote-servers-not-being-able-to-access-the-pve-vm-after-startup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://agong88.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/"
                 />
   </url>
   

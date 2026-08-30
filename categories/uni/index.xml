@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Uni on 阿公のBlog</title>
+        <link>http://localhost:1313/categories/uni/</link>
+        <description>Recent content in Uni on 阿公のBlog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-tw</language>
+        <copyright>Chun-Hao Chung</copyright>
+        <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/uni/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Proxmark3 中文教學</title>
+        <link>http://localhost:1313/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/</link>
+        <pubDate>Sat, 25 Oct 2025 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/post/proxmark3-%E4%B8%AD%E6%96%87%E6%95%99%E5%AD%B8/</guid>
+        <description>&lt;img src="http://localhost:1313/1.jpg" alt="Featured image of post Proxmark3 中文教學" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

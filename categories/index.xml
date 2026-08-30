@@ -7,7 +7,31 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Sat, 13 Jun 2026 09:18:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Proxmox</title>
+        <link>https://agong88.github.io/categories/proxmox/</link>
+        <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/categories/proxmox/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>UDM Pro Max</title>
+        <link>https://agong88.github.io/categories/udm-pro-max/</link>
+        <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/categories/udm-pro-max/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>UniFi OS</title>
+        <link>https://agong88.github.io/categories/unifi-os/</link>
+        <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/categories/unifi-os/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Update</title>
         <link>https://agong88.github.io/categories/update/</link>
         <pubDate>Sat, 13 Jun 2026 09:18:00 +0800</pubDate>

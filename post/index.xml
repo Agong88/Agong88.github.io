@@ -7,7 +7,123 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
         <copyright>Chun-Hao Chung</copyright>
-        <lastBuildDate>Sat, 13 Jun 2026 09:18:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://agong88.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>如何解決 PVE VM 開機後遠端不到</title>
+        <link>https://agong88.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/</link>
+        <pubDate>Sat, 29 Aug 2026 00:00:00 +0800</pubDate>
+        
+        <guid>https://agong88.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/</guid>
+        <description>&lt;p&gt;喔好啦我覺得其實這有點標題黨，但如果你跟我一樣 PVE VM 開機後會遠端不到或許可以看看這篇文章&lt;/p&gt;
+&lt;h2 id=&#34;前情提要&#34;&gt;前情提要
+&lt;/h2&gt;&lt;p&gt;故事大綱大概是我在不久前拿到了一台 PVE 機器，性能蠻好的，在這記憶體價格飛漲的年代還有 4T+128G 可用，當然要好好使用這台機器！&lt;/p&gt;
+&lt;p&gt;但電腦主人有用高貴的 UDM Pro Max 設 VLAN，跑在某個網段&lt;/p&gt;
+&lt;p&gt;希望的網路架構如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     Gateway
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    10.0.30.1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ▼
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      Switch
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ▼
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     PVE nic0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ▼
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       vmbr0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   ┌────┴────┐
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   │         │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  PVE       VM
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;10.0.30.99  DHCP
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;問題&#34;&gt;問題
+&lt;/h2&gt;&lt;p&gt;只要我 VM 通外網後我就會遠端不到，不是 VM 而是整台 PVE&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image.png&#34;
+	width=&#34;892&#34;
+	height=&#34;376&#34;
+	srcset=&#34;https://agong88.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image_hu_1d18445378d03c58.png 480w, https://agong88.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image_hu_f1b5d3e10299973b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;VM 設定圖例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;237&#34;
+		data-flex-basis=&#34;569px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;解決方法&#34;&gt;解決方法
+&lt;/h2&gt;&lt;p&gt;發現問題後我想到可能的原因&lt;/p&gt;
+&lt;p&gt;1 是 VM 的 DHCP 搶到 PVE 的 IP 導致遠端不進去&lt;/p&gt;
+&lt;p&gt;2 是我某個設定設錯，但後來檢查很久發現我沒錯&lt;/p&gt;
+&lt;h3 id=&#34;原因一的解決方法&#34;&gt;原因一的解決方法
+&lt;/h3&gt;&lt;p&gt;我開了一個 NAT 讓所有 VM 的流量都用 PVE 的 IP Forwarding 出去，如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;auto vmbr1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iface vmbr1 inet static
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        address 192.168.100.1/24
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        bridge-ports none
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        bridge-stp off
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        bridge-fd &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        post-up &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; &amp;gt; /proc/sys/net/ipv4/ip_forward
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        post-up iptables -t nat -A POSTROUTING -s &lt;span class=&#34;s1&#34;&gt;&amp;#39;192.168.100.0/24&amp;#39;&lt;/span&gt; -o vmbr0 -j MASQUERADE
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        post-down iptables -t nat -D POSTROUTING -s &lt;span class=&#34;s1&#34;&gt;&amp;#39;192.168.100.0/24&amp;#39;&lt;/span&gt; -o vmbr0 -j MASQUERADE
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;本來想說這樣就不錯了，但不知道為啥 VM 網路最高只有 20M，想到後面每台都要手動設定 IP 還只有 20M，就想說肯定還有更佳解，啊所以我就繼續查問題&lt;/p&gt;
+&lt;h2 id=&#34;最後的真正問題&#34;&gt;最後的真正問題
+&lt;/h2&gt;&lt;p&gt;花了半個多月在 PVE 和 Google 上找資料找相似問題都找不到，我就開始想會不會是更上層的 UDM Pro Max 設定有誤，於是要了 UniFi OS 帳號來看&lt;/p&gt;
+&lt;p&gt;不看還好，一看嚇一跳&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://agong88.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image-2.png&#34;
+	width=&#34;558&#34;
+	height=&#34;394&#34;
+	srcset=&#34;https://agong88.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image-2_hu_a6b54c2c5a0445a8.png 480w, https://agong88.github.io/post/%E5%A6%82%E4%BD%95%E8%A7%A3%E6%B1%BA-pve-vm-%E9%96%8B%E6%A9%9F%E5%BE%8C%E9%81%A0%E7%AB%AF%E4%B8%8D%E5%88%B0/image-2_hu_5d6bba291bd30358.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Vlan Setting&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;你老哥的怎麼把 Vlan Tag 設 Allow 都沒說 後來我就關掉這設定就圓滿結束ㄌ&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>六月近況更新</title>
         <link>https://agong88.github.io/post/%E5%85%AD%E6%9C%88%E8%BF%91%E6%B3%81%E6%9B%B4%E6%96%B0/</link>
         <pubDate>Sat, 13 Jun 2026 09:18:00 +0800</pubDate>
