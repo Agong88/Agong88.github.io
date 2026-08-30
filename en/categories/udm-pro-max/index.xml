@@ -127,6 +127,9 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Why didn&amp;rsquo;t they mention setting the VLAN tag to Allow? I simply turned that setting off, and that solved the problem perfectly.&lt;/p&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref:
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.miniasp.com/post/2011/02/16/Understanding-Switch-VLAN-Tagged-Untagged&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blog.miniasp.com/post/2011/02/16/Understanding-Switch-VLAN-Tagged-Untagged&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
